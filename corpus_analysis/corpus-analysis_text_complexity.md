@@ -33,7 +33,7 @@ Wie im Kapitel ["Operationalisierung"](research-question_operationalization) bes
   * wird errechnet, indem das Wort zuerst in Silben aufgeteilt wird und dann die Silben gezählt werden. Die Silbentrennung ist sprachspezifisch.
   * Annahme: Je weniger Wörter mit vielen Silben ein Text enthält, desto leichter ist der Text zu verstehen. Wörter mit ein oder zwei Silben gelten als leicht, Wörter mit mehr als drei Silben gelten als schwierig.
 * Anzahl **schwierige Wörter**:
-  * wird ermittelt anhand eines vordefnierten Wörterbuchs, das leichte Wörter enthält. Wenn ein Wort nicht im Wörterbuch vorkommt, gilt es als schwierig. 
+  * wird ermittelt anhand eines vordefinierten Wörterbuchs, das leichte Wörter enthält. Wenn ein Wort nicht im Wörterbuch vorkommt, gilt es als schwierig. 
   * Annahme: Je weniger schwierige Wörter ein Text enthält, desto leichter ist der Text zu verstehen. 
 
 ### Satzebene
@@ -52,7 +52,7 @@ Seit den 1940er Jahren wurden verschiedene Lesbarkeitsindizes entwickelt, die te
 
 Für die deutsche Sprache wurde die Wiener Sachtextformel entwickelt. Außerdem wurde der Flesch-Lesbarkeitsindex, einer der bekanntesten Lesbarkeitsindizes, für das Deutsche angepasst.
 
-Wir verwenden deshalb diese zwei Indizes sowie den Automated Readability Index (ARI) und den Coleman-Liau-Score, da diese noch andere Paramter einbeziehen als Flesch und die Wiener Sachtextformel. 
+Wir verwenden deshalb diese zwei Indizes sowie den Automated Readability Index (ARI) und den Coleman-Liau-Score, da diese noch andere Parameter einbeziehen als Flesch und die Wiener Sachtextformel. 
 Im Folgenden werden die vier Maße kurz vorgestellt und an folgendem Beispielsatz berechnet:
 `
 Mein Nachbar, den ich letztes Jahr kennengelernt habe, hat gestern ein Glitzereinhorn gekauft.
