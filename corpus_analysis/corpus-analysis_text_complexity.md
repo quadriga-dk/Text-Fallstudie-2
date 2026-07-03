@@ -48,7 +48,7 @@ Zur Berechnung der Komplexität wird die **Satzlänge** auf unterschiedliche Wei
 Es wird meistens mit dem Durchschnitt der Wort- oder Satzlänge gerechnet. Der Durchschnitt wird berechnet indem zuerst die Längen aller Wörter/Sätze berechnet wird. Die Längen werden summiert und durch die Anzahl der Sätze/Wörter im Text geteilt.
 
 ### 2.3 Algorithmen zur Errechnung
-Seit den 1940er Jahren wurden verschiedene Lesbarkeitsindizes entwickelt, die teils sprachunbhängig sind, teils sprachabhängig (wenn die Anzahl der Silben in einem Wort oder ein vordefiniertes Wörterbuch einbezogen wird). Die meisten Indizes wurden für die englische Sprache entwickelt. Die Berechnung kann zwar für die deutsche Sprache adaptiert werden (z.B. indem die Silbentrennung auf Deutsch angepasst wird), allerdings nehmen viele der Indizes eine Gewichtung in ihrer Berechnung vor, die auch auf die englische Sprache angepasst ist. 
+Seit den 1940er Jahren wurden verschiedene Lesbarkeitsindizes entwickelt, die teils sprachunabhängig sind, teils sprachabhängig (wenn die Anzahl der Silben in einem Wort oder ein vordefiniertes Wörterbuch einbezogen wird). Die meisten Indizes wurden für die englische Sprache entwickelt. Die Berechnung kann zwar für die deutsche Sprache adaptiert werden (z.B. indem die Silbentrennung auf Deutsch angepasst wird), allerdings nehmen viele der Indizes eine Gewichtung in ihrer Berechnung vor, die auch auf die englische Sprache angepasst ist. 
 
 Für die deutsche Sprache wurde die Wiener Sachtextformel entwickelt. Außerdem wurde der Flesch-Lesbarkeitsindex, einer der bekanntesten Lesbarkeitsindizes, für das Deutsche angepasst.
 
