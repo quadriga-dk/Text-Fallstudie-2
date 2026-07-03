@@ -124,7 +124,13 @@ Beispiel:
 Hier liegt das `<a>`-Element innerhalb des `<p>`-Elements, und beide liegen wiederum im `<div>`-Element. Solche Strukturen sind wichtig, um Webseiten korrekt zu gestalten und um beim Scraping gezielt Inhalte auszuwählen.
 
 ## HTML und CSS
-HTML strukturiert die Inhalte, aber für das Design wird CSS (Cascading Style Sheets) verwendet. CSS kann direkt in HTML eingefügt werden:
+HTML strukturiert die Inhalte, für das Design (Farben, Schriften, Abstände, Layout) wird hingegen CSS (Cascading Style Sheets) verwendet. CSS kann auf drei Arten mit einem HTML-Dokument verbunden werden:
+
+- **Inline** als `style`-Attribut direkt an einem einzelnen Element, z. B. `<p style="color: red;">…</p>`.
+- **Intern** im Kopf des Dokuments innerhalb eines `<style>`-Elements (siehe Beispiel unten).
+- **Extern** in einer separaten `.css`-Datei, die über ein `<link>`-Element eingebunden wird, z. B. `<link rel="stylesheet" href="styles.css">`. Das Auslagern in eine eigene Datei ist bei größeren Websites üblich, weil sich dieselben Stilregeln so für viele Seiten wiederverwenden lassen.
+
+Im folgenden Beispiel werden die Stilregeln innerhalb eines `<style>`-Elements definiert. Sogenannte **Selektoren** geben dabei an, welche HTML-Elemente gestaltet werden sollen – hier alle `body`- und `h1`-Elemente:
 
 ```html
 <style>
@@ -132,6 +138,8 @@ HTML strukturiert die Inhalte, aber für das Design wird CSS (Cascading Style Sh
     h1 { color: darkblue; }
 </style>
 ```
+
+Für das Web Scraping sind vor allem die Selektoren relevant: Mit ihnen lassen sich Elemente gezielt ansprechen – nach demselben Prinzip werden später beim Scraping die zu extrahierenden Inhalte ausgewählt. Eine ausführlichere Einführung in CSS bietet <a href="https://wiki.selfhtml.org/wiki/CSS" class="external-link" target="_blank">SELFHTML</a>.
 
 ## Fazit
 HTML ist einfach zu lernen und bildet die Grundlage jeder Webseite. Mit HTML kann man Texte, Bilder, Links, Tabellen und mehr darstellen. CSS ist ein wichtiger Bestandteil des Webdesigns. Um Websites zu scrapen und automatisch Daten aus dem Web zu extrahieren, sind HTML-Kenntnisse besonders wichtig.
