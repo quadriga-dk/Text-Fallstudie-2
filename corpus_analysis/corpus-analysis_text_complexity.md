@@ -31,25 +31,28 @@ Wie im Kapitel ["Operationalisierung"](research-question_operationalization) bes
   * Annahme: Je weniger Buchstaben, desto kürzer sind die Wörter, desto leichter ist der Text zu verstehen.
 * **Anzahl der Silben** eines Wortes:
   * wird errechnet, indem das Wort zuerst in Silben aufgeteilt wird und dann die Silben gezählt werden. Die Silbentrennung ist sprachspezifisch.
-  * Annahme: Je weniger Wörter mit vielen Siblen ein Text enthält, desto leichter ist der Text zu verstehen. Wörter mit ein oder zwei Silben gelten als leicht, Wörter mit mehr als drei Silben gelten als schwer.
+  * Annahme: Je weniger Wörter mit vielen Silben ein Text enthält, desto leichter ist der Text zu verstehen. Wörter mit ein oder zwei Silben gelten als leicht, Wörter mit mehr als drei Silben gelten als schwierig.
 * Anzahl **schwierige Wörter**:
-  * wird ermittelt anhand eines vordefnierten Wörterbuchs, das leichte Wörter enthält. Wenn ein Wort nicht im Wörterbuch vorkommt, gilt es als schwer. 
-  * Annahme: Je weniger schwere Wörter ein Text enthält, desto leicht ist der Text zu verstehen. 
+  * wird ermittelt anhand eines vordefnierten Wörterbuchs, das leichte Wörter enthält. Wenn ein Wort nicht im Wörterbuch vorkommt, gilt es als schwierig. 
+  * Annahme: Je weniger schwierige Wörter ein Text enthält, desto leichter ist der Text zu verstehen. 
 
 ### Satzebene
 Zur Berechnung der Komplexität wird die **Satzlänge** auf unterschiedliche Weise einbezogen:
 * Satzlänge des Texts
   * wird errechnet durch die Anzahl an Wörtern in einem Satz. 
   * Annahme: Je kürzer die Sätze, desto leichter ist der Text zu verstehen
-* Anzahl an Sätzen auf 100 Wörter:
+* Anzahl von Sätzen auf 100 Wörter:
   * Berechnung: Zählen von 100 Wörtern → Aufteilen der 100 Wörter in Sätze → Zählen der Sätze
   * Annahme: Je mehr Sätze, desto kürzer sind die Sätze, desto besser verständlich ist der Text 
 
 Es wird meistens mit dem Durchschnitt der Wort- oder Satzlänge gerechnet. Der Durchschnitt wird berechnet indem zuerst die Längen aller Wörter/Sätze berechnet wird. Die Längen werden summiert und durch die Anzahl der Sätze/Wörter im Text geteilt.
 
 ### 2.3 Algorithmen zur Errechnung
-Seit den 1940er Jahren wurden verschiedene Lesbarkeitsindizes entwickelt, die teils sprachunbhängig sind, teils sprachabhängig (wenn die Anzahl der Silben in einem Wort oder ein vordefiniertes Wörterbuch einbezogen wird). Die meisten Indice wurde für die englische Sprache entwickelt. Die Berechnung kann zwar für die deutsche Sprache adaptiert werden (z.B. indem die Silbentrennung auf Deutsch angepasst wird), allerdings nehmen viele der Indice eine Gewichtung in ihrer Berechnung vor, die auch auf die englische Sprache angepasst ist. 
-Für die deutsche Sprache wurde die Wiener Sachtextformel entwickelt. Auf das Deutsche angepasst wurde einer der bekanntesten Lesbarkeitsindizes Flesch. Wir verwenden deshalb diese zwei Indice sowie den Automated Readability Index (ARI) und den Coleman-Liau-Score, da diese noch andere Paramter einbeziehen als Flesch und die Wiener Sachtextformel. 
+Seit den 1940er Jahren wurden verschiedene Lesbarkeitsindizes entwickelt, die teils sprachunbhängig sind, teils sprachabhängig (wenn die Anzahl der Silben in einem Wort oder ein vordefiniertes Wörterbuch einbezogen wird). Die meisten Indizes wurden für die englische Sprache entwickelt. Die Berechnung kann zwar für die deutsche Sprache adaptiert werden (z.B. indem die Silbentrennung auf Deutsch angepasst wird), allerdings nehmen viele der Indizes eine Gewichtung in ihrer Berechnung vor, die auch auf die englische Sprache angepasst ist. 
+
+Für die deutsche Sprache wurde die Wiener Sachtextformel entwickelt. Außerdem wurde der Flesch-Lesbarkeitsindex, einer der bekanntesten Lesbarkeitsindizes, für das Deutsche angepasst.
+
+Wir verwenden deshalb diese zwei Indizes sowie den Automated Readability Index (ARI) und den Coleman-Liau-Score, da diese noch andere Paramter einbeziehen als Flesch und die Wiener Sachtextformel. 
 Im Folgenden werden die vier Maße kurz vorgestellt und an folgendem Beispielsatz berechnet:
 `
 Mein Nachbar, den ich letztes Jahr kennengelernt habe, hat gestern ein Glitzereinhorn gekauft.
