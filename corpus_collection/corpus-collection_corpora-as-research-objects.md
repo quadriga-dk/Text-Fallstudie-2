@@ -19,7 +19,7 @@ Die Elemente eines Korpus können nach unterschiedlichen Strategien mit jeweils 
 ## Vollständiges Korpus
 Ein vollständiges Korpus umfasst alle verfügbaren Textobjekte zu einem spezifischen Gegenstandsbereich.
 
-- **Voraussetzung:** Möglich bei klar begrenzten und gut dokumentierten 
+- **Voraussetzung:** Möglich bei klar begrenzten und gut dokumentierten Untersuchungsbereichen.
 - **Anwendung:** Geeignet in der Regel nur für kleine, klar definierbare Untersuchungsbereiche.
 - **Beispiel:** Alle Gedichte von Friederike Mayröcker oder alle Ausgaben der Berliner Morgenpost aus dem Jahr 1918
 	
