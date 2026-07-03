@@ -34,4 +34,4 @@ Wir geben zunächst einen kurzen [Überblick über unterschiedliche Textformate]
 
 Wir setzen dann den [Fokus auf HTML-Dokumente](html-intro_html-intro) und führen in die Struktur sowie in die grundlegen HTML-Tags ein. 
 
-Darauf aufbauend zeigen wir, wie wir den HTML-Code einer Website analysieren können, um den Analysetext zu extrahieren. Die Extraktion führen wir automatisch mit Hilfe eines Python-Programms durch.
+Darauf aufbauend zeigen wir, [wie wir den HTML-Code einer Website analysieren](html-intro_structural-analysis) können, um den Analysetext zu extrahieren. Die Extraktion führen wir automatisch mit Hilfe eines Python-Programms durch.
