@@ -15,5 +15,5 @@ Zusätzliche Informationen können in sogenannten Attributes der HTML-Tags gespe
 
 **Parsen von HTML-Dokumenten**
 
-Websites sind hierarchisch gegliedert. Um den zu analysierenden Text und etwaige Metadaten zu extrahieren, muss die visuelle Gliederung in der Gliederung der HTML-Tags nachvollzogen werden, sodass die Tags, die den Text speichern gesammelt und abgefragt werden können.
+Websites sind hierarchisch gegliedert. Um den zu analysierenden Text und etwaige Metadaten zu extrahieren, muss die visuelle Gliederung in der Gliederung der HTML-Tags nachvollzogen werden, sodass die Tags, die den Text speichern, gesammelt und abgefragt werden können.
 ```
