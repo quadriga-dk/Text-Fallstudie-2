@@ -563,7 +563,7 @@ question10 = [
                 - Würde wichtige Dimensionen übersehen"""
             },
             {
-                "answer": "Verwendung von Sentimentanalyse-Tools zur Messung positiver/negativer Emotionen und Analyse emotionaler Wörter",
+                "answer": "Messung positiver/negativer Emotionen und Analyse emotionaler Wörter mittels Sentimentanalyse-Tools",
                 "correct": True,
                 "feedback": """✓ Gute Operationalisierung, weil:
                 - Sentimentanalyse ist etabliertes Verfahren
