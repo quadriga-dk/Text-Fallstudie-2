@@ -17,7 +17,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ````
 ```{admonition} Groblernziel dieses Kapitels
 :class: lernziele
-Abgrenzung von unterschiedlichen Formate zur Textspeicherung und benennen der Vor- und Nachteile.
+Abgrenzung von unterschiedlichen Formate zur Textspeicherung und Benennen der Vor- und Nachteile.
 Struktur von HTML erklären und die Funktion von ausgewählte HTML-Tags benennen.
 HTML-Tags zur Extraktion von Plain Text aus HTML aufzählen.
 ```
