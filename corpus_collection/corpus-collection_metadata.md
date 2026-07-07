@@ -9,12 +9,30 @@ Metadaten sind Daten über Daten. Sie liefern kontextuelle Informationen, die he
 
 **Metadatenschemata**
 
-Es gibt verschiedene Metadatenschemata, die entwickelt wurden, um spezifische Anforderungen unterschiedlicher Disziplinen und Anwendungen zu erfüllen. Zu den bekanntesten gehören:
+Es gibt verschiedene Metadatenschemata, die für unterschiedliche Anforderungen entwickelt wurden. Sie unterscheiden sich vor allem darin, was sie beschreiben: rein deskriptive Angaben über eine Ressource (z.B. Titel, Autor:in, Datum), die Struktur und das Layout eines Dokuments, oder auch die inhaltliche Auszeichnung des Textes selbst (z.B. Personen, Orte, Textabschnitte). Zu den bekanntesten Schemata gehören:
 
-1. **<a href="https://www.dublincore.org/specifications/dublin-core/dces/" class="external-link" target="_blank">Dublin Core</a>**: Ein einfaches und weit verbreitetes Schema, das 15 grundlegende Elemente umfasst, wie Titel, Autor, Thema und Datum.
-2. **<a href="https://tei-c.org/" class="external-link" target="_blank">TEI (Text Encoding Initiative)</a>**: Speziell für Texte entwickelt, bietet TEI detaillierte Richtlinien zur Auszeichnung von Texten und zur Erfassung von deren Metadaten im [`<teiHeader>`](https://tei-c.org/release/doc/tei-p5-doc/de/html/ref-teiHeader.html).
-3. **<a href="https://www.loc.gov/standards/mods/" class="external-link" target="_blank">MODS (Metadata Object Description Schema)</a>**: Von der Library of Congress entwickelt, bietet MODS eine umfangreichere Beschreibung als Dublin Core und ist besonders für bibliographische Informationen geeignet.
-4. **<a href="https://www.loc.gov/standards/mets/" class="external-link" target="_blank">METS (Metadata Encoding and Transmission Standard)</a>**: Ein Standard zur Kodierung und Übertragung von Digitalisaten und deren Metadaten, häufig in Bibliotheken und Archiven verwendet.
+1. **<a href="https://www.dublincore.org/specifications/dublin-core/dces/" class="external-link" target="_blank">Dublin Core</a>**: Ein einfaches und disziplinübergreifendes Schema mit 15 flachen Elementen wie Titel, Autor:in, Thema und Datum. Vorteil ist die einfache Anwendbarkeit; Nachteil ist, dass sich damit weder die interne Struktur eines Dokuments noch dessen Textinhalt erfassen lässt.
+2. **<a href="https://tei-c.org/" class="external-link" target="_blank">TEI (Text Encoding Initiative)</a>**: Speziell für Texte entwickelt. TEI beschreibt eine Ressource nicht nur deskriptiv im [`<teiHeader>`](https://tei-c.org/release/doc/tei-p5-doc/de/html/ref-teiHeader.html), sondern erlaubt zusätzlich, den Text selbst inhaltlich auszuzeichnen (z.B. Personen, Orte) sowie dessen Struktur und Layout festzuhalten (z.B. Absätze, Seitenumbrüche, Faksimiles). Vorteil ist entsprechend der große Umfang; Nachteil ist der damit verbundene höhere Aufwand bei der Erstellung.
+3. **<a href="https://www.loc.gov/standards/mods/" class="external-link" target="_blank">MODS (Metadata Object Description Schema)</a>**: Von der Library of Congress entwickelt. MODS bietet gegenüber Dublin Core deutlich granularere, teils verschachtelte Felder, bleibt aber wie Dublin Core rein deskriptiv und zeichnet weder Textinhalt noch Layout aus. Vorteil ist die höhere Präzision bei bibliographischen Angaben; Nachteil ist der höhere Erstellungsaufwand im Vergleich zu Dublin Core.
+4. **<a href="https://www.loc.gov/standards/mets/" class="external-link" target="_blank">METS (Metadata Encoding and Transmission Standard)</a>**: Ein Containerformat, das die Struktur eines aus mehreren Dateien bestehenden digitalen Objekts (z.B. die Seiten eines digitalisierten Buchs) beschreibt und dabei deskriptive Metadaten, häufig in Form von eingebettetem Dublin Core oder MODS, mit administrativen Angaben verknüpft. Vorteil ist die Eignung für komplexe, mehrteilige Objekte; Nachteil ist, dass METS nur die Verpackung, nicht den Inhalt der Texte selbst beschreibt.
+
+Die folgende Tabelle fasst die Unterschiede zusammen:
+
+| Schema | Was wird beschrieben? | Detailgrad | Typischer Einsatz |
+| --- | --- | --- | --- |
+| Dublin Core | Deskriptive Metadaten einer Ressource | Niedrig (15 flache Elemente) | Schneller, disziplinübergreifender Überblick |
+| MODS | Deskriptive Metadaten, v.a. bibliographisch | Mittel bis hoch (verschachtelte Felder) | Bibliothekskataloge, bibliographische Beschreibungen |
+| METS | Struktur/Verpackung eines digitalen Objekts, inkl. eingebetteter Metadaten | Hoch (Containerformat) | Digitalisate aus mehreren Dateien (z.B. gescannte Bücher) |
+| TEI | Deskriptive Metadaten, inhaltliche Auszeichnung des Textes und dessen Struktur/Layout | Sehr hoch | Editionen, inhaltlich annotierte Textkorpora |
+
+Die Schnittmengen dieser drei Dimensionen (deskriptive Metadaten, Struktur/Layout, inhaltliche Auszeichnung) lassen sich auch grafisch darstellen:
+
+```{figure} ../book_images/metadata_schemata_venn.svg
+---
+name: Schnittmengen der Metadatenschemata
+---
+Dublin Core und MODS decken ausschließlich deskriptive Metadaten ab. METS verknüpft die Struktur eines digitalen Objekts mit eingebetteten deskriptiven Metadaten. TEI deckt als einziges der vier Schemata alle drei Dimensionen ab: deskriptive Metadaten, Struktur/Layout und inhaltliche Auszeichnung des Textes.
+```
 
 ## Metadaten zur Beschreibung eines Korpus
 

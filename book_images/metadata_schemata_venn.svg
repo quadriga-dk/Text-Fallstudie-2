@@ -1,0 +1,37 @@
+<svg viewBox="0 0 650 630" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <circle cx="250" cy="250" r="170" fill="#818bac" fill-opacity="0.55" stroke="#00305e" stroke-width="2"/>
+  <circle cx="400" cy="250" r="170" fill="#c1d3e0" fill-opacity="0.65" stroke="#00305e" stroke-width="2"/>
+  <circle cx="325" cy="380" r="170" fill="#00305e" fill-opacity="0.28" stroke="#00305e" stroke-width="2"/>
+
+  <text x="200" y="40" text-anchor="middle" font-size="15" font-weight="bold" fill="#00305e">
+    <tspan x="200" dy="0">Inhaltliche</tspan>
+    <tspan x="200" dy="18">Auszeichnung</tspan>
+  </text>
+
+  <text x="450" y="40" text-anchor="middle" font-size="15" font-weight="bold" fill="#00305e">
+    <tspan x="450" dy="0">Struktur &amp;</tspan>
+    <tspan x="450" dy="18">Layout</tspan>
+  </text>
+
+  <text x="325" y="590" text-anchor="middle" font-size="15" font-weight="bold" fill="#00305e">
+    <tspan x="325" dy="0">Deskriptive</tspan>
+    <tspan x="325" dy="18">Metadaten</tspan>
+  </text>
+
+  <g>
+    <rect x="275" y="438" width="100" height="22" rx="6" fill="white" fill-opacity="0.85"/>
+    <text x="325" y="454" text-anchor="middle" font-size="14" font-weight="bold" fill="#00305e">Dublin Core</text>
+  </g>
+  <g>
+    <rect x="297" y="473" width="56" height="22" rx="6" fill="white" fill-opacity="0.85"/>
+    <text x="325" y="489" text-anchor="middle" font-size="14" font-weight="bold" fill="#00305e">MODS</text>
+  </g>
+  <g>
+    <rect x="382" y="359" width="56" height="22" rx="6" fill="white" fill-opacity="0.85"/>
+    <text x="410" y="375" text-anchor="middle" font-size="14" font-weight="bold" fill="#00305e">METS</text>
+  </g>
+  <g>
+    <rect x="302" y="281" width="46" height="22" rx="6" fill="white" fill-opacity="0.85"/>
+    <text x="325" y="297" text-anchor="middle" font-size="14" font-weight="bold" fill="#00305e">TEI</text>
+  </g>
+</svg>
