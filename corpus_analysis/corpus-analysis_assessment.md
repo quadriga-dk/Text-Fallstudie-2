@@ -52,7 +52,7 @@ question1 = [
                 - Unterscheidet sich von einfacher durchschnittlicher Wortlänge"""
             },
             {
-                "answer": "Wörter mit mehr als drei Silben gelten in den meisten Indizes als schwer",
+                "answer": "Wörter mit mehr als drei Silben gelten in den meisten Indexe als schwer",
                 "correct": True,
                 "feedback": """✓ Korrekt! Standard-Schwellenwert:
                 - 1-2 Silben = leicht
@@ -76,7 +76,7 @@ question1 = [
                 "correct": False,
                 "feedback": """× Nicht korrekt. Verschiedene Ansätze:
                 - Wiener Sachtextformel: Wörterbuch-basiert
-                - Andere Indizes: Über Länge/Silben
+                - Andere Indexe: Über Länge/Silben
                 - Beide Methoden existieren parallel
                 - Wörterbuch ist EIN Ansatz, nicht der einzige"""
             }
@@ -122,13 +122,13 @@ question2 = [
                 - Basis für die meisten Berechnungen"""
             },
             {
-                "answer": "Kürzere Sätze führen immer zu einem niedrigeren Textkomplexitätsscore in allen Indizes",
+                "answer": "Kürzere Sätze führen immer zu einem niedrigeren Textkomplexitätsscore in allen Indexe",
                 "correct": False,
                 "feedback": """× Nicht präzise genug. Wichtige Nuance:
                 - Richtung hängt vom Index ab
                 - Flesch: Höherer Score = leichter (kürzere Sätze)
                 - Wiener/ARI: Niedrigerer Score = leichter (kürzere Sätze)
-                - Nicht einheitlich über alle Indizes
+                - Nicht einheitlich über alle Indexe
                 - Die Beziehung ist konsistent, aber Skalen unterscheiden sich"""
             },
             {
@@ -138,7 +138,7 @@ question2 = [
                 - Durchschnitt ist der Standard-Parameter
                 - Maximum würde Verzerrung erzeugen
                 - Einzelner langer Satz = nicht repräsentativ
-                - Indizes verwenden durchschnittliche Werte
+                - Indexe verwenden durchschnittliche Werte
                 - Robuster gegenüber Ausreißern"""
             }
         ]
@@ -194,7 +194,7 @@ question4 = [
                 "answer": "Die meisten Scores lassen sich in eine Klassenstufe oder Bildungsniveau übersetzen, wobei ein niedriger Score meist einen schweren Text und ein hoher Score einen leichten Text bedeutet",
                 "correct": False,
                 "feedback": """× Teilweise korrekt, aber umgekehrt! Wichtige Korrektur:
-                - Niedriger Score = leichter Text (bei den meisten Indizes)
+                - Niedriger Score = leichter Text (bei den meisten Indexe)
                 - Hoher Score = schwerer Text
                 - Flesch kann je nach Version variieren
                 - Die Richtung ist entscheidend!"""
@@ -207,7 +207,7 @@ question4 = [
                 - Hoher Score = schwerer Text
                 - Klassenstufen-Zuordnung (z.B. 5. Klasse bis Uni)
                 - Praktisch für Zielgruppenbestimmung
-                - Wichtig: Skalen unterscheiden sich zwischen Indizes!"""
+                - Wichtig: Skalen unterscheiden sich zwischen Indexe!"""
             },
             {
                 "answer": "Alle Lesbarkeitsindizes verwenden dieselbe Skala von 0-100, was den Vergleich erleichtert",
@@ -453,15 +453,15 @@ Die Daten zeigen einen **klaren Abwärtstrend** der Flesch-Scores über 14 Jahre
 
 ---
 
-**4. Überprüfung mit anderen Indizes:**
+**4. Überprüfung mit anderen Indexe:**
 
 **JA, definitiv!** Und zwar aus folgenden Gründen:
 
 **Validierung der Ergebnisse:**
 - **Flesch-Index allein** könnte Artefakt sein
-- **Mehrere Indizes** erhöhen Vertrauenswürdigkeit
-- Wenn alle Indizes denselben Trend zeigen → starke Evidenz
-- Wenn Indizes divergieren → weitere Untersuchung nötig
+- **Mehrere Indexe** erhöhen Vertrauenswürdigkeit
+- Wenn alle Indexe denselben Trend zeigen → starke Evidenz
+- Wenn Indexe divergieren → weitere Untersuchung nötig
 
 **Unterschiedliche Perspektiven:**
 - **Flesch:** Silben + Satzlänge
@@ -471,13 +471,13 @@ Die Daten zeigen einen **klaren Abwärtstrend** der Flesch-Scores über 14 Jahre
 - Jeder Index betont andere Aspekte
 
 **Robustheit:**
-- Nicht alle Indizes messen exakt dasselbe
-- Konvergenz mehrerer Indizes = robuster Befund
+- Nicht alle Indexe messen exakt dasselbe
+- Konvergenz mehrerer Indexe = robuster Befund
 - Divergenz = differenzierteres Bild
 
 **Praktische Durchführung:**
 ```python
-# Alle vier Indizes berechnen
+# Alle vier Indexe berechnen
 df['flesch'] = df['text'].apply(calculate_flesch)
 df['wiener'] = df['text'].apply(calculate_wiener)
 df['ari'] = df['text'].apply(calculate_ari)
@@ -489,7 +489,7 @@ for measure in ['flesch', 'wiener', 'ari', 'coleman_liau']:
 ```
 
 **Erwartung:**
-- **Alle Indizes sollten** sinkende Lesbarkeit zeigen (steigenden Score bei den meisten)
+- **Alle Indexe sollten** sinkende Lesbarkeit zeigen (steigenden Score bei den meisten)
 - **Stärke des Trends** könnte variieren
 - **Interpretation** wird durch Konvergenz gestützt
 
@@ -497,5 +497,5 @@ for measure in ['flesch', 'wiener', 'ari', 'coleman_liau']:
 
 **Zusammenfassung:**
 
-Die Analyse zeigt eine problematische Entwicklung hinsichtlich Barrierefreiheit. Eine umfassende Validierung mit multiplen Indizes und tiefergehende Analysen der Ursachen sind empfehlenswert, um fundierte Empfehlungen für barriereärmere Kommunikation zu geben.
+Die Analyse zeigt eine problematische Entwicklung hinsichtlich Barrierefreiheit. Eine umfassende Validierung mit multiplen Indexe und tiefergehende Analysen der Ursachen sind empfehlenswert, um fundierte Empfehlungen für barriereärmere Kommunikation zu geben.
 ````
