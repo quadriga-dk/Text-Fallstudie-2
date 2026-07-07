@@ -38,7 +38,7 @@ Ein beispielhaftes Metadaten-Set für ein Korpus könnte unter Verwendung von Du
 - **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/date/" class="external-link" target="_blank">DC.date</a>**: "2025-04-04"
 - **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/format/" class="external-link" target="_blank">DC.format</a>**: "HTML, TXT"
 - **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/language/" class="external-link" target="_blank">DC.language</a>**: "Deutsch"
-- **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/subject/" class="external-link" target="_blank">DC.subject</a>**: "Politik, Verwaltung, Öffentlichkeitsarbeit"
+- **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/subject/" class="external-link" target="_blank">DC.subject</a>**: "Verwaltung, Öffentlichkeitsarbeit"
 - **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/coverage/" class="external-link" target="_blank">DC.coverage</a>**: "21. Jahrhundert, Deutschland"
 
 ## Metadaten für einzelne Korpus-Elemente
