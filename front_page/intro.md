@@ -48,4 +48,4 @@ Flussdiagramm der Fallstudie, die sich aus sechs Arbeitspaketen zusammensetzt.
 - Im **5. Schritt** erstellen wir mit Hilfe der Methoden des Web-Scraping und des HTML-Parsing unser Analysekorpus, bestehend aus im World Wide Web veröffentlichten Pressemitteilungen der Berliner Senatsverwaltung (siehe Kapitel ["Korpusaufbau"](corpus-building_intro))
 - Im **6. Schritt** führen wir eine quantitative Analyse der Textkomplexität auf dem Korpus durch und visualisieren die Ergebnisse (siehe Kapitel ["Korpusanalyse"](corpus-analysis_intro)).
 
-Die Fallstudie schließt mit einer Reflexion und einem Ausblick (siehe Kapitel ["Reflexion und Resümee"](reflection_reflection))
+Die Fallstudie schließt mit einer Reflexion und einem Ausblick (siehe Kapitel ["Reflexion und Ausblick"](reflection_reflection)).
