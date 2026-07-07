@@ -86,7 +86,7 @@ Die Datei `data/metadata.csv` begleitet jede Pressemitteilung mit acht klaren Fe
 * Zeitspanne: 2001 – 2025
 * Ø Länge: 430 Tokens (Median 394)
 
-Dies ist unser Forschungskorpus 🚀
+Dies ist unser Forschungskorpus ✅
 
 ## Reproduzierbarkeit
 
