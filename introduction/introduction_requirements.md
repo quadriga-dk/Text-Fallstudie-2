@@ -18,13 +18,12 @@ Kurz gesagt: Das **"Jupyter Book"** ist das Gesamtwerk, das Sie hier vor sich ha
 
 Weitere Hinweise zur Arbeit mit "Jupter Book", "Jupyter Notebooks" und zur Installation von Anaconda für die Nutzung im "Local Mode" vermitteln die unten verlinkten "QUADRIGA approved Tutorials".
 
-## Ressourcen
-Die Fallstudie lässt sich vollständig in jedem gängigen Browser auf einem einfachen Computer oder Tablet (zur Not auch auf einem Smartphone) durcharbeiten. Dies gilt auch für das Ausführen der "Jupyter Notebooks" mittels "Colab". Für das lokale Ausführen der "Jupyter Notebooks" auf dem eigenen Computer reicht ein handelsüblicher Laptop bereits aus. Sofern das gesamte Forschungsprojekt der Fallstudie auf dem eigenen Computer reproduziert oder die Pipeline für ein eigenes Korpus adaptiert werden soll, empfehlen wir einen aktuellen und möglichst ressourcenstarken Computer, um die Rechenzeiten so gering wie möglich zu halten.
-
-
-`````{admonition} Tutorials
+`````{admonition} QUADRIGA approved Tutorials
 :class: seealso
 - <a href="https://digital-history-berlin.github.io/Python-fuer-Historiker-innen/ch00-preface/04-nutzung.html" class="external-link" target="_blank">Tutorial zur Arbeit mit Jupyter Books</a>
 - <a href="https://www.elab2go.de/demo-py1/jupyter-notebooks.php#1WasisteinJupyterNotebook" class="external-link" target="_blank">Tutorial zur Arbeit mit Jupyter Notebooks</a>
 - <a href="https://www.elab2go.de/demo-py1/installation-python-anaconda.php" class="external-link" target="_blank">Tutorial zur Installation und Nutzung von Anaconda</a>
 `````
+
+## Ressourcen
+Die Fallstudie lässt sich vollständig in jedem gängigen Browser auf einem einfachen Computer oder Tablet (zur Not auch auf einem Smartphone) durcharbeiten. Dies gilt auch für das Ausführen der "Jupyter Notebooks" mittels "Colab". Für das lokale Ausführen der "Jupyter Notebooks" auf dem eigenen Computer reicht ein handelsüblicher Laptop bereits aus. Sofern das gesamte Forschungsprojekt der Fallstudie auf dem eigenen Computer reproduziert oder die Pipeline für ein eigenes Korpus adaptiert werden soll, empfehlen wir einen aktuellen und möglichst ressourcenstarken Computer, um die Rechenzeiten so gering wie möglich zu halten.
