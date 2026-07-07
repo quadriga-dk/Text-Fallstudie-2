@@ -51,7 +51,7 @@ Wenn die so verstandene Textkomplexität über die Zeit niedriger wird, spricht 
 ## Reflexion der Praxis des Operationalisierens
 Diese Operationalisierung ist, wie jede Operationalisierung in den Digital Humanities, diskutabel. Sie folgt dabei einem quantitativen Methodenparadigma. Und sie wählt mit den Lesbarkeitsindizes einfache Indikatoren für das zu messende Phänomen. Die Operationalisierung wird zudem weitere Einschränkungen erfahren müssen, etwa was das Korpus der Analysen betrifft, das mit der Formulierung "vom Senat veröffentlichten Pressemitteilungen" noch zu groß gewählt ist und sich auf die digital verfügbaren Pressemitteilungen beschränken wird.   
 
-Die Reflektion der Grenzen und Beschränkungen, die mit der eigenen Operationalisierung einhergehen, ist essentieller Bestandteil von Digital Humanities-Projekten. Wir werden in der abschließenden [Reflexion](reflection_reflection) darauf zurückkommen.
+Die Reflexion der Grenzen und Beschränkungen, die mit der eigenen Operationalisierung einhergehen, ist essentieller Bestandteil von Digital Humanities-Projekten. Wir werden in der abschließenden [Reflexion](reflection_reflection) darauf zurückkommen.
 
 __Bibliographie__
 ```{bibliography}
