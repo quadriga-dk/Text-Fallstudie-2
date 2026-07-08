@@ -10,6 +10,8 @@ jupytext:
 # Aufbau des Forschungskorpus
 
 ```{important}
+:title: Wichtig
+
 Dieses Kapitel erklärt **Schritt für Schritt**, wie das Korpus aus Pressemitteilungen des Landes Berlin erzeugt wurde. Die vollständige, ausführbare Pipeline findest du im Notebook [`corpus_building/corpus_building_mass_scraping_press-releases.ipynb`](../corpus_building/corpus_building_mass_scraping_press-releases.ipynb).
 ```
 
