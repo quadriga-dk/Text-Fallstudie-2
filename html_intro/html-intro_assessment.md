@@ -217,7 +217,7 @@ from quadriga import colors
 
 question6 = [
     {
-        "question": "Was bedeutet 'hierarchische Struktur' in HTML?",
+        "question": "Welche Aussagen zur hierarchischen Struktur in HTML treffen zu?",
         "type": "multiple_choice",
         "answers": [
             {
@@ -236,7 +236,7 @@ question6 = [
                 "feedback": """✓ Korrekt! Wichtiges Konzept: Der DOM-Baum repräsentiert die Struktur, Browser nutzen ihn zur Darstellung, Programme nutzen ihn zum Parsen, und er ermöglicht die gezielte Auswahl von Elementen."""
             },
             {
-                "answer": "Verschachtelte Strukturen sind wichtig für Web Scraping",
+                "answer": "Verschachtelte Strukturen sind wichtig, um beim Web Scraping gezielt Inhalte auszuwählen",
                 "correct": True,
                 "feedback": """✓ Korrekt! Praktische Relevanz: Beim Web Scraping muss man die Verschachtelung berücksichtigen, um Elemente gezielt anzusteuern. Sie ist die Grundlage für die Navigation durch die Struktur, für CSS-Selektoren und XPath sowie für die Extraktion spezifischer Elemente."""
             }
