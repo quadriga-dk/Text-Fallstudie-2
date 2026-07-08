@@ -10,7 +10,7 @@ Texte können digital auf sehr unterschiedliche Weisen gespeichert, prozessiert 
 - Bilddigitalisate von Text (z.B. PDF, PNG, JPG, TIFF)
 - Reiner Text, auch "Plain Text" (TXT)
 - Textinhalte auf Websites (HTML) 
-- CSV
+- Tabellarische, durch Zeichen getrennte Werte in Textform (CSV)
 
 ## Bilddigitalisate von Text
 
