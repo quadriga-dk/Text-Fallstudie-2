@@ -44,41 +44,22 @@ question1 = [
             {
                 "answer": "Die Anzahl der Buchstaben auf 100 Wörter berücksichtigt die Gleichverteilung der Textschwierigkeit",
                 "correct": True,
-                "feedback": """✓ Korrekt! Wichtige Differenzierung:
-                - Nicht nur absolute Wortlänge
-                - Text wird in Abschnitte unterteilt
-                - Misst Konsistenz der Schwierigkeit
-                - Verwendet im Coleman-Liau-Index
-                - Unterscheidet sich von einfacher durchschnittlicher Wortlänge"""
+                "feedback": """✓ Korrekt! Wichtige Differenzierung: Es geht nicht nur um die absolute Wortlänge, der Text wird dabei in Abschnitte unterteilt, und es wird die Konsistenz der Schwierigkeit gemessen. Dies wird im Coleman-Liau-Index verwendet und unterscheidet sich von der einfachen durchschnittlichen Wortlänge."""
             },
             {
                 "answer": "Wörter mit mehr als drei Silben gelten in den meisten Indexe als schwer",
                 "correct": True,
-                "feedback": """✓ Korrekt! Standard-Schwellenwert:
-                - 1-2 Silben = leicht
-                - 3+ Silben = schwer
-                - Verwendet in Wiener Sachtextformel
-                - Sprachabhängig (Silbentrennung)
-                - Wichtiger Parameter für Komplexität"""
+                "feedback": """✓ Korrekt! Standard-Schwellenwert: 1-2 Silben gelten als leicht, 3 und mehr Silben gelten als schwer. Dies wird in der Wiener Sachtextformel verwendet, ist sprachabhängig (Silbentrennung) und ein wichtiger Parameter für die Komplexität."""
             },
             {
                 "answer": "Die absolute Wortlänge in Buchstaben ist aussagekräftiger als die Silbenzahl",
                 "correct": False,
-                "feedback": """× Nicht generell korrekt. Wichtige Unterscheidung:
-                - Beide haben Vor- und Nachteile
-                - Silbenzahl: Sprachabhängig, näher an Aussprache
-                - Buchstabenzahl: Sprachunabhängig, einfacher zu berechnen
-                - ARI nutzt Buchstaben, Flesch nutzt Silben
-                - Keine klare Überlegenheit"""
+                "feedback": """× Nicht generell korrekt. Wichtige Unterscheidung: Beide haben Vor- und Nachteile, die Silbenzahl ist sprachabhängig und näher an der Aussprache, während die Buchstabenzahl sprachunabhängig und einfacher zu berechnen ist. Der ARI nutzt Buchstaben, Flesch nutzt Silben, und es besteht keine klare Überlegenheit."""
             },
             {
                 "answer": "Schwierige Wörter werden immer über ein vordefiniertes Wörterbuch ermittelt, nie über Wortlänge oder Silbenzahl",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Verschiedene Ansätze:
-                - Wiener Sachtextformel: Wörterbuch-basiert
-                - Andere Indexe: Über Länge/Silben
-                - Beide Methoden existieren parallel
-                - Wörterbuch ist EIN Ansatz, nicht der einzige"""
+                "feedback": """× Nicht korrekt. Verschiedene Ansätze: Die Wiener Sachtextformel ist wörterbuch-basiert, andere Indexe arbeiten über Länge beziehungsweise Silben. Beide Methoden existieren parallel, das Wörterbuch ist EIN Ansatz, nicht der einzige."""
             }
         ]
     }
@@ -104,42 +85,22 @@ question2 = [
             {
                 "answer": "Die Anzahl der Sätze auf 100 Wörter ist ein indirektes Maß für die Satzlänge",
                 "correct": True,
-                "feedback": """✓ Korrekt! Clevere Umkehrung:
-                - Mehr Sätze pro 100 Wörter = kürzere Sätze
-                - Weniger Sätze pro 100 Wörter = längere Sätze
-                - Verwendet im Coleman-Liau-Index
-                - Normalisierung ermöglicht Vergleichbarkeit
-                - Alternative Perspektive zur direkten Satzlänge"""
+                "feedback": """✓ Korrekt! Clevere Umkehrung: Mehr Sätze pro 100 Wörter bedeuten kürzere Sätze, weniger Sätze pro 100 Wörter bedeuten längere Sätze. Dies wird im Coleman-Liau-Index verwendet, die Normalisierung ermöglicht Vergleichbarkeit und bietet eine alternative Perspektive zur direkten Satzlänge."""
             },
             {
                 "answer": "Der Durchschnitt wird berechnet, indem man die Längen aller Sätze summiert und durch die Anzahl der Sätze teilt",
                 "correct": True,
-                "feedback": """✓ Korrekt! Standardberechnung:
-                - Summe aller Satzlängen / Anzahl Sätze
-                - Glättet Extremwerte
-                - Repräsentativer Wert für gesamten Text
-                - Verwendet in Flesch, Wiener, ARI
-                - Basis für die meisten Berechnungen"""
+                "feedback": """✓ Korrekt! Standardberechnung: Die Summe aller Satzlängen wird durch die Anzahl der Sätze geteilt, dies glättet Extremwerte und liefert einen repräsentativen Wert für den gesamten Text. Es wird in Flesch, Wiener und ARI verwendet und bildet die Basis für die meisten Berechnungen."""
             },
             {
                 "answer": "Kürzere Sätze führen immer zu einem niedrigeren Textkomplexitätsscore in allen Indexe",
                 "correct": False,
-                "feedback": """× Nicht präzise genug. Wichtige Nuance:
-                - Richtung hängt vom Index ab
-                - Flesch: Höherer Score = leichter (kürzere Sätze)
-                - Wiener/ARI: Niedrigerer Score = leichter (kürzere Sätze)
-                - Nicht einheitlich über alle Indexe
-                - Die Beziehung ist konsistent, aber Skalen unterscheiden sich"""
+                "feedback": """× Nicht präzise genug. Wichtige Nuance: Die Richtung hängt vom Index ab, bei Flesch bedeutet ein höherer Score einen leichteren Text (kürzere Sätze), bei Wiener/ARI bedeutet ein niedrigerer Score einen leichteren Text (kürzere Sätze). Dies ist nicht einheitlich über alle Indexe, die Beziehung ist konsistent, aber die Skalen unterscheiden sich."""
             },
             {
                 "answer": "Die maximale Satzlänge im Text ist wichtiger als die durchschnittliche Satzlänge",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Standard-Praxis:
-                - Durchschnitt ist der Standard-Parameter
-                - Maximum würde Verzerrung erzeugen
-                - Einzelner langer Satz = nicht repräsentativ
-                - Indexe verwenden durchschnittliche Werte
-                - Robuster gegenüber Ausreißern"""
+                "feedback": """× Nicht korrekt. Standard-Praxis: Der Durchschnitt ist der Standard-Parameter, das Maximum würde eine Verzerrung erzeugen, da ein einzelner langer Satz nicht repräsentativ ist. Indexe verwenden durchschnittliche Werte, weil diese robuster gegenüber Ausreißern sind."""
             }
         ]
     }
@@ -193,39 +154,22 @@ question4 = [
             {
                 "answer": "Die meisten Scores lassen sich in eine Klassenstufe oder Bildungsniveau übersetzen, wobei ein niedriger Score meist einen schweren Text und ein hoher Score einen leichten Text bedeutet",
                 "correct": False,
-                "feedback": """× Teilweise korrekt, aber umgekehrt! Wichtige Korrektur:
-                - Niedriger Score = leichter Text (bei den meisten Indexe)
-                - Hoher Score = schwerer Text
-                - Flesch kann je nach Version variieren
-                - Die Richtung ist entscheidend!"""
+                "feedback": """× Teilweise korrekt, aber umgekehrt! Wichtige Korrektur: Ein niedriger Score bedeutet bei den meisten Indexen einen leichteren Text, ein hoher Score bedeutet einen schwereren Text. Flesch kann je nach Version variieren, die Richtung ist entscheidend!"""
             },
             {
                 "answer": "Die meisten Scores lassen sich in eine Klassenstufe übersetzen, und ein niedriger Score bedeutet meist einen leichten Text",
                 "correct": True,
-                "feedback": """✓ Korrekt! Das ist die Standardinterpretation:
-                - Niedriger Score = leichter Text
-                - Hoher Score = schwerer Text
-                - Klassenstufen-Zuordnung (z.B. 5. Klasse bis Uni)
-                - Praktisch für Zielgruppenbestimmung
-                - Wichtig: Skalen unterscheiden sich zwischen Indexe!"""
+                "feedback": """✓ Korrekt! Das ist die Standardinterpretation: Ein niedriger Score bedeutet einen leichteren Text, ein hoher Score einen schwereren Text. Dies ermöglicht eine Klassenstufen-Zuordnung (z.B. 5. Klasse bis Uni) und ist praktisch für die Zielgruppenbestimmung; wichtig ist dabei, dass sich die Skalen zwischen den Indexen unterscheiden!"""
             },
             {
                 "answer": "Alle Lesbarkeitsindizes verwenden dieselbe Skala von 0-100, was den Vergleich erleichtert",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Wichtiger Hinweis:
-                - Unterschiedliche Skalen: Flesch (0-180), Wiener (4-15), ARI (1-14+)
-                - NICHT direkt vergleichbar
-                - Wichtig für korrekte Interpretation
-                - Jeder Index hat eigene Normierung"""
+                "feedback": """× Nicht korrekt. Wichtiger Hinweis: Es gibt unterschiedliche Skalen, etwa Flesch (0-180), Wiener (4-15) und ARI (1-14+), die NICHT direkt vergleichbar sind. Dies ist wichtig für die korrekte Interpretation, denn jeder Index hat eine eigene Normierung."""
             },
             {
                 "answer": "Höhere Textkomplexität bedeutet immer bessere Textqualität, unabhängig von der Zielgruppe",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Wichtige Differenzierung:
-                - Komplexität ≠ Qualität
-                - Zielgruppenabhängig
-                - Barrierefreiheit erfordert oft niedrige Komplexität
-                - Einfache Texte können hochwertig sein"""
+                "feedback": """× Nicht korrekt. Wichtige Differenzierung: Komplexität ist nicht gleich Qualität, sondern zielgruppenabhängig. Barrierefreiheit erfordert oft eine niedrige Komplexität, und einfache Texte können durchaus hochwertig sein."""
             }
         ]
     }
@@ -251,39 +195,22 @@ question6 = [
             {
                 "answer": "Liniendiagramme zeigen Häufigkeiten in diskreten Zeitintervallen besser",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Das ist tatsächlich umgekehrt:
-                - Balkendiagramme: Gut für diskrete Intervalle
-                - Liniendiagramme: Besser für kontinuierliche Entwicklungen
-                - Häufigkeiten in Intervallen → Balken besser geeignet
-                - Zeitliche Trends → Linien besser geeignet"""
+                "feedback": """× Nicht korrekt. Das ist tatsächlich umgekehrt: Balkendiagramme eignen sich gut für diskrete Intervalle, während Liniendiagramme besser für kontinuierliche Entwicklungen geeignet sind. Für Häufigkeiten in Intervallen sind daher Balken besser geeignet, für zeitliche Trends dagegen Linien."""
             },
             {
                 "answer": "Liniendiagramme ermöglichen die bessere Erkennung von Trends und Mustern über Zeit, da die Verbindung zwischen Zeitpunkten visualisiert wird",
                 "correct": True,
-                "feedback": """✓ Korrekt! Das ist der zentrale Vorteil:
-                - Kontinuität wird sichtbar gemacht
-                - Trends leicht erkennbar (steigend/fallend)
-                - Minima und Maxima deutlich
-                - Verbindungslinien zeigen Entwicklung
-                - Ideal für diachrone Analysen"""
+                "feedback": """✓ Korrekt! Das ist der zentrale Vorteil: Die Kontinuität wird sichtbar gemacht, Trends sind leicht erkennbar (steigend/fallend) und Minima sowie Maxima werden deutlich. Verbindungslinien zeigen die Entwicklung und sind ideal für diachrone Analysen."""
             },
             {
                 "answer": "Liniendiagramme können keine Zeitachse auf der X-Achse darstellen",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Im Gegenteil:
-                - X-Achse wird typisch für Zeit verwendet
-                - Natürliche chronologische Darstellung
-                - Verschiedene Zeiteinheiten möglich
-                - Standard für Zeitreihen"""
+                "feedback": """× Nicht korrekt. Im Gegenteil: Die X-Achse wird typischerweise für die Zeit verwendet, was eine natürliche chronologische Darstellung ermöglicht. Verschiedene Zeiteinheiten sind möglich, dies ist Standard für Zeitreihen."""
             },
             {
                 "answer": "Liniendiagramme zeigen einzelne Datenpunkte genauer als Balkendiagramme",
                 "correct": False,
-                "feedback": """× Nicht der Hauptvorteil. Wichtig:
-                - Beide zeigen Datenpunkte
-                - Genauigkeit ist ähnlich
-                - Der Hauptvorteil liegt in der Trendvisualisierung
-                - Verbindungslinien = zentrales Element"""
+                "feedback": """× Nicht der Hauptvorteil. Wichtig: Beide zeigen Datenpunkte, die Genauigkeit ist ähnlich. Der Hauptvorteil liegt in der Trendvisualisierung, Verbindungslinien sind das zentrale Element."""
             }
         ]
     }
@@ -309,38 +236,22 @@ question7 = [
             {
                 "answer": "Textkomplexität wird für jede Pressemitteilung einzeln berechnet",
                 "correct": True,
-                "feedback": """✓ Korrekt! Individuelle Berechnung:
-                - Jeder Text erhält eigenen Score
-                - Basis für weitere Aggregation
-                - Ermöglicht detaillierte Analyse
-                - Notwendiger erster Schritt"""
+                "feedback": """✓ Korrekt! Individuelle Berechnung: Jeder Text erhält einen eigenen Score, der die Basis für die weitere Aggregation bildet. Dies ermöglicht eine detaillierte Analyse und ist ein notwendiger erster Schritt."""
             },
             {
                 "answer": "Die Werte werden dann über Zeiteinheiten akkumuliert (z.B. Wochen, Monate, Jahre)",
                 "correct": True,
-                "feedback": """✓ Korrekt! Zeitliche Aggregation:
-                - Gruppierung nach Zeitabschnitten
-                - Unterschiedliche Granularität möglich
-                - Glättung von Einzelausreißern
-                - Erkennung von Mustern"""
+                "feedback": """✓ Korrekt! Zeitliche Aggregation: Die Gruppierung erfolgt nach Zeitabschnitten, wobei eine unterschiedliche Granularität möglich ist. Dies glättet Einzelausreißer und ermöglicht die Erkennung von Mustern."""
             },
             {
                 "answer": "Für jede Zeiteinheit wird der Durchschnitt der Textkomplexitätsmaße berechnet",
                 "correct": True,
-                "feedback": """✓ Korrekt! Durchschnittsbildung:
-                - Repräsentativer Wert pro Zeiteinheit
-                - Vergleichbarkeit zwischen Perioden
-                - Reduziert Rauschen
-                - Basis für Visualisierung"""
+                "feedback": """✓ Korrekt! Durchschnittsbildung: Sie liefert einen repräsentativen Wert pro Zeiteinheit und ermöglicht die Vergleichbarkeit zwischen Perioden. Sie reduziert Rauschen und bildet die Basis für die Visualisierung."""
             },
             {
                 "answer": "Nur der höchste Wert jeder Zeiteinheit wird betrachtet",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Durchschnitt vs. Maximum:
-                - Durchschnitt ist repräsentativer
-                - Nur Maximum würde Verzerrung erzeugen
-                - Alle Werte sollten berücksichtigt werden
-                - Standard ist Mittelwertbildung"""
+                "feedback": """× Nicht korrekt. Durchschnitt vs. Maximum: Der Durchschnitt ist repräsentativer, nur das Maximum zu betrachten würde eine Verzerrung erzeugen. Alle Werte sollten berücksichtigt werden, Standard ist daher die Mittelwertbildung."""
             }
         ]
     }

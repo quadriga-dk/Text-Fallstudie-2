@@ -44,38 +44,22 @@ question1 = [
             {
                 "answer": "Sie bewahren die visuelle Gestalt der Originaldokumente einschließlich Layout und Schriftarten",
                 "correct": True,
-                "feedback": """✓ Korrekt! Dies ist ein Hauptvorteil:
-                - Authentische visuelle Wiedergabe
-                - Layout bleibt erhalten
-                - Schriftarten und Formatierungen bewahrt
-                - Wichtig für historische Dokumente"""
+                "feedback": """✓ Korrekt! Dies ist ein Hauptvorteil: Die Wiedergabe ist authentisch und visuell, das Layout bleibt erhalten, Schriftarten und Formatierungen werden bewahrt, und dies ist wichtig für historische Dokumente."""
             },
             {
                 "answer": "Der Textinhalt ist direkt durchsuchbar und maschinenlesbar",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Das ist eine wichtige Einschränkung:
-                - Text ist zunächst NICHT maschinenlesbar
-                - Optische Zeichenerkennung (OCR) ist erforderlich
-                - Erst nach OCR wird der Text durchsuchbar
-                - Dies ist ein Nachteil gegenüber Plain Text"""
+                "feedback": """× Nicht korrekt. Das ist eine wichtige Einschränkung: Der Text ist zunächst nicht maschinenlesbar, optische Zeichenerkennung (OCR) ist erforderlich, erst nach der OCR wird der Text durchsuchbar, und dies ist ein Nachteil gegenüber Plain Text."""
             },
             {
                 "answer": "Gängige Formate sind PDF, PNG und JPG",
                 "correct": True,
-                "feedback": """✓ Korrekt! Dies sind die häufigsten Formate:
-                - PDF: Für Dokumente
-                - PNG: Für verlustfreie Bilder
-                - JPG: Für komprimierte Bilder
-                - TIFF wird auch verwendet, besonders in Archiven"""
+                "feedback": """✓ Korrekt! Dies sind die häufigsten Formate: PDF für Dokumente, PNG für verlustfreie Bilder und JPG für komprimierte Bilder; TIFF wird ebenfalls verwendet, besonders in Archiven."""
             },
             {
                 "answer": "Sie eignen sich besonders für die Archivierung historischer Dokumente",
                 "correct": True,
-                "feedback": """✓ Korrekt! Wichtiger Anwendungsfall:
-                - Authentische Wiedergabe des Originals
-                - Langzeitarchivierung möglich
-                - Visuelle Details bleiben erhalten
-                - Standard in Bibliotheken und Archiven"""
+                "feedback": """✓ Korrekt! Wichtiger Anwendungsfall: Die Wiedergabe des Originals ist authentisch, Langzeitarchivierung ist möglich, visuelle Details bleiben erhalten, und dies ist Standard in Bibliotheken und Archiven."""
             }
         ]
     }
@@ -129,38 +113,22 @@ question3 = [
             {
                 "answer": "Speicherung von Texten mit linguistischen Annotationen wie Lemma und Wortart",
                 "correct": True,
-                "feedback": """✓ Korrekt! CSV ist ideal dafür:
-                - Tabellarische Struktur für Token und Annotationen
-                - Jede Zeile ein Token mit zugehörigen Informationen
-                - Einfach mit Analysewerkzeugen zu verarbeiten
-                - Standard in der Computerlinguistik"""
+                "feedback": """✓ Korrekt! CSV ist ideal dafür: Es bietet eine tabellarische Struktur für Token und Annotationen, jede Zeile enthält ein Token mit den zugehörigen Informationen, es lässt sich einfach mit Analysewerkzeugen verarbeiten und ist Standard in der Computerlinguistik."""
             },
             {
                 "answer": "Archivierung historischer Dokumente mit originalem Layout",
                 "correct": False,
-                "feedback": """× Nicht geeignet. Hierfür besser:
-                - Bilddigitalisate (PDF, PNG)
-                - CSV kann kein Layout speichern
-                - CSV ist für tabellarische Daten gedacht
-                - Keine visuelle Darstellung möglich"""
+                "feedback": """× Nicht geeignet. Hierfür eignen sich Bilddigitalisate (PDF, PNG) besser, denn CSV kann kein Layout speichern, ist für tabellarische Daten gedacht und ermöglicht keine visuelle Darstellung."""
             },
             {
                 "answer": "Darstellung von Webseiten mit Links und Bildern",
                 "correct": False,
-                "feedback": """× Nicht geeignet. Hierfür besser:
-                - HTML für strukturierte Webinhalte
-                - CSV kann keine hierarchischen Strukturen gut abbilden
-                - Keine Unterstützung für Hyperlinks
-                - Keine Einbettung von Bildern"""
+                "feedback": """× Nicht geeignet. Hierfür eignet sich HTML für strukturierte Webinhalte besser, denn CSV kann keine hierarchischen Strukturen gut abbilden, bietet keine Unterstützung für Hyperlinks und ermöglicht keine Einbettung von Bildern."""
             },
             {
                 "answer": "Schnelle Bearbeitung von reinem Text ohne Struktur",
                 "correct": False,
-                "feedback": """× Nicht optimal. Hierfür besser:
-                - Plain Text (TXT) für reinen Text
-                - CSV ist für strukturierte, tabellarische Daten
-                - CSV hat Overhead durch Tabellenstruktur
-                - Einfacher Text benötigt kein CSV"""
+                "feedback": """× Nicht optimal. Hierfür eignet sich Plain Text (TXT) für reinen Text besser, denn CSV ist für strukturierte, tabellarische Daten gedacht, hat durch die Tabellenstruktur Overhead, und einfacher Text benötigt kein CSV."""
             }
         ]
     }
@@ -214,38 +182,22 @@ question5 = [
             {
                 "answer": "Attribute werden im Start-Tag angegeben und bestehen aus einem Namen und einem Wert",
                 "correct": True,
-                "feedback": """✓ Korrekt! Das ist die grundlegende Struktur:
-                - Format: attributname="wert"
-                - Im Start-Tag platziert
-                - Liefern zusätzliche Informationen
-                - Beispiel: href="https://example.com" """
+                "feedback": """✓ Korrekt! Das ist die grundlegende Struktur: Das Format lautet attributname="wert", das Attribut wird im Start-Tag platziert und liefert zusätzliche Informationen, zum Beispiel href="https://example.com"."""
             },
             {
                 "answer": "Attribute können nur bei Bild-Tags verwendet werden",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Attribute sind universell:
-                - Können bei fast allen Tags verwendet werden
-                - Nicht nur bei Bildern
-                - Beispiele: href bei Links, id/class bei vielen Elementen
-                - Vielseitig einsetzbar"""
+                "feedback": """× Nicht korrekt. Attribute sind universell: Sie können bei fast allen Tags verwendet werden, nicht nur bei Bildern, etwa href bei Links oder id/class bei vielen Elementen, und sind damit vielseitig einsetzbar."""
             },
             {
                 "answer": "Häufige Attribute sind 'href' bei Links und 'src' bei Bildern",
                 "correct": True,
-                "feedback": """✓ Korrekt! Das sind wichtige Beispiele:
-                - href: URL für Links
-                - src: Quelle für Bilder
-                - alt: Alternativtext für Bilder
-                - id, class: Für Styling und Identifikation"""
+                "feedback": """✓ Korrekt! Das sind wichtige Beispiele: href für die URL bei Links, src für die Quelle bei Bildern, alt für den Alternativtext bei Bildern sowie id und class für Styling und Identifikation."""
             },
             {
                 "answer": "Das 'id' und 'class' Attribut dienen zur Identifizierung und Gestaltung per CSS",
                 "correct": True,
-                "feedback": """✓ Korrekt! Wichtig für Styling:
-                - id: Eindeutige Identifikation
-                - class: Gruppierung mehrerer Elemente
-                - Ermöglichen CSS-Anwendung
-                - Auch für JavaScript wichtig"""
+                "feedback": """✓ Korrekt! Wichtig für Styling: id dient der eindeutigen Identifikation, class der Gruppierung mehrerer Elemente, beide ermöglichen die CSS-Anwendung und sind auch für JavaScript wichtig."""
             }
         ]
     }
@@ -271,38 +223,22 @@ question6 = [
             {
                 "answer": "HTML-Elemente können ineinander verschachtelt (nested) werden",
                 "correct": True,
-                "feedback": """✓ Korrekt! Das ist das Kernprinzip:
-                - Tags können innerhalb anderer Tags liegen
-                - Schafft Eltern-Kind-Beziehungen
-                - Ermöglicht komplexe Strukturen
-                - Basis des DOM-Baums"""
+                "feedback": """✓ Korrekt! Das ist das Kernprinzip: Tags können innerhalb anderer Tags liegen, das schafft Eltern-Kind-Beziehungen, ermöglicht komplexe Strukturen und bildet die Basis des DOM-Baums."""
             },
             {
                 "answer": "Alle HTML-Tags müssen auf der gleichen Ebene stehen",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Das Gegenteil ist der Fall:
-                - Tags werden verschachtelt
-                - Verschiedene Ebenen sind normal
-                - Hierarchie ist zentral für HTML
-                - Flache Struktur wäre sehr limitiert"""
+                "feedback": """× Nicht korrekt. Das Gegenteil ist der Fall: Tags werden verschachtelt, verschiedene Ebenen sind normal, Hierarchie ist zentral für HTML, und eine flache Struktur wäre sehr limitiert."""
             },
             {
                 "answer": "Die hierarchische Struktur bildet einen DOM-Baum (Document Object Model)",
                 "correct": True,
-                "feedback": """✓ Korrekt! Wichtiges Konzept:
-                - DOM-Baum repräsentiert die Struktur
-                - Browser nutzen ihn zur Darstellung
-                - Programme nutzen ihn zum Parsen
-                - Ermöglicht gezielte Auswahl von Elementen"""
+                "feedback": """✓ Korrekt! Wichtiges Konzept: Der DOM-Baum repräsentiert die Struktur, Browser nutzen ihn zur Darstellung, Programme nutzen ihn zum Parsen, und er ermöglicht die gezielte Auswahl von Elementen."""
             },
             {
                 "answer": "Verschachtelte Strukturen sind wichtig für Web Scraping",
                 "correct": True,
-                "feedback": """✓ Korrekt! Praktische Relevanz:
-                - Ermöglicht gezielte Inhaltsauswahl
-                - Navigation durch die Struktur
-                - Extraktion spezifischer Elemente
-                - Basis für CSS-Selektoren und XPath"""
+                "feedback": """✓ Korrekt! Praktische Relevanz: Beim Web Scraping muss man die Verschachtelung berücksichtigen, um Elemente gezielt anzusteuern. Sie ist die Grundlage für die Navigation durch die Struktur, für CSS-Selektoren und XPath sowie für die Extraktion spezifischer Elemente."""
             }
         ]
     }
@@ -416,38 +352,22 @@ question8 = [
             {
                 "answer": "CSS (Cascading Style Sheets) wird für das Design und die Gestaltung verwendet",
                 "correct": True,
-                "feedback": """✓ Korrekt! CSS ist für Styling zuständig:
-                - Layout und Positionierung
-                - Farben und Schriftarten
-                - Abstände und Größen
-                - Trennung von Inhalt und Design"""
+                "feedback": """✓ Korrekt! CSS ist für Styling zuständig: Layout und Positionierung, Farben und Schriftarten sowie Abstände und Größen werden damit festgelegt, wodurch Inhalt und Design getrennt werden."""
             },
             {
                 "answer": "CSS strukturiert die Inhalte der Webseite",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Wichtige Unterscheidung:
-                - HTML strukturiert die Inhalte
-                - CSS gestaltet das Aussehen
-                - Trennung von Struktur und Design
-                - Verschiedene Zuständigkeiten"""
+                "feedback": """× Nicht korrekt. Wichtige Unterscheidung: HTML strukturiert die Inhalte, während CSS das Aussehen gestaltet – Struktur und Design sind getrennt und haben verschiedene Zuständigkeiten."""
             },
             {
                 "answer": "CSS kann direkt in HTML eingefügt werden",
                 "correct": True,
-                "feedback": """✓ Korrekt! Es gibt mehrere Möglichkeiten:
-                - Inline: style-Attribut im Tag
-                - Internal: style-Tag im head
-                - External: Separate CSS-Datei
-                - Verschiedene Methoden für verschiedene Zwecke"""
+                "feedback": """✓ Korrekt! Es gibt mehrere Möglichkeiten: inline über das style-Attribut im Tag, intern über ein style-Tag im head oder extern über eine separate CSS-Datei – verschiedene Methoden für verschiedene Zwecke."""
             },
             {
                 "answer": "HTML und CSS sind völlig unabhängig voneinander",
                 "correct": False,
-                "feedback": """× Nicht ganz korrekt. Es gibt eine Beziehung:
-                - CSS referenziert HTML-Elemente
-                - Über id und class Attribute verbunden
-                - CSS definiert Aussehen von HTML-Elementen
-                - Arbeit Hand in Hand, aber getrennte Rollen"""
+                "feedback": """× Nicht ganz korrekt. Es gibt eine Beziehung: CSS referenziert HTML-Elemente, ist über id- und class-Attribute mit ihnen verbunden und definiert das Aussehen von HTML-Elementen – beide arbeiten Hand in Hand, haben aber getrennte Rollen."""
             }
         ]
     }

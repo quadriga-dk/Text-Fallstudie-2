@@ -44,38 +44,22 @@ question1 = [
             {
                 "answer": "Untersuchung der HTML-Struktur der Zielwebsite (z.B. mit dem Browser-Inspektor)",
                 "correct": True,
-                "feedback": """✓ Korrekt! Die Strukturanalyse ist der erste Schritt:
-                - Identifikation relevanter HTML-Elemente
-                - Bestimmung von CSS-Selektoren
-                - Verständnis des Seitenaufbaus
-                - Basis für die Implementierung"""
+                "feedback": """✓ Korrekt! Die Strukturanalyse ist der erste Schritt: Sie dient der Identifikation relevanter HTML-Elemente, der Bestimmung von CSS-Selektoren und dem Verständnis des Seitenaufbaus und bildet damit die Basis für die Implementierung."""
             },
             {
                 "answer": "Extraktion von Links zu allen relevanten Einzelseiten",
                 "correct": True,
-                "feedback": """✓ Korrekt! Link-Extraktion ist essentiell:
-                - Sammeln aller URLs aus Übersichtsseiten
-                - Oft aus Tabellen oder Listen
-                - Basis für das systematische Crawling
-                - Navigation durch das gesamte Korpus"""
+                "feedback": """✓ Korrekt! Link-Extraktion ist essentiell: Dabei werden alle URLs aus Übersichtsseiten gesammelt, oft aus Tabellen oder Listen, was die Basis für das systematische Crawling bildet und die Navigation durch das gesamte Korpus ermöglicht."""
             },
             {
                 "answer": "Scraping der Einzelseiten mit Speicherung von HTML und bereinigtem Text",
                 "correct": True,
-                "feedback": """✓ Korrekt! Doppelte Speicherung ist sinnvoll:
-                - HTML: Für Nachvollziehbarkeit und Re-Analyse
-                - Bereinigter Text: Für direkte Textanalyse
-                - Ermöglicht verschiedene Nutzungsszenarien
-                - Best Practice beim Korpusaufbau"""
+                "feedback": """✓ Korrekt! Doppelte Speicherung ist sinnvoll: HTML dient der Nachvollziehbarkeit und Re-Analyse, bereinigter Text der direkten Textanalyse, wodurch verschiedene Nutzungsszenarien ermöglicht werden – dies ist Best Practice beim Korpusaufbau."""
             },
             {
                 "answer": "Sofortige manuelle Korrektur jeder extrahierten Seite",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Bei Massenscraping:
-                - Automatisierung ist das Ziel
-                - Manuelle Korrektur bei 50.000+ Dokumenten unmöglich
-                - Qualitätskontrolle durch Stichproben
-                - Nachbearbeitung nur bei systematischen Problemen"""
+                "feedback": """× Nicht korrekt. Bei Massenscraping ist Automatisierung das Ziel, da manuelle Korrektur bei 50.000+ Dokumenten unmöglich ist; die Qualitätskontrolle erfolgt durch Stichproben, und eine Nachbearbeitung findet nur bei systematischen Problemen statt."""
             }
         ]
     }
@@ -101,38 +85,22 @@ question2 = [
             {
                 "answer": "BeautifulSoup ermöglicht das Parsen von HTML-Dokumenten zu einem navigierbaren Parse-Tree",
                 "correct": True,
-                "feedback": """✓ Korrekt! Das ist die Kernfunktion:
-                - Umwandlung von HTML-String in Baum-Struktur
-                - Ermöglicht Navigation durch DOM
-                - Basis für Element-Suche
-                - Mit Parsern wie 'lxml' oder 'html.parser'"""
+                "feedback": """✓ Korrekt! Das ist die Kernfunktion: die Umwandlung von HTML-String in eine Baum-Struktur, die Navigation durch das DOM ermöglicht und die Basis für die Element-Suche bildet, etwa mit Parsern wie 'lxml' oder 'html.parser'."""
             },
             {
                 "answer": "BeautifulSoup bietet Methoden wie select() und find() zur Extraktion spezifischer Elemente",
                 "correct": True,
-                "feedback": """✓ Korrekt! Diese Methoden sind zentral:
-                - select(): CSS-Selektoren nutzen
-                - find(): Einzelne Elemente finden
-                - find_all(): Mehrere Elemente finden
-                - Flexible Element-Auswahl"""
+                "feedback": """✓ Korrekt! Diese Methoden sind zentral: select() nutzt CSS-Selektoren, find() findet einzelne Elemente und find_all() findet mehrere Elemente, was eine flexible Element-Auswahl ermöglicht."""
             },
             {
                 "answer": "BeautifulSoup kann Text aus HTML-Elementen extrahieren (z.B. mit get_text())",
                 "correct": True,
-                "feedback": """✓ Korrekt! Textextraktion ist wichtig:
-                - get_text(): Nur Text ohne Tags
-                - strip=True: Leerzeichen entfernen
-                - Separator angeben: get_text(' ')
-                - Basis für saubere Textdaten"""
+                "feedback": """✓ Korrekt! Textextraktion ist wichtig: get_text() liefert nur Text ohne Tags, mit strip=True lassen sich Leerzeichen entfernen und mit get_text(' ') ein Separator angeben, was die Basis für saubere Textdaten bildet."""
             },
             {
                 "answer": "BeautifulSoup führt automatisch HTTP-Requests durch",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Aufgabenteilung:
-                - HTTP-Requests: requests-Bibliothek
-                - HTML-Parsing: BeautifulSoup
-                - Beide arbeiten zusammen
-                - Trennung ermöglicht Flexibilität"""
+                "feedback": """× Nicht korrekt. Es gibt eine klare Aufgabenteilung: HTTP-Requests übernimmt die requests-Bibliothek, HTML-Parsing übernimmt BeautifulSoup, beide arbeiten zusammen, und diese Trennung ermöglicht Flexibilität."""
             }
         ]
     }
@@ -158,38 +126,22 @@ question3 = [
             {
                 "answer": "Temporäre Netzwerkfehler können durch wiederholte Versuche überwunden werden",
                 "correct": True,
-                "feedback": """✓ Korrekt! Netzwerk ist nicht immer stabil:
-                - DNS-Fehler können vorübergehend sein
-                - Timeouts können auftreten
-                - Verbindungsabbrüche sind möglich
-                - Mehrere Versuche erhöhen Erfolgsrate"""
+                "feedback": """✓ Korrekt! Netzwerk ist nicht immer stabil: DNS-Fehler können vorübergehend sein, Timeouts können auftreten und Verbindungsabbrüche sind möglich, weshalb mehrere Versuche die Erfolgsrate erhöhen."""
             },
             {
                 "answer": "Sleep-Intervalle verhindern Überlastung des Servers und mögliche Blockierungen",
                 "correct": True,
-                "feedback": """✓ Korrekt! Serverfreundliches Verhalten:
-                - Vermeidet zu hohe Last
-                - Respektiert Rate Limits
-                - Verhindert IP-Sperrung (429 Too Many Requests)
-                - Ethisch geboten"""
+                "feedback": """✓ Korrekt! Das ist serverfreundliches Verhalten: Es vermeidet zu hohe Last, respektiert Rate Limits und verhindert IP-Sperrung (429 Too Many Requests) und ist zudem ethisch geboten."""
             },
             {
                 "answer": "Bei HTTP-Status 404 oder 410 sollte kein Retry durchgeführt werden",
                 "correct": True,
-                "feedback": """✓ Korrekt! Permanente vs. temporäre Fehler:
-                - 404 Not Found: Seite existiert nicht
-                - 410 Gone: Seite wurde entfernt
-                - Diese sind dauerhaft → kein Retry
-                - 5xx, 429: temporär → Retry sinnvoll"""
+                "feedback": """✓ Korrekt! Bei permanenten vs. temporären Fehlern gilt: 404 Not Found bedeutet, dass die Seite nicht existiert, und 410 Gone bedeutet, dass die Seite entfernt wurde – beide sind dauerhaft, sodass kein Retry sinnvoll ist. 5xx- und 429-Fehler sind dagegen temporär, weshalb hier ein Retry sinnvoll ist."""
             },
             {
                 "answer": "Retry-Logik und Sleep-Intervalle sind nur für große Projekte relevant",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Immer wichtig:
-                - Auch bei kleinen Projekten können Fehler auftreten
-                - Best Practice unabhängig von Größe
-                - Stabilität und Zuverlässigkeit
-                - Ethische Verantwortung"""
+                "feedback": """× Nicht korrekt. Das ist immer wichtig: Auch bei kleinen Projekten können Fehler auftreten, es handelt sich um Best Practice unabhängig von der Größe, es geht um Stabilität und Zuverlässigkeit sowie um ethische Verantwortung."""
             }
         ]
     }
@@ -215,38 +167,22 @@ question4 = [
             {
                 "answer": "Für statische Übersichtsseiten mit Links zu Einzelartikeln eignet sich requests + BeautifulSoup",
                 "correct": True,
-                "feedback": """✓ Korrekt! Diese Kombination ist optimal für:
-                - Statisches HTML ohne JavaScript
-                - Klar strukturierte Seiten (z.B. Tabellen)
-                - Systematisches Durchlaufen von Links
-                - Wie im Kapitel gezeigt mit Pressemitteilungen"""
+                "feedback": """✓ Korrekt! Diese Kombination ist optimal für statisches HTML ohne JavaScript und klar strukturierte Seiten (z.B. Tabellen) sowie für das systematische Durchlaufen von Links, wie im Kapitel am Beispiel von Pressemitteilungen gezeigt."""
             },
             {
                 "answer": "Wenn Inhalte erst beim Scrollen nachgeladen werden, ist Selenium notwendig",
                 "correct": True,
-                "feedback": """✓ Korrekt! Selenium für dynamische Inhalte:
-                - JavaScript-Ausführung erforderlich
-                - Simulation von Benutzerinteraktionen
-                - Nachladen von Inhalten
-                - requests würde nur initialen HTML-Code sehen"""
+                "feedback": """✓ Korrekt! Selenium eignet sich für dynamische Inhalte, da JavaScript-Ausführung erforderlich ist, Benutzerinteraktionen simuliert werden müssen und Inhalte nachgeladen werden, während requests nur den initialen HTML-Code sehen würde."""
             },
             {
                 "answer": "Für mehrere tausend verlinkte Seiten mit ähnlicher Struktur ist scrapy effizienter als requests",
                 "correct": True,
-                "feedback": """✓ Korrekt! Scrapy-Vorteile:
-                - Integriertes Link-Following
-                - Paralleles Crawling möglich
-                - Robustes Error-Handling
-                - Bessere Performance bei großen Projekten"""
+                "feedback": """✓ Korrekt! Scrapy bietet Vorteile wie integriertes Link-Following, paralleles Crawling, robustes Error-Handling und eine bessere Performance bei großen Projekten."""
             },
             {
                 "answer": "requests + BeautifulSoup kann auch JavaScript-generierte Inhalte problemlos extrahieren",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Wichtige Einschränkung:
-                - requests sieht nur initialen HTML-Code
-                - JavaScript wird NICHT ausgeführt
-                - Dynamische Inhalte fehlen
-                - Für JavaScript: Selenium erforderlich"""
+                "feedback": """× Nicht korrekt. Wichtige Einschränkung: requests sieht nur den initialen HTML-Code, JavaScript wird NICHT ausgeführt und dynamische Inhalte fehlen daher – für JavaScript ist Selenium erforderlich."""
             }
         ]
     }
@@ -272,38 +208,22 @@ question5 = [
             {
                 "answer": "Bei Unterbrechung des Scraping-Prozesses gehen keine Informationen verloren",
                 "correct": True,
-                "feedback": """✓ Korrekt! Absicherung gegen Abbrüche:
-                - Scraping kann Stunden oder Tage dauern
-                - Netzwerkprobleme können auftreten
-                - Laufende CSV-Speicherung sichert Fortschritt
-                - Wiederaufnahme an letzter Stelle möglich"""
+                "feedback": """✓ Korrekt! Das dient der Absicherung gegen Abbrüche: Scraping kann Stunden oder Tage dauern, Netzwerkprobleme können auftreten, laufende CSV-Speicherung sichert den Fortschritt, und eine Wiederaufnahme an letzter Stelle wird möglich."""
             },
             {
                 "answer": "Metadaten ermöglichen spätere Analysen wie Zeitreihen und Quellenvergleiche",
                 "correct": True,
-                "feedback": """✓ Korrekt! Analytischer Wert:
-                - Datum: Zeitreihenanalyse
-                - Quelle/Ressort: Vergleich verschiedener Absender
-                - URL: Rückverfolgbarkeit
-                - Länge: Verteilungsanalysen"""
+                "feedback": """✓ Korrekt! Der analytische Wert zeigt sich darin, dass das Datum Zeitreihenanalysen ermöglicht, Quelle/Ressort den Vergleich verschiedener Absender erlaubt, die URL die Rückverfolgbarkeit sichert und die Länge Verteilungsanalysen ermöglicht."""
             },
             {
                 "answer": "Metadaten helfen bei der Identifikation von Lücken oder Problemen im Korpus",
                 "correct": True,
-                "feedback": """✓ Korrekt! Qualitätskontrolle:
-                - Übersicht über erfasste Dokumente
-                - Erkennung fehlender IDs
-                - Debugging bei Problemen
-                - Vollständigkeitsprüfung"""
+                "feedback": """✓ Korrekt! Zur Qualitätskontrolle gehören die Übersicht über erfasste Dokumente, die Erkennung fehlender IDs, das Debugging bei Problemen und die Vollständigkeitsprüfung."""
             },
             {
                 "answer": "Metadaten sollten erst nach Abschluss des gesamten Scraping-Prozesses erstellt werden",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Parallele Erfassung ist besser:
-                - Schutz vor Datenverlust bei Abbruch
-                - Laufende Übersicht über Fortschritt
-                - Frühzeitige Problemerkennung
-                - Best Practice: incrementelle Speicherung"""
+                "feedback": """× Nicht korrekt. Parallele Erfassung ist besser: Sie schützt vor Datenverlust bei Abbruch, bietet eine laufende Übersicht über den Fortschritt und ermöglicht eine frühzeitige Problemerkennung – inkrementelle Speicherung ist hier Best Practice."""
             }
         ]
     }

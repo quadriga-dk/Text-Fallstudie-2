@@ -44,38 +44,22 @@ question1 = [
             {
                 "answer": "Der Client sendet eine Anfrage an den Server",
                 "correct": True,
-                "feedback": """✓ Korrekt! Der Client:
-                - Ist Ihr Computer oder Browser
-                - Initiiert die Kommunikation
-                - Sendet den HTTP-Request
-                - Wartet auf die Antwort des Servers"""
+                "feedback": """✓ Korrekt! Der Client ist Ihr Computer oder Browser, initiiert die Kommunikation, sendet den HTTP-Request und wartet auf die Antwort des Servers."""
             },
             {
                 "answer": "Die URL (Uniform Resource Locator) spezifiziert die gewünschte Ressource",
                 "correct": True,
-                "feedback": """✓ Korrekt! Die URL:
-                - Ist die Webadresse
-                - Enthält Protokoll, Domain, Pfad und ggf. Parameter
-                - Identifiziert die angeforderte Ressource
-                - Beispiel: https://www.berlin.de/rbmskzl/"""
+                "feedback": """✓ Korrekt! Die URL ist die Webadresse, enthält Protokoll, Domain, Pfad und ggf. Parameter und identifiziert die angeforderte Ressource, zum Beispiel https://www.berlin.de/rbmskzl/."""
             },
             {
                 "answer": "Die Request-Methode (z.B. GET oder POST) gibt an, welche Aktion erwartet wird",
                 "correct": True,
-                "feedback": """✓ Korrekt! Die Request-Methode:
-                - GET: Daten anfordern ohne Veränderung
-                - POST: Daten an den Server senden
-                - Definiert die Art der Anfrage
-                - Wichtig für die Server-Verarbeitung"""
+                "feedback": """✓ Korrekt! Die Request-Methode definiert die Art der Anfrage und ist wichtig für die Server-Verarbeitung: Bei GET werden Daten angefordert, ohne sie zu verändern, bei POST werden Daten an den Server gesendet."""
             },
             {
                 "answer": "Der Server ist derjenige, der die Anfrage stellt",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Wichtige Unterscheidung:
-                - Der CLIENT stellt die Anfrage
-                - Der SERVER empfängt die Anfrage
-                - Der Server antwortet dann mit einer Response
-                - Client und Server haben unterschiedliche Rollen"""
+                "feedback": """× Nicht korrekt. Wichtige Unterscheidung: Der CLIENT stellt die Anfrage, der SERVER empfängt die Anfrage und antwortet dann mit einer Response, denn Client und Server haben unterschiedliche Rollen."""
             }
         ]
     }
@@ -101,38 +85,22 @@ question2 = [
             {
                 "answer": "GET-Requests fordern Daten an, ohne sie zu verändern",
                 "correct": True,
-                "feedback": """✓ Korrekt! GET-Requests:
-                - Nur Daten abrufen
-                - Keine Veränderungen am Server
-                - Vergleichbar mit einem Katalog bestellen
-                - Standard für Webseiten-Aufrufe"""
+                "feedback": """✓ Korrekt! GET-Requests rufen nur Daten ab, ohne Veränderungen am Server vorzunehmen, sind vergleichbar mit dem Bestellen aus einem Katalog und sind Standard für Webseiten-Aufrufe."""
             },
             {
                 "answer": "POST-Requests senden Daten an den Server",
                 "correct": True,
-                "feedback": """✓ Korrekt! POST-Requests:
-                - Übermitteln Daten zum Server
-                - Z.B. Formulardaten, Login-Informationen
-                - Vergleichbar mit ausgefülltes Formular zurücksenden
-                - Daten sind nicht in der URL sichtbar"""
+                "feedback": """✓ Korrekt! POST-Requests übermitteln Daten zum Server, zum Beispiel Formulardaten oder Login-Informationen, sind vergleichbar mit dem Zurücksenden eines ausgefüllten Formulars, und die Daten sind dabei nicht in der URL sichtbar."""
             },
             {
                 "answer": "GET-Requests sind in der URL sichtbar, POST-Requests nicht",
                 "correct": True,
-                "feedback": """✓ Korrekt! Wichtiger Unterschied:
-                - GET: Parameter in der URL (z.B. ?suche=Begriff)
-                - POST: Daten im Request-Body
-                - Sicherheitsaspekt bei sensiblen Daten
-                - POST besser für Passwörter etc."""
+                "feedback": """✓ Korrekt! Das ist ein wichtiger Unterschied: Bei GET stehen Parameter in der URL (z.B. ?suche=Begriff), bei POST stehen die Daten im Request-Body, was bei sensiblen Daten einen Sicherheitsaspekt darstellt, weshalb POST für Passwörter etc. besser geeignet ist."""
             },
             {
                 "answer": "GET und POST sind völlig identisch in ihrer Funktion",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Sie haben unterschiedliche Zwecke:
-                - GET: Daten abrufen
-                - POST: Daten senden
-                - Verschiedene Anwendungsfälle
-                - Unterschiedliche Sicherheitsaspekte"""
+                "feedback": """× Nicht korrekt. Sie haben unterschiedliche Zwecke: GET dient dem Abrufen von Daten, POST dem Senden von Daten, und beide unterscheiden sich in Anwendungsfällen und Sicherheitsaspekten."""
             }
         ]
     }
@@ -186,38 +154,22 @@ question4 = [
             {
                 "answer": "Einen Statuscode zur Information über den Erfolg der Anfrage",
                 "correct": True,
-                "feedback": """✓ Korrekt! Der Statuscode:
-                - Informiert über Erfolg oder Misserfolg
-                - Dreistellige Zahl (z.B. 200, 404)
-                - Erste Stelle gibt Kategorie an
-                - Ermöglicht Fehlerbehandlung"""
+                "feedback": """✓ Korrekt! Der Statuscode informiert über Erfolg oder Misserfolg, ist eine dreistellige Zahl (z.B. 200, 404), deren erste Stelle die Kategorie angibt, und ermöglicht so eine Fehlerbehandlung."""
             },
             {
                 "answer": "Einen Response-Header mit Metainformationen über die Antwort",
                 "correct": True,
-                "feedback": """✓ Korrekt! Der Response-Header:
-                - Enthält Metainformationen
-                - Z.B. Content-Type, Datum, Server-Info
-                - Wichtig für die Verarbeitung
-                - Nicht der eigentliche Inhalt"""
+                "feedback": """✓ Korrekt! Der Response-Header enthält Metainformationen, z.B. Content-Type, Datum und Server-Info, die für die Verarbeitung wichtig sind, aber nicht den eigentlichen Inhalt darstellen."""
             },
             {
                 "answer": "Einen Response-Body mit dem eigentlichen Inhalt",
                 "correct": True,
-                "feedback": """✓ Korrekt! Der Response-Body:
-                - Enthält den eigentlichen Inhalt
-                - Meist HTML-Code für Webseiten
-                - Kann auch Bilder, JSON, PDFs sein
-                - Was Sie tatsächlich sehen möchten"""
+                "feedback": """✓ Korrekt! Der Response-Body enthält den eigentlichen Inhalt, meist HTML-Code für Webseiten, kann aber auch Bilder, JSON oder PDFs enthalten, also das, was Sie tatsächlich sehen möchten."""
             },
             {
                 "answer": "Die URL der nächsten zu besuchenden Seite",
                 "correct": False,
-                "feedback": """× Nicht standardmäßig. Die Response:
-                - Enthält die angeforderten Daten
-                - Keine automatische nächste URL
-                - Links können im HTML-Body sein
-                - Aber nicht als Standard-Komponente"""
+                "feedback": """× Nicht standardmäßig. Die Response enthält die angeforderten Daten, aber keine automatische nächste URL; Links können zwar im HTML-Body enthalten sein, jedoch nicht als Standard-Komponente."""
             }
         ]
     }
@@ -243,38 +195,22 @@ question5 = [
             {
                 "answer": "Statische Websites sind fertige Dokumente, die unverändert vom Server gesendet werden",
                 "correct": True,
-                "feedback": """✓ Korrekt! Statische Websites:
-                - Liegen fertig vor
-                - Werden unverändert gesendet
-                - Wie ein Buch aus der Bibliothek
-                - Alle Inhalte im HTML-Code"""
+                "feedback": """✓ Korrekt! Statische Websites liegen fertig vor und werden unverändert gesendet, ähnlich wie ein Buch aus der Bibliothek, wobei alle Inhalte bereits im HTML-Code enthalten sind."""
             },
             {
                 "answer": "Dynamische Websites werden erst bei der Anfrage zusammengestellt",
                 "correct": True,
-                "feedback": """✓ Korrekt! Dynamische Websites:
-                - Werden on-demand erstellt
-                - Oft mit JavaScript
-                - Inhalte werden nachgeladen
-                - Wie ein Koch, der auf Bestellung kocht"""
+                "feedback": """✓ Korrekt! Dynamische Websites werden on-demand erstellt, oft mit JavaScript, wobei Inhalte nachgeladen werden, ähnlich wie ein Koch, der auf Bestellung kocht."""
             },
             {
                 "answer": "Statische Websites können leicht mit einfachen Scraping-Methoden extrahiert werden",
                 "correct": True,
-                "feedback": """✓ Korrekt! Vorteil für Scraping:
-                - Alle Inhalte direkt im HTML
-                - Einfaches requests reicht oft
-                - Kein Browser nötig
-                - Schneller und einfacher"""
+                "feedback": """✓ Korrekt! Das ist ein Vorteil für Scraping: Alle Inhalte stehen direkt im HTML, oft reicht einfaches requests, ein Browser ist nicht nötig, und das Vorgehen ist schneller und einfacher."""
             },
             {
                 "answer": "Dynamische Websites benötigen keine speziellen Scraping-Methoden",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Dynamische Websites:
-                - Benötigen fortgeschrittene Methoden
-                - Oft Selenium erforderlich
-                - Browser-Simulation nötig
-                - JavaScript muss ausgeführt werden"""
+                "feedback": """× Nicht korrekt. Dynamische Websites benötigen fortgeschrittene Methoden, oft ist Selenium erforderlich, eine Browser-Simulation ist nötig, und JavaScript muss ausgeführt werden."""
             }
         ]
     }
@@ -327,38 +263,22 @@ question7 = [
             {
                 "answer": "Einfach zu implementieren und geringer Ressourcenverbrauch",
                 "correct": True,
-                "feedback": """✓ Korrekt! Vorteile von requests:
-                - Sehr einfache Syntax
-                - Wenig Rechenleistung nötig
-                - Schnell
-                - Gut für Einsteiger"""
+                "feedback": """✓ Korrekt! Vorteile von requests sind die sehr einfache Syntax, der geringe Bedarf an Rechenleistung, die Geschwindigkeit und die gute Eignung für Einsteiger."""
             },
             {
                 "answer": "Ausreichend für einfache Scraping-Aufgaben mit statischen Seiten",
                 "correct": True,
-                "feedback": """✓ Korrekt! Anwendungsbereich:
-                - Perfekt für statische Seiten
-                - Einzelne Seiten abrufen
-                - Wenn HTML direkt verfügbar ist
-                - Keine komplexen Interaktionen"""
+                "feedback": """✓ Korrekt! Der Anwendungsbereich umfasst statische Seiten, das Abrufen einzelner Seiten sowie Fälle, in denen HTML direkt verfügbar ist und keine komplexen Interaktionen nötig sind."""
             },
             {
                 "answer": "Kann automatisch Links folgen und mehrere Seiten durchsuchen",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Das ist ein Nachteil:
-                - Nur einzelne Seiten
-                - Keine automatische Navigation
-                - Für mehrere Seiten: scrapy besser
-                - Manuelle Programmierung nötig"""
+                "feedback": """× Nicht korrekt. Das ist ein Nachteil: Es können nur einzelne Seiten abgerufen werden, eine automatische Navigation fehlt, für mehrere Seiten eignet sich scrapy besser, und eine manuelle Programmierung ist nötig."""
             },
             {
                 "answer": "Geeignet für dynamisch generierte Inhalte mit JavaScript",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Das ist ein Nachteil:
-                - Nur statische Inhalte
-                - JavaScript wird nicht ausgeführt
-                - Für dynamische Inhalte: selenium nötig
-                - Sieht nur den ursprünglichen HTML-Code"""
+                "feedback": """× Nicht korrekt. Das ist ein Nachteil: Es werden nur statische Inhalte erfasst, JavaScript wird nicht ausgeführt, für dynamische Inhalte ist selenium nötig, und es wird nur der ursprüngliche HTML-Code gesehen."""
             }
         ]
     }
@@ -384,38 +304,22 @@ question8 = [
             {
                 "answer": "Wenn Inhalte dynamisch mittels JavaScript geladen werden",
                 "correct": True,
-                "feedback": """✓ Korrekt! Selenium ist nötig für:
-                - JavaScript-generierte Inhalte
-                - Dynamisches Nachladen
-                - Interaktive Elemente
-                - Single Page Applications"""
+                "feedback": """✓ Korrekt! Selenium ist nötig für JavaScript-generierte Inhalte, dynamisches Nachladen, interaktive Elemente und Single Page Applications."""
             },
             {
                 "answer": "Wenn Benutzerinteraktionen simuliert werden müssen (z.B. Klicken, Scrollen)",
                 "correct": True,
-                "feedback": """✓ Korrekt! Selenium kann:
-                - Buttons klicken
-                - Formulare ausfüllen
-                - Scrollen
-                - Wie ein menschlicher Nutzer agieren"""
+                "feedback": """✓ Korrekt! Selenium kann Buttons klicken, Formulare ausfüllen und scrollen und dabei wie ein menschlicher Nutzer agieren."""
             },
             {
                 "answer": "Wenn man eine einfache statische Webseite abrufen möchte",
                 "correct": False,
-                "feedback": """× Nicht optimal. Für statische Seiten:
-                - requests ist ausreichend
-                - Selenium wäre overkill
-                - Zu ressourcenintensiv
-                - Zu langsam für einfache Aufgaben"""
+                "feedback": """× Nicht optimal. Für statische Seiten ist requests ausreichend, Selenium wäre overkill, da es zu ressourcenintensiv und zu langsam für einfache Aufgaben ist."""
             },
             {
                 "answer": "Wenn Geschwindigkeit und geringer Ressourcenverbrauch wichtig sind",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Selenium:
-                - Ist deutlich langsamer
-                - Benötigt mehr Ressourcen
-                - Startet einen echten Browser
-                - Für Geschwindigkeit: requests oder scrapy"""
+                "feedback": """× Nicht korrekt. Selenium ist deutlich langsamer, benötigt mehr Ressourcen und startet einen echten Browser; für Geschwindigkeit eignen sich requests oder scrapy besser."""
             }
         ]
     }
@@ -441,38 +345,22 @@ question10 = [
             {
                 "answer": "Die robots.txt-Datei einer Website sollte beachtet werden",
                 "correct": True,
-                "feedback": """✓ Korrekt! Die robots.txt:
-                - Gibt Scraping-Richtlinien vor
-                - Zeigt, welche Bereiche erlaubt sind
-                - Sollte respektiert werden
-                - Liegt meist unter example.com/robots.txt"""
+                "feedback": """✓ Korrekt! Die robots.txt gibt Scraping-Richtlinien vor, zeigt, welche Bereiche erlaubt sind, sollte respektiert werden und liegt meist unter example.com/robots.txt."""
             },
             {
                 "answer": "Angemessene Wartezeiten zwischen Anfragen sollten eingehalten werden",
                 "correct": True,
-                "feedback": """✓ Korrekt! Wartezeiten:
-                - Vermeiden Serverüberlastung
-                - Zeigen respektvolles Verhalten
-                - Typisch: 1-2 Sekunden zwischen Requests
-                - Verhindert, als Angriff wahrgenommen zu werden"""
+                "feedback": """✓ Korrekt! Wartezeiten vermeiden Serverüberlastung, zeigen respektvolles Verhalten, liegen typisch bei 1-2 Sekunden zwischen Requests und verhindern, dass das Scraping als Angriff wahrgenommen wird."""
             },
             {
                 "answer": "Persönliche Daten dürfen ohne Einwilligung gesammelt werden, wenn sie öffentlich sind",
                 "correct": False,
-                "feedback": """× Nicht korrekt! Datenschutz beachten:
-                - Auch öffentliche Daten unterliegen Datenschutz
-                - DSGVO muss beachtet werden
-                - Einwilligung oft erforderlich
-                - Besondere Vorsicht bei personenbezogenen Daten"""
+                "feedback": """× Nicht korrekt! Der Datenschutz muss beachtet werden: Auch öffentliche Daten unterliegen dem Datenschutz, die DSGVO muss beachtet werden, eine Einwilligung ist oft erforderlich, und besondere Vorsicht ist bei personenbezogenen Daten geboten."""
             },
             {
                 "answer": "Urheberrecht und Nutzungsbedingungen der Websites müssen beachtet werden",
                 "correct": True,
-                "feedback": """✓ Korrekt! Rechtliche Aspekte:
-                - Urheberrecht gilt auch im Web
-                - Terms of Service lesen
-                - Nicht jede öffentliche Information darf genutzt werden
-                - Bei Unsicherheit: rechtliche Beratung einholen"""
+                "feedback": """✓ Korrekt! Zu den rechtlichen Aspekten gehört, dass das Urheberrecht auch im Web gilt, die Terms of Service gelesen werden sollten und nicht jede öffentliche Information genutzt werden darf; bei Unsicherheit sollte rechtliche Beratung eingeholt werden."""
             }
         ]
     }

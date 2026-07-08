@@ -44,47 +44,27 @@ question1 = [
             {
                 "answer": "Die Entwicklung eines Erkennungs- oder Messverfahrens für ein theoretisches Konzept",
                 "correct": True,
-                "feedback": """✓ Korrekt! Operationalisierung bezeichnet genau diesen Prozess:
-                - Theoretische Konzepte werden messbar gemacht
-                - Es wird ein konkretes Verfahren entwickelt
-                - Dies ermöglicht empirische Überprüfung
-                - Essentiell für quantitative Analysen"""
+                "feedback": """✓ Korrekt! Operationalisierung bezeichnet genau diesen Prozess: Theoretische Konzepte werden messbar gemacht, es wird ein konkretes Verfahren entwickelt, dies ermöglicht empirische Überprüfung und ist essentiell für quantitative Analysen."""
             },
             {
                 "answer": "Die Brücke zwischen qualitativen Fragestellungen und quantitativen Methoden",
                 "correct": True,
-                "feedback": """✓ Korrekt! Die Operationalisierung ist tatsächlich diese Brücke:
-                - Verbindet 'numbers' mit 'meaning'
-                - Ermöglicht quantitative Analyse qualitativer Fragen
-                - Zentral für Digital Humanities-Projekte
-                - Macht geisteswissenschaftliche Konzepte messbar"""
+                "feedback": """✓ Korrekt! Die Operationalisierung ist tatsächlich diese Brücke: Sie verbindet 'numbers' mit 'meaning', ermöglicht quantitative Analyse qualitativer Fragen, ist zentral für Digital Humanities-Projekte und macht geisteswissenschaftliche Konzepte messbar."""
             },
             {
                 "answer": "Die technische Implementierung von Analysealgorithmen",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Die technische Implementierung ist ein späterer Schritt:
-                - Operationalisierung findet VOR der technischen Umsetzung statt
-                - Sie definiert WAS gemessen werden soll
-                - Die Implementierung beschäftigt sich mit dem WIE
-                - Operationalisierung ist konzeptionelle Arbeit"""
+                "feedback": """× Nicht korrekt. Die technische Implementierung ist ein späterer Schritt: Die Operationalisierung findet VOR der technischen Umsetzung statt, sie definiert WAS gemessen werden soll, die Implementierung beschäftigt sich mit dem WIE, und die Operationalisierung ist konzeptionelle Arbeit."""
             },
             {
                 "answer": "Die Dokumentation der verwendeten Software und Tools",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Dokumentation ist wichtig, aber nicht Operationalisierung:
-                - Operationalisierung definiert Messverfahren
-                - Dokumentation beschreibt die Umsetzung
-                - Beides sind getrennte Schritte im Forschungsprozess
-                - Operationalisierung ist konzeptionell, Dokumentation ist deskriptiv"""
+                "feedback": """× Nicht korrekt. Dokumentation ist wichtig, aber nicht Operationalisierung: Die Operationalisierung definiert Messverfahren, die Dokumentation beschreibt die Umsetzung, beides sind getrennte Schritte im Forschungsprozess, und die Operationalisierung ist konzeptionell, während die Dokumentation deskriptiv ist."""
             },
             {
                 "answer": "Ein Prozess, der immer eindeutig und unstrittig ist",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Operationalisierung ist diskutabel:
-                - Verschiedene Operationalisierungen sind möglich
-                - Die Wahl muss begründet und reflektiert werden
-                - Grenzen und Beschränkungen müssen erkannt werden
-                - Teil der wissenschaftlichen Reflexion"""
+                "feedback": """× Nicht korrekt. Operationalisierung ist diskutabel: Verschiedene Operationalisierungen sind möglich, die Wahl muss begründet und reflektiert werden, Grenzen und Beschränkungen müssen erkannt werden, und dies ist Teil der wissenschaftlichen Reflexion."""
             }
         ]
     }
@@ -110,47 +90,27 @@ question2 = [
             {
                 "answer": "Leichte Sprache ist seit der Ratifizierung der UN-Behindertenrechtskonvention 2009 in Deutschland rechtlich relevant",
                 "correct": True,
-                "feedback": """✓ Korrekt! Die UN-Behindertenrechtskonvention:
-                - Wurde 2009 in Deutschland ratifiziert
-                - Ist verbindliches Recht
-                - Beinhaltet Verpflichtung zur barrierefreien Kommunikation
-                - Gab Leichter Sprache rechtliche Bedeutung"""
+                "feedback": """✓ Korrekt! Die UN-Behindertenrechtskonvention wurde 2009 in Deutschland ratifiziert, ist verbindliches Recht, beinhaltet die Verpflichtung zur barrierefreien Kommunikation und gab der Leichten Sprache rechtliche Bedeutung."""
             },
             {
                 "answer": "Kommunikative Barrierearmut ist ein binäres Konzept: Entweder eine Kommunikation ist barrierefrei oder nicht",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Barrierearmut ist graduell:
-                - Sprache kann mehr oder weniger verständlich sein
-                - Es gibt verschiedene Grade der Komplexität
-                - Nicht entweder-oder, sondern ein Kontinuum
-                - Dies ermöglicht die Messung von Veränderungen"""
+                "feedback": """× Nicht korrekt. Barrierearmut ist graduell: Sprache kann mehr oder weniger verständlich sein, es gibt verschiedene Grade der Komplexität, es handelt sich nicht um ein Entweder-Oder, sondern um ein Kontinuum, und dies ermöglicht die Messung von Veränderungen."""
             },
             {
                 "answer": "Leichte Sprache bezieht sich nur auf die Wortebene (z.B. Vermeidung von Fremdwörtern)",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Leichte Sprache umfasst mehrere Ebenen:
-                - Wortebene (gelaufige Wörter, keine Fremdwörter)
-                - Satzebene (Verbalstil, einfache Strukturen)
-                - Textebene (Gliederung, Zusammenfassungen)
-                - Alle Ebenen tragen zur Verständlichkeit bei"""
+                "feedback": """× Nicht korrekt. Leichte Sprache umfasst mehrere Ebenen: die Wortebene (geläufige Wörter, keine Fremdwörter), die Satzebene (Verbalstil, einfache Strukturen) und die Textebene (Gliederung, Zusammenfassungen); alle Ebenen tragen zur Verständlichkeit bei."""
             },
             {
                 "answer": "Die gesellschaftliche Aufmerksamkeit für Leichte Sprache hat in den letzten Jahren zugenommen",
                 "correct": True,
-                "feedback": """✓ Korrekt! Dies zeigt sich beispielsweise:
-                - In der Zunahme des Begriffs im Google Books-Korpus
-                - In der Entwicklung von Regelwerken und Standards
-                - In der DIN SPEC von März 2025
-                - In vermehrten Angeboten von Behörden"""
+                "feedback": """✓ Korrekt! Dies zeigt sich beispielsweise in der Zunahme des Begriffs im Google Books-Korpus, in der Entwicklung von Regelwerken und Standards, in der DIN SPEC von März 2025 und in vermehrten Angeboten von Behörden."""
             },
             {
                 "answer": "Leichte Sprache betrifft ausschließlich Menschen mit Behinderungen",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Leichte Sprache hat breitere Relevanz:
-                - Betrifft Grundfragen gesellschaftlicher Teilhabe
-                - Relevant für verschiedene Zielgruppen
-                - Fördert allgemeine Verständlichkeit
-                - Nicht auf eine Gruppe beschränkt"""
+                "feedback": """× Nicht korrekt. Leichte Sprache hat breitere Relevanz: Sie betrifft Grundfragen gesellschaftlicher Teilhabe, ist relevant für verschiedene Zielgruppen, fördert allgemeine Verständlichkeit und ist nicht auf eine Gruppe beschränkt."""
             }
         ]
     }
@@ -176,47 +136,27 @@ question3 = [
             {
                 "answer": "Lesbarkeitsindizes nutzen häufig durchschnittliche Wortlänge und Satzlänge als Parameter",
                 "correct": True,
-                "feedback": """✓ Korrekt! Diese Parameter:
-                - Sind zentral für viele Lesbarkeitsindizes
-                - Lassen sich objektiv messen
-                - Korrelieren mit Textkomplexität
-                - Werden auch in der Leichte-Sprache-Forschung verwendet"""
+                "feedback": """✓ Korrekt! Diese Parameter sind zentral für viele Lesbarkeitsindizes, lassen sich objektiv messen, korrelieren mit Textkomplexität und werden auch in der Leichte-Sprache-Forschung verwendet."""
             },
             {
                 "answer": "Lesbarkeitsindizes erfassen alle Aspekte der Leichten Sprache vollständig",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Lesbarkeitsindizes sind begrenzt:
-                - Sie erfassen nur ausgewählte Indikatoren
-                - Metaphern, Fremdwörter etc. werden oft nicht berücksichtigt
-                - Textebene (Gliederung) ist schwer messbar
-                - Die Operationalisierung wählt bewusst ein Set aus Indikatoren"""
+                "feedback": """× Nicht korrekt. Lesbarkeitsindizes sind begrenzt: Sie erfassen nur ausgewählte Indikatoren, Metaphern, Fremdwörter etc. werden oft nicht berücksichtigt, die Textebene (Gliederung) ist schwer messbar, und die Operationalisierung wählt bewusst ein Set aus Indikatoren."""
             },
             {
                 "answer": "Steigende Werte in Lesbarkeitsindizes bedeuten immer höhere Verständlichkeit",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Die Interpretation hängt vom Index ab:
-                - Manche Indexe messen Komplexität (höher = schwieriger)
-                - Andere messen Lesbarkeit (höher = leichter)
-                - Die Interpretation muss jeweils definiert werden
-                - In unserer Fallstudie: höhere Komplexität = weniger barrierefrei"""
+                "feedback": """× Nicht korrekt. Die Interpretation hängt vom Index ab: Manche Indexe messen Komplexität (höher bedeutet schwieriger), andere messen Lesbarkeit (höher bedeutet leichter), die Interpretation muss jeweils definiert werden, und in unserer Fallstudie bedeutet höhere Komplexität weniger Barrierefreiheit."""
             },
             {
                 "answer": "Lesbarkeitsindizes ermöglichen die Messung zeitlicher Entwicklungen in Textkomplexität",
                 "correct": True,
-                "feedback": """✓ Korrekt! Dies ist zentral für unsere Fragestellung:
-                - Quantitative Werte können über Zeit verglichen werden
-                - Trends lassen sich statistisch erfassen
-                - Veränderungen werden messbar
-                - Grundlage für die Beantwortung unserer Forschungsfrage"""
+                "feedback": """✓ Korrekt! Dies ist zentral für unsere Fragestellung: Quantitative Werte können über Zeit verglichen werden, Trends lassen sich statistisch erfassen, Veränderungen werden messbar, und dies ist die Grundlage für die Beantwortung unserer Forschungsfrage."""
             },
             {
                 "answer": "Lesbarkeitsindizes sind die einzige Möglichkeit, Textkomplexität zu operationalisieren",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Es gibt verschiedene Ansätze:
-                - Lesbarkeitsindizes sind eine mögliche Operationalisierung
-                - Andere Indikatoren wären denkbar (z.B. Fremdwortanteil)
-                - Die Wahl muss begründet werden
-                - Alternative Operationalisierungen sind legitim"""
+                "feedback": """× Nicht korrekt. Es gibt verschiedene Ansätze: Lesbarkeitsindizes sind eine mögliche Operationalisierung, andere Indikatoren wären denkbar (z.B. Fremdwortanteil), die Wahl muss begründet werden, und alternative Operationalisierungen sind legitim."""
             }
         ]
     }
@@ -242,46 +182,27 @@ question4 = [
             {
                 "answer": "Öffentliche Zugänglichkeit und maschinelle Aggregierbarkeit",
                 "correct": False,
-                "feedback": """× Dies war ein wichtiges Kriterium:
-                - Pressemitteilungen sind online verfügbar
-                - Systematisches Scraping ist möglich
-                - Notwendig für den Korpusaufbau
-                - Eines der vier definierten Kriterien"""
+                "feedback": """× Dies war ein wichtiges Kriterium: Pressemitteilungen sind online verfügbar, systematisches Scraping ist möglich, dies ist notwendig für den Korpusaufbau, und es ist eines der vier definierten Kriterien."""
             },
             {
                 "answer": "Funktion als Kommunikation der Behörden mit der Öffentlichkeit",
                 "correct": False,
-                "feedback": """× Dies war zentral für die Auswahl:
-                - Pressemitteilungen sind öffentliche Kommunikation
-                - Richten sich an Bürger:innen
-                - Repräsentativ für Behördenkommunikation
-                - Eines der vier definierten Kriterien"""
+                "feedback": """× Dies war zentral für die Auswahl: Pressemitteilungen sind öffentliche Kommunikation, richten sich an Bürger:innen, sind repräsentativ für Behördenkommunikation und sind eines der vier definierten Kriterien."""
             },
             {
                 "answer": "Homogenität der Textsorte",
                 "correct": False,
-                "feedback": """× Dies war ein wichtiges Kriterium:
-                - Vermeidet Verzerrungen durch unterschiedliche Konventionen
-                - Ermöglicht valide Vergleiche über Zeit
-                - Pressemitteilungen folgen ähnlichen Mustern
-                - Eines der vier definierten Kriterien"""
+                "feedback": """× Dies war ein wichtiges Kriterium: Es vermeidet Verzerrungen durch unterschiedliche Konventionen, ermöglicht valide Vergleiche über Zeit, Pressemitteilungen folgen ähnlichen Mustern, und es ist eines der vier definierten Kriterien."""
             },
             {
                 "answer": "Maximale Länge der Einzeltexte",
                 "correct": True,
-                "feedback": """✓ Korrekt! Die Textlänge war KEIN definiertes Kriterium:
-                - Die vier Kriterien waren: Zugänglichkeit, Kommunikationsfunktion, Homogenität, zeitliche Situierbarkeit
-                - Textlänge spielt für die Analyse mit Lesbarkeitsindizes keine ausschlaggebende Rolle
-                - Kurze und lange Texte können beide analysiert werden"""
+                "feedback": """✓ Korrekt! Die Textlänge war KEIN definiertes Kriterium: Die vier Kriterien waren Zugänglichkeit, Kommunikationsfunktion, Homogenität und zeitliche Situierbarkeit, die Textlänge spielt für die Analyse mit Lesbarkeitsindizes keine ausschlaggebende Rolle, und kurze wie lange Texte können beide analysiert werden."""
             },
             {
                 "answer": "Präzise zeitliche Situierbarkeit der Einzeltexte",
                 "correct": False,
-                "feedback": """× Dies war essentiell:
-                - Pressemitteilungen haben klare Publikationsdaten
-                - Ermöglicht Analyse zeitlicher Entwicklungen
-                - Zentral für die Forschungsfrage
-                - Eines der vier definierten Kriterien"""
+                "feedback": """× Dies war essentiell: Pressemitteilungen haben klare Publikationsdaten, dies ermöglicht die Analyse zeitlicher Entwicklungen, ist zentral für die Forschungsfrage und eines der vier definierten Kriterien."""
             }
         ]
     }
@@ -388,56 +309,32 @@ question7 = [
             {
                 "answer": "Die Reflexion der Grenzen und Beschränkungen der eigenen Operationalisierung ist essentieller Bestandteil von DH-Projekten",
                 "correct": True,
-                "feedback": """✓ Korrekt! Wissenschaftliche Reflexion bedeutet:
-                - Bewusstsein für die Grenzen der eigenen Methode
-                - Transparente Dokumentation von Entscheidungen
-                - Diskussion alternativer Ansätze
-                - Teil der wissenschaftlichen Integrität"""
+                "feedback": """✓ Korrekt! Wissenschaftliche Reflexion bedeutet Bewusstsein für die Grenzen der eigenen Methode, transparente Dokumentation von Entscheidungen und Diskussion alternativer Ansätze, und ist Teil der wissenschaftlichen Integrität."""
             },
             {
                 "answer": "Jede Operationalisierung ist diskutabel und könnte auch anders erfolgen",
                 "correct": True,
-                "feedback": """✓ Korrekt! Dies ist wichtig zu verstehen:
-                - Es gibt selten die eine 'richtige' Operationalisierung
-                - Verschiedene Ansätze haben unterschiedliche Stärken
-                - Die Wahl muss begründet werden
-                - Wissenschaftlicher Diskurs ist erwünscht"""
+                "feedback": """✓ Korrekt! Dies ist wichtig zu verstehen: Es gibt selten die eine 'richtige' Operationalisierung, verschiedene Ansätze haben unterschiedliche Stärken, die Wahl muss begründet werden, und wissenschaftlicher Diskurs ist erwünscht."""
             },
             {
                 "answer": "Quantitative Methoden erfassen alle Aspekte qualitativer Phänomene vollständig",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Dies ist eine wichtige Einsicht:
-                - Quantifizierung bedeutet immer Reduktion
-                - Nicht alle Aspekte sind messbar
-                - Qualitative Dimensionen können verloren gehen
-                - Deshalb ist Reflexion so wichtig"""
+                "feedback": """× Nicht korrekt. Dies ist eine wichtige Einsicht: Quantifizierung bedeutet immer Reduktion, nicht alle Aspekte sind messbar, qualitative Dimensionen können verloren gehen, und deshalb ist Reflexion so wichtig."""
             },
             {
                 "answer": "Die Operationalisierung sollte nur dann reflektiert werden, wenn die Ergebnisse unerwartet sind",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Reflexion ist immer notwendig:
-                - Unabhängig von den Ergebnissen
-                - Teil des Forschungsprozesses von Anfang an
-                - Stärkt die wissenschaftliche Qualität
-                - Ermöglicht informierte Interpretation"""
+                "feedback": """× Nicht korrekt. Reflexion ist immer notwendig: Sie ist unabhängig von den Ergebnissen, Teil des Forschungsprozesses von Anfang an, stärkt die wissenschaftliche Qualität und ermöglicht informierte Interpretation."""
             },
             {
                 "answer": "Eine gute Operationalisierung macht die Forschungsfrage für quantitative Analyse adressierbar",
                 "correct": True,
-                "feedback": """✓ Korrekt! Das ist die Kernfunktion:
-                - Verbindet qualitative Fragen mit quantitativen Methoden
-                - Macht abstrakte Konzepte messbar
-                - Ermöglicht empirische Überprüfung
-                - 'From numbers to meaning'"""
+                "feedback": """✓ Korrekt! Das ist die Kernfunktion: Sie verbindet qualitative Fragen mit quantitativen Methoden, macht abstrakte Konzepte messbar und ermöglicht empirische Überprüfung, nach dem Prinzip 'from numbers to meaning'."""
             },
             {
                 "answer": "Einschränkungen der Operationalisierung bedeuten, dass die Forschung wertlos ist",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Wichtige Differenzierung:
-                - Jede Operationalisierung hat Grenzen
-                - Dies schmälert nicht den Wert der Forschung
-                - Wichtig ist die bewusste Reflexion
-                - Transparenz über Grenzen erhöht die wissenschaftliche Qualität"""
+                "feedback": """× Nicht korrekt. Wichtige Differenzierung: Jede Operationalisierung hat Grenzen, dies schmälert jedoch nicht den Wert der Forschung, wichtig ist die bewusste Reflexion, und Transparenz über Grenzen erhöht die wissenschaftliche Qualität."""
             }
         ]
     }
@@ -552,48 +449,27 @@ question10 = [
             {
                 "answer": "Auszählen aller Wörter mit Ausrufezeichen in den Protokollen",
                 "correct": False,
-                "feedback": """× Zu eng gefasst:
-                - Erfasst nur einen sehr spezifischen Aspekt
-                - Interpunktion ist nicht immer zuverlässig transkribiert
-                - Emotionalität äußert sich vielfältiger
-                - Würde wichtige Dimensionen übersehen"""
+                "feedback": """× Zu eng gefasst: Dies erfasst nur einen sehr spezifischen Aspekt, Interpunktion ist nicht immer zuverlässig transkribiert, Emotionalität äußert sich vielfältiger, und wichtige Dimensionen würden übersehen."""
             },
             {
                 "answer": "Messung positiver/negativer Emotionen und Analyse emotionaler Wörter mittels Sentimentanalyse-Tools",
                 "correct": True,
-                "feedback": """✓ Gute Operationalisierung, weil:
-                - Sentimentanalyse ist etabliertes Verfahren
-                - Erfasst verschiedene emotionale Dimensionen
-                - Quantitativ messbar und vergleichbar über Zeit
-                - Kann durch weitere Indikatoren ergänzt werden
-                - Trotzdem: Grenzen müssen reflektiert werden (z.B. Kontextabhängigkeit, Ironie)"""
+                "feedback": """✓ Gute Operationalisierung, weil Sentimentanalyse ein etabliertes Verfahren ist, verschiedene emotionale Dimensionen erfasst, quantitativ messbar und über Zeit vergleichbar ist und durch weitere Indikatoren ergänzt werden kann; trotzdem müssen Grenzen reflektiert werden (z.B. Kontextabhängigkeit, Ironie)."""
             },
             {
                 "answer": "Befragung von Politiker:innen, wie emotional sie ihre Reden empfinden",
                 "correct": False,
-                "feedback": """× Nicht für diese Fragestellung geeignet:
-                - Subjektive Einschätzungen statt objektiver Messung
-                - Retrospektive Befragung über lange Zeiträume unmöglich
-                - Keine Vergleichbarkeit über Jahrzehnte
-                - Passt nicht zum quantitativen Methodenparadigma der Korpusanalyse"""
+                "feedback": """× Nicht für diese Fragestellung geeignet: Es liefert subjektive Einschätzungen statt objektiver Messung, eine retrospektive Befragung über lange Zeiträume ist unmöglich, es gibt keine Vergleichbarkeit über Jahrzehnte, und es passt nicht zum quantitativen Methodenparadigma der Korpusanalyse."""
             },
             {
                 "answer": "Zählen der Zwischenrufe und Reaktionen im Protokoll",
                 "correct": False,
-                "feedback": """× Misst etwas anderes:
-                - Erfasst Reaktionen des Publikums, nicht Emotionalität der Rede selbst
-                - Protokollierung von Zwischenrufen kann sich über Zeit ändern
-                - Nur indirekter Indikator
-                - Könnte ergänzend interessant sein, aber nicht als Hauptoperationalisierung"""
+                "feedback": """× Misst etwas anderes: Dies erfasst Reaktionen des Publikums, nicht die Emotionalität der Rede selbst, die Protokollierung von Zwischenrufen kann sich über Zeit ändern, es ist nur ein indirekter Indikator, und es könnte ergänzend interessant sein, aber nicht als Hauptoperationalisierung."""
             },
             {
                 "answer": "Messung der Lautstärke in Audioaufnahmen",
                 "correct": False,
-                "feedback": """× Praktisch problematisch:
-                - Audioaufnahmen nicht für alle Zeiträume verfügbar
-                - Aufnahmequalität variiert stark
-                - Lautstärke ≠ Emotionalität
-                - Technische statt inhaltliche Messung"""
+                "feedback": """× Praktisch problematisch: Audioaufnahmen sind nicht für alle Zeiträume verfügbar, die Aufnahmequalität variiert stark, Lautstärke entspricht nicht Emotionalität, und es handelt sich um eine technische statt inhaltliche Messung."""
             }
         ]
     }

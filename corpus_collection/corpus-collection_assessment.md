@@ -49,44 +49,27 @@ question1 = [
             {
                 "answer": "Eine nach bestimmten Kriterien zusammengestellte Textsammlung",
                 "correct": True,
-                "feedback": """✓ Korrekt! Die kriteriengeleitete Zusammenstellung ist essentiell für wissenschaftliche Korpora. Die Kriterien müssen dabei:
-                - transparent dokumentiert sein
-                - zur Forschungsfrage passen
-                - systematisch angewendet werden"""
+                "feedback": """✓ Korrekt! Die kriteriengeleitete Zusammenstellung ist essentiell für wissenschaftliche Korpora. Die Kriterien müssen dabei transparent dokumentiert sein, zur Forschungsfrage passen und systematisch angewendet werden."""
             },
             {
                 "answer": "Eine Sammlung, die nur digitalisierte Bücher enthält",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Korpora können verschiedene Arten von Texten enthalten:
-                - Zeitungsartikel (wie in unserer Fallstudie)
-                - Literarische Texte
-                - Dokumente
-                - Andere Textformen
-                Die Art der Texte wird durch die Forschungsfrage bestimmt, nicht durch das Format."""
+                "feedback": """× Nicht korrekt. Korpora können verschiedene Arten von Texten enthalten, etwa Zeitungsartikel (wie in unserer Fallstudie), literarische Texte, Dokumente oder andere Textformen. Die Art der Texte wird durch die Forschungsfrage bestimmt, nicht durch das Format."""
             },
             {
                 "answer": "Eine Textsammlung, die spezifischen Forschungszwecken dient",
                 "correct": True,
-                "feedback": """✓ Korrekt! Die Zweckgebundenheit ist ein wichtiges Merkmal:
-                - Das Korpus wird für bestimmte Forschungsfragen zusammengestellt
-                - Die Forschungszwecke bestimmen die Auswahlkriterien
-                - Die Zweckbindung beeinflusst auch die Art der Aufbereitung der Texte"""
+                "feedback": """✓ Korrekt! Die Zweckgebundenheit ist ein wichtiges Merkmal: Das Korpus wird für bestimmte Forschungsfragen zusammengestellt, die Forschungszwecke bestimmen die Auswahlkriterien und die Zweckbindung beeinflusst auch die Art der Aufbereitung der Texte."""
             },
             {
                 "answer": "Eine beliebige Sammlung von digitalisierten Texten",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Eine beliebige Sammlung erfüllt nicht die wissenschaftlichen Anforderungen an ein Korpus:
-                - Es fehlen systematische Auswahlkriterien
-                - Die Zusammenstellung ist nicht durch Forschungsfragen motiviert
-                - Eine methodisch fundierte Analyse wäre nicht möglich"""
+                "feedback": """× Nicht korrekt. Eine beliebige Sammlung erfüllt nicht die wissenschaftlichen Anforderungen an ein Korpus: Es fehlen systematische Auswahlkriterien, die Zusammenstellung ist nicht durch Forschungsfragen motiviert und eine methodisch fundierte Analyse wäre nicht möglich."""
             },
             {
                 "answer": "Eine Sammlung, die immer alle verfügbaren Texte zu einem Thema enthalten muss",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Vollständigkeit ist nur eine mögliche Strategie des Korpusaufbaus:
-                - Wie im Text erläutert, gibt es verschiedene Strategien (z.B. repräsentative Stichproben)
-                - Die Vollständigkeit ist nur bei klar begrenzten, kleinen Untersuchungsbereichen sinnvoll
-                - Die Strategie der Korpuserstellung richtet sich nach der Forschungsfrage und praktischen Erwägungen"""
+                "feedback": """× Nicht korrekt. Vollständigkeit ist nur eine mögliche Strategie des Korpusaufbaus: Wie im Text erläutert, gibt es verschiedene Strategien (z.B. repräsentative Stichproben), die Vollständigkeit ist nur bei klar begrenzten, kleinen Untersuchungsbereichen sinnvoll und die Strategie der Korpuserstellung richtet sich nach der Forschungsfrage und praktischen Erwägungen."""
             }
         ]
     }
@@ -112,38 +95,22 @@ question2 = [
             {
                 "answer": "Ein Korpus, das besonders darauf ausgelegt wurde, für eine bestimmte Domäne repräsentativ zu sein",
                 "correct": True,
-                "feedback": """✓ Korrekt! Referenzkorpora sind spezielle Korpora:
-                - Besondere Aufmerksamkeit auf Repräsentativität
-                - Dienen als Vergleichsgrundlage für andere Studien
-                - Meist sorgfältig nach wissenschaftlichen Kriterien zusammengestellt
-                - Wichtig für die Standardisierung in der Forschung"""
+                "feedback": """✓ Korrekt! Referenzkorpora sind spezielle Korpora, bei denen besondere Aufmerksamkeit auf Repräsentativität gelegt wird, die als Vergleichsgrundlage für andere Studien dienen, meist sorgfältig nach wissenschaftlichen Kriterien zusammengestellt werden und wichtig für die Standardisierung in der Forschung sind."""
             },
             {
                 "answer": "Ein Korpus, das alle verfügbaren Texte einer Sprache enthält",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Ein Referenzkorpus:
-                - Muss nicht vollständig sein
-                - Fokussiert auf Repräsentativität, nicht Vollständigkeit
-                - Wird gezielt zusammengestellt
-                - Soll eine Domäne abbilden, nicht alles sammeln"""
+                "feedback": """× Nicht korrekt. Ein Referenzkorpus muss nicht vollständig sein, fokussiert auf Repräsentativität statt Vollständigkeit, wird gezielt zusammengestellt und soll eine Domäne abbilden, statt alles zu sammeln."""
             },
             {
                 "answer": "Ein Korpus, das als Vergleichsgrundlage für linguistische Studien dient",
                 "correct": True,
-                "feedback": """✓ Korrekt! Das ist eine wichtige Funktion:
-                - Dient als Standard für Vergleiche
-                - Ermöglicht Aussagen über typische Sprachverwendung
-                - Basis für normative Beschreibungen
-                - Wichtig für die Vergleichbarkeit von Studien"""
+                "feedback": """✓ Korrekt! Das ist eine wichtige Funktion: Es dient als Standard für Vergleiche, ermöglicht Aussagen über typische Sprachverwendung, ist Basis für normative Beschreibungen und wichtig für die Vergleichbarkeit von Studien."""
             },
             {
                 "answer": "Ein Korpus, das nur aus veröffentlichten wissenschaftlichen Texten besteht",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Referenzkorpora:
-                - Können verschiedene Textsorten enthalten
-                - Werden nach Domäne definiert, nicht nach Textsorte
-                - Beispiel: Ein Referenzkorpus für gesprochene Sprache enthält keine wissenschaftlichen Texte
-                - Die Zusammensetzung hängt vom Zweck ab"""
+                "feedback": """× Nicht korrekt. Referenzkorpora können verschiedene Textsorten enthalten und werden nach Domäne definiert, nicht nach Textsorte – ein Referenzkorpus für gesprochene Sprache enthält beispielsweise keine wissenschaftlichen Texte, denn die Zusammensetzung hängt vom Zweck ab."""
             }
         ]
     }
@@ -197,38 +164,22 @@ question4 = [
             {
                 "answer": "Die Grundgesamtheit muss bekannt und gut dokumentiert sein",
                 "correct": True,
-                "feedback": """✓ Korrekt! Ohne bekannte Grundgesamtheit:
-                - Kann keine Repräsentativität berechnet werden
-                - Keine validen statistischen Aussagen möglich
-                - Keine Grundlage für zufällige Auswahl
-                - Keine Bewertung der Stichprobenqualität"""
+                "feedback": """✓ Korrekt! Ohne bekannte Grundgesamtheit kann keine Repräsentativität berechnet werden, sind keine validen statistischen Aussagen möglich, fehlt die Grundlage für eine zufällige Auswahl und kann die Stichprobenqualität nicht bewertet werden."""
             },
             {
                 "answer": "Die Auswahl der Datensätze muss zufällig erfolgen",
                 "correct": True,
-                "feedback": """✓ Korrekt! Zufällige Auswahl ist essentiell:
-                - Vermeidet systematische Verzerrungen
-                - Ermöglicht statistische Inferenz
-                - Grundlage für Repräsentativität
-                - Wissenschaftlicher Standard für Stichproben"""
+                "feedback": """✓ Korrekt! Zufällige Auswahl ist essentiell: Sie vermeidet systematische Verzerrungen, ermöglicht statistische Inferenz, ist Grundlage für Repräsentativität und wissenschaftlicher Standard für Stichproben."""
             },
             {
                 "answer": "Das Korpus muss alle verfügbaren Texte enthalten",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Eine repräsentative Stichprobe:
-                - Ist definitionsgemäß eine Teilmenge
-                - Muss nicht vollständig sein
-                - Bildet die Grundgesamtheit statistisch ab
-                - Vollständigkeit würde ein vollständiges Korpus erfordern"""
+                "feedback": """× Nicht korrekt. Eine repräsentative Stichprobe ist definitionsgemäß eine Teilmenge, muss nicht vollständig sein und bildet die Grundgesamtheit statistisch ab – Vollständigkeit würde stattdessen ein vollständiges Korpus erfordern."""
             },
             {
                 "answer": "Die Texte müssen nach subjektiven Qualitätskriterien ausgewählt werden",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Bei repräsentativen Stichproben:
-                - Erfolgt die Auswahl ZUFÄLLIG, nicht nach Qualität
-                - Subjektive Kriterien würden Verzerrungen einführen
-                - Ziel ist statistische Repräsentativität
-                - Qualitätskriterien gehören zu anderen Strategien"""
+                "feedback": """× Nicht korrekt. Bei repräsentativen Stichproben erfolgt die Auswahl ZUFÄLLIG, nicht nach Qualität, da subjektive Kriterien Verzerrungen einführen würden – Ziel ist statistische Repräsentativität, während Qualitätskriterien zu anderen Strategien gehören."""
             }
         ]
     }
@@ -254,38 +205,22 @@ question5 = [
             {
                 "answer": "Analyse der Entwicklung literarischer Gattungen über verschiedene Jahrzehnte",
                 "correct": True,
-                "feedback": """✓ Korrekt! Ein balanciertes Korpus ist ideal, weil:
-                - Verschiedene Jahrzehnte gleichmäßig vertreten sein sollen
-                - Entwicklungen und Unterschiede analysiert werden
-                - Gezielte Auswahl nach Kriterien (Zeit, Gattung) erfolgt
-                - Statistische Korrelationen vermieden werden können"""
+                "feedback": """✓ Korrekt! Ein balanciertes Korpus ist ideal, weil verschiedene Jahrzehnte gleichmäßig vertreten sein sollen, Entwicklungen und Unterschiede analysiert werden, eine gezielte Auswahl nach Kriterien (Zeit, Gattung) erfolgt und statistische Korrelationen vermieden werden können."""
             },
             {
                 "answer": "Vollständige Erfassung aller Werke eines einzelnen Autors",
                 "correct": False,
-                "feedback": """× Nicht die beste Wahl. Hierfür wäre geeignet:
-                - Ein vollständiges Korpus
-                - Alle verfügbaren Werke werden gesammelt
-                - Klar begrenzter Gegenstandsbereich
-                - Keine Auswahl, sondern Vollständigkeit angestrebt"""
+                "feedback": """× Nicht die beste Wahl. Hierfür wäre ein vollständiges Korpus geeignet: Alle verfügbaren Werke werden gesammelt, der Gegenstandsbereich ist klar begrenzt und es wird keine Auswahl, sondern Vollständigkeit angestrebt."""
             },
             {
                 "answer": "Erste explorative Studie in einem wenig erschlossenen Forschungsbereich",
                 "correct": False,
-                "feedback": """× Nicht die beste Wahl. Hierfür wäre geeignet:
-                - Ein opportunistisches Korpus
-                - Sammlung verfügbarer Daten für erste Exploration
-                - Noch keine klaren Auswahlkriterien möglich
-                - Balancierung setzt Wissen über Domäne voraus"""
+                "feedback": """× Nicht die beste Wahl. Hierfür wäre ein opportunistisches Korpus geeignet: die Sammlung verfügbarer Daten dient der ersten Exploration, klare Auswahlkriterien sind noch nicht möglich und eine Balancierung setzt Wissen über die Domäne voraus."""
             },
             {
                 "answer": "Studie über Sprachvariation in verschiedenen Textsorten und Registern",
                 "correct": True,
-                "feedback": """✓ Korrekt! Ein balanciertes Korpus passt, weil:
-                - Verschiedene Textsorten gleichmäßig vertreten sein sollen
-                - Variation systematisch erfasst werden soll
-                - Gezielte Auswahl nach Kriterien (Textsorte, Register) erfolgt
-                - Unterschiede analysiert werden sollen"""
+                "feedback": """✓ Korrekt! Ein balanciertes Korpus passt, weil verschiedene Textsorten gleichmäßig vertreten sein sollen, Variation systematisch erfasst werden soll, eine gezielte Auswahl nach Kriterien (Textsorte, Register) erfolgt und Unterschiede analysiert werden sollen."""
             }
         ]
     }
@@ -311,39 +246,22 @@ question6 = [
             {
                 "answer": "Metadaten sind Daten über Daten",
                 "correct": True,
-                "feedback": """✓ Korrekt! Dies ist die grundlegende Definition:
-                - Metadaten beschreiben andere Daten
-                - Liefern kontextuelle Informationen
-                - Helfen beim Verstehen und Organisieren von Daten
-                - Essentiell für die Nachnutzbarkeit"""
+                "feedback": """✓ Korrekt! Dies ist die grundlegende Definition: Metadaten beschreiben andere Daten, liefern kontextuelle Informationen, helfen beim Verstehen und Organisieren von Daten und sind essentiell für die Nachnutzbarkeit."""
             },
             {
                 "answer": "Metadaten sind in den Digital Humanities unwichtig, da die Texte selbst im Fokus stehen",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Metadaten sind essentiell:
-                - Ermöglichen systematische Organisation
-                - Machen Korpora auffindbar
-                - Sichern inhaltliche und strukturelle Qualität
-                - Unverzichtbar für wissenschaftliche Arbeit"""
+                "feedback": """× Nicht korrekt. Metadaten sind essentiell: Sie ermöglichen systematische Organisation, machen Korpora auffindbar, sichern inhaltliche und strukturelle Qualität und sind unverzichtbar für wissenschaftliche Arbeit."""
             },
             {
                 "answer": "Metadaten helfen bei der Bedeutung, Herkunft, Struktur und Nutzungsmöglichkeiten eines Datensatzes",
                 "correct": True,
-                "feedback": """✓ Korrekt! Metadaten erfüllen mehrere Funktionen:
-                - Kontextualisierung (Bedeutung, Herkunft)
-                - Strukturierung (Organisation der Daten)
-                - Nutzung (Wie können Daten verwendet werden)
-                - Qualitätssicherung"""
+                "feedback": """✓ Korrekt! Metadaten erfüllen mehrere Funktionen: Kontextualisierung (Bedeutung, Herkunft), Strukturierung (Organisation der Daten), Nutzung (wie können Daten verwendet werden) und Qualitätssicherung."""
             },
             {
                 "answer": "Für Metadaten gibt es nur ein einziges, universell verwendetes Schema",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Es gibt verschiedene Schemata:
-                - Dublin Core (einfach und universell)
-                - TEI (spezialisiert auf Texte)
-                - MODS (bibliographische Informationen)
-                - METS (Digitalisate und deren Übertragung)
-                - Jedes Schema für spezifische Anforderungen"""
+                "feedback": """× Nicht korrekt. Es gibt verschiedene Schemata: Dublin Core (einfach und universell), TEI (spezialisiert auf Texte), MODS (bibliographische Informationen) und METS (Digitalisate und deren Übertragung) – jedes Schema ist für spezifische Anforderungen gedacht."""
             }
         ]
     }
@@ -397,47 +315,27 @@ question8 = [
             {
                 "answer": "Titel und Beschreibung des Korpus",
                 "correct": True,
-                "feedback": """✓ Korrekt! Auf Korpusebene wichtig:
-                - Eindeutige Identifikation des gesamten Korpus
-                - Beschreibung des Inhalts und Umfangs
-                - Kontext der Sammlung
-                - Grundlegende Information für Nutzer"""
+                "feedback": """✓ Korrekt! Auf Korpusebene wichtig sind die eindeutige Identifikation des gesamten Korpus, die Beschreibung des Inhalts und Umfangs, der Kontext der Sammlung und grundlegende Information für Nutzer."""
             },
             {
                 "answer": "Umfang und Format der enthaltenen Dokumente",
                 "correct": True,
-                "feedback": """✓ Korrekt! Wichtig für das Gesamtkorpus:
-                - Anzahl der Dokumente
-                - Verwendete Dateiformate
-                - Gesamtgröße der Sammlung
-                - Technische Spezifikationen"""
+                "feedback": """✓ Korrekt! Wichtig für das Gesamtkorpus sind die Anzahl der Dokumente, die verwendeten Dateiformate, die Gesamtgröße der Sammlung und technische Spezifikationen."""
             },
             {
                 "answer": "Spezifischer Publikationsort jedes einzelnen Dokuments",
                 "correct": False,
-                "feedback": """× Nicht auf Korpusebene. Dies ist:
-                - Ein Element-spezifisches Metadatum
-                - Gehört zur Beschreibung einzelner Dokumente
-                - Zu detailliert für Korpusebene
-                - Teil der Dokument-Metadaten"""
+                "feedback": """× Nicht auf Korpusebene. Dies ist ein elementspezifisches Metadatum, das zur Beschreibung einzelner Dokumente gehört, zu detailliert für die Korpusebene ist und Teil der Dokument-Metadaten bildet."""
             },
             {
                 "answer": "Ersteller:innen und Herausgeber:innen des Korpus",
                 "correct": True,
-                "feedback": """✓ Korrekt! Wichtig auf Korpusebene:
-                - Wer hat das Korpus zusammengestellt
-                - Institutionelle Verantwortung
-                - Zitierfähigkeit
-                - Nachvollziehbarkeit"""
+                "feedback": """✓ Korrekt! Wichtig auf Korpusebene ist, wer das Korpus zusammengestellt hat, sowie institutionelle Verantwortung, Zitierfähigkeit und Nachvollziehbarkeit."""
             },
             {
                 "answer": "Datum der Erstellung und Veröffentlichung des Korpus",
                 "correct": True,
-                "feedback": """✓ Korrekt! Zeitangaben sind wichtig für:
-                - Versionierung
-                - Aktualität der Sammlung
-                - Wissenschaftliche Dokumentation
-                - Nachnutzbarkeit"""
+                "feedback": """✓ Korrekt! Zeitangaben sind wichtig für Versionierung, Aktualität der Sammlung, wissenschaftliche Dokumentation und Nachnutzbarkeit."""
             }
         ]
     }
@@ -531,47 +429,27 @@ question10 = [
             {
                 "answer": "Weil die Strategie und Kriterien des Korpusaufbaus darüber entscheiden, welche Forschungsfragen sinnvoll beantwortet werden können",
                 "correct": True,
-                "feedback": """✓ Korrekt! Das ist zentral:
-                - Das Korpus bestimmt die Reichweite der Ergebnisse
-                - Nicht alle Fragen sind mit jedem Korpus beantwortbar
-                - Die Zusammenstellung hat methodische Konsequenzen
-                - Wissenschaftliche Ehrlichkeit erfordert diese Reflexion"""
+                "feedback": """✓ Korrekt! Das ist zentral: Das Korpus bestimmt die Reichweite der Ergebnisse, nicht alle Fragen sind mit jedem Korpus beantwortbar, die Zusammenstellung hat methodische Konsequenzen und wissenschaftliche Ehrlichkeit erfordert diese Reflexion."""
             },
             {
                 "answer": "Weil mit dem Korpusaufbau das epistemische Objekt der Forschung konstruiert wird",
                 "correct": True,
-                "feedback": """✓ Korrekt! Wichtige erkenntnistheoretische Einsicht:
-                - Das Korpus ist nicht neutral
-                - Auswahlentscheidungen prägen Forschungsergebnisse
-                - Konstruktion des Forschungsgegenstands ist bewusster Akt
-                - Beeinflusst, was überhaupt erkennbar ist"""
+                "feedback": """✓ Korrekt! Wichtige erkenntnistheoretische Einsicht: Das Korpus ist nicht neutral, Auswahlentscheidungen prägen Forschungsergebnisse, die Konstruktion des Forschungsgegenstands ist ein bewusster Akt und beeinflusst, was überhaupt erkennbar ist."""
             },
             {
                 "answer": "Weil Reflexion Zeit spart und den Forschungsprozess beschleunigt",
                 "correct": False,
-                "feedback": """× Nicht der Hauptgrund. Reflexion:
-                - Nimmt Zeit in Anspruch
-                - Ist methodisch notwendig, nicht aus Effizienzgründen
-                - Dient der wissenschaftlichen Qualität
-                - Kann sogar den Prozess verlangsamen (aber verbessern)"""
+                "feedback": """× Nicht der Hauptgrund. Reflexion nimmt Zeit in Anspruch, ist methodisch notwendig statt aus Effizienzgründen erforderlich, dient der wissenschaftlichen Qualität und kann den Prozess sogar verlangsamen, ihn dabei aber verbessern."""
             },
             {
                 "answer": "Weil ohne Reflexion die korpusbedingten Grenzen der Analyseergebnisse nicht erkannt werden",
                 "correct": True,
-                "feedback": """✓ Korrekt! Kritische Selbstreflexion ist wichtig:
-                - Vermeidet Übergeneralisierung
-                - Macht Grenzen der Aussagen transparent
-                - Ermöglicht angemessene Interpretation
-                - Teil wissenschaftlicher Integrität"""
+                "feedback": """✓ Korrekt! Kritische Selbstreflexion ist wichtig: Sie vermeidet Übergeneralisierung, macht Grenzen der Aussagen transparent, ermöglicht angemessene Interpretation und ist Teil wissenschaftlicher Integrität."""
             },
             {
                 "answer": "Weil nur durch Reflexion garantiert werden kann, dass alle Texte einer Domäne erfasst werden",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Reflexion:
-                - Garantiert keine Vollständigkeit
-                - Vollständigkeit ist nicht immer das Ziel
-                - Reflexion hilft, bewusste Entscheidungen zu treffen
-                - Fokussiert auf Angemessenheit, nicht Vollständigkeit"""
+                "feedback": """× Nicht korrekt. Reflexion garantiert keine Vollständigkeit, Vollständigkeit ist nicht immer das Ziel, Reflexion hilft dabei, bewusste Entscheidungen zu treffen, und fokussiert auf Angemessenheit statt auf Vollständigkeit."""
             }
         ]
     }
