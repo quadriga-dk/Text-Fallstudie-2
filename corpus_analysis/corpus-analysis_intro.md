@@ -22,7 +22,7 @@ Sie können die auf einem Korpus ausgeführte Berechnung der Textkomplexität er
 
 Nachdem wir im vorherigem Kapitel ein Korpus gescraped und aus den HTML-Dokumenten den Text extrahiert haben, analysieren wir das Textkorpus in diesem Kapitel in Hinblick auf die Textkomplexität.
 
-```{figure} ../book_images/flow-chart_corpus-analysis.png
+```{figure} ../assets/images/flow-chart_corpus-analysis.png
 ---
 name: Flussdiagramm der Fallstudie – Korpusanalyse
 ---

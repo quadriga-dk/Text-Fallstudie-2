@@ -23,7 +23,7 @@ Die Lernenden können den Quellcode einer Website untersuchen, geeignete HTML-Ta
 
 Nachdem wir uns mit HTTP-Anfragen, Web-Scraping und HTML beschäftigt haben, kombinieren wir in diesem Kapitel dieses Wissen, um den Korpus von mehr als 50.000 Pressemitteilungen von berlin.de zusammenzustellen.
 
-```{figure} ../book_images/flow-chart_corpus-building.png
+```{figure} ../assets/images/flow-chart_corpus-building.png
 ---
 name: Flussdiagramm der Fallstudie – Korpusaufbau
 ---

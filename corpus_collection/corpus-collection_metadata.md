@@ -27,7 +27,7 @@ Die folgende Tabelle fasst die Unterschiede zusammen:
 
 Die Schnittmengen dieser drei Dimensionen (deskriptive Metadaten, Struktur/Layout, inhaltliche Auszeichnung) lassen sich auch grafisch darstellen:
 
-```{figure} ../book_images/metadata_schemata_venn.svg
+```{figure} ../assets/images/metadata_schemata_venn.svg
 ---
 name: Schnittmengen der Metadatenschemata
 ---

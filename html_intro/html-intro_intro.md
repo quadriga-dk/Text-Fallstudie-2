@@ -24,7 +24,7 @@ HTML-Tags zur Extraktion von Plain Text aus HTML aufzählen.
 
 In den vorherigen Kapitel wurde zum einen die [Operationalisierung](research-question_operationalization) der Fragestellung erläutert und zum anderen in das [Korpuskonzept](corpus-collection_building-our-corpus) eingeführt. Da der Senat die Pressemitteilungen in Form von Websites veröffentlicht, diese aber meist noch weitere Informationen enthalten, geht es in diesem Kapitel darum, wie der Text einer Website strukturiert extrahiert werden kann.
 
-```{figure} ../book_images/flow-chart_html.png
+```{figure} ../assets/images/flow-chart_html.png
 ---
 name: Flussdiagramm der Fallstudie – HTML
 ---

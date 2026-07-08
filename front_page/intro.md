@@ -33,7 +33,7 @@ Die Fallstudie richtet sich an Geisteswissenschaftler:innen auf fortgeschrittene
 ### Struktur der Fallstudie
 Die Gliederung der Fallstudie lässt sich jederzeit durch die Menüleiste links im Browser nachvollziehen. Insgesamt vollzieht die Fallstudie 6 Schritte: 
 
-```{figure} ../book_images/flow-chart.gif
+```{figure} ../assets/images/flow-chart.gif
 ---
 height:
 name: Flussdiagramm der Fallstudie
