@@ -12,7 +12,7 @@ Der Aufbau eines einfachen HTML-Elements
 ```
 
 ## Die Grundstruktur einer HTML-Seite
-Jede HTML-Datei beginnt mit der Deklaration `<!DOCTYPE html>`, die dem Browser mitteilt, dass es sich um eine HTML5-Datei handelt. Die grundlegende Struktur sieht so aus:
+Jede HTML-Datei beginnt mit der Deklaration `<!DOCTYPE html>`, die dem Browser mitteilt, um welchen Dokumenttyp es sich handelt. Für HTML5 sieht die grundlegende Struktur so aus:
 
 ```html
 <!DOCTYPE html>
