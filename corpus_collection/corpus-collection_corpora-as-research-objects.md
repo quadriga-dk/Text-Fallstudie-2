@@ -34,7 +34,7 @@ Eine Stichprobe, die die gesamte <a href="https://de.wikipedia.org/wiki/Streuung
 Eine gezielt nach bestimmten Kriterien zusammengestellte Auswahl, die alle wesentlichen Merkmale des Gegenstandsbereichs möglichst gleichmäßig abdeckt.
 
 - **Voraussetzung:** Klar definierte Kriterien und gezielte Auswahl, um statistische Korrelationen zu vermeiden.
-- **Anwendung:** Ideal für Studien, die Unterschiede und Entwicklungen innerhalb einer Kategorie analysieren wollen, z.B. die Entwicklung literarischer Stile.
+- **Anwendung:** Ideal für Studien, die Unterschiede und Entwicklungen innerhalb einer Kategorie analysieren wollen, z.B. die Entwicklung einer bestimmten literarischen Form, Strömung oder Gattung.
 - **Beispiel:** Eine Sammlung von Romanen aus verschiedenen Jahrzehnten und Untergattungen, mit breiter Variation in Autoren, Erzählperspektiven und Handlungsorten, Untergattungen.
 	
 ## Opportunistisches Korpus
