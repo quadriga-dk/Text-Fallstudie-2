@@ -4,5 +4,4 @@ Hier finden Sie die gesamte Literatur, die in dieser OER referenziert wurde. Sie
 
 ```{bibliography}
 :list: bullet
-:all:
 ```
