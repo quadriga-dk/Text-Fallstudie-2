@@ -17,7 +17,7 @@ Dieses Kapitel erklärt **Schritt für Schritt**, wie das Korpus aus Pressemitte
 
 ## Ziel und Herangehensweise beim Aufbau des Forschungskorpus
 
-Wir untersuchen die Entwicklung der Verständlichkeit amtlicher Kommunikation. Dafür nutzen wir sämtliche online publizierten Pressemitteilungen, die direkt der Berliner **Exekutive** zuzuordnen sind. Der Beobachtungszeitraum reicht von **2001 bis 24. 06. 2025** (Datum der Datenerhebung).
+Wir untersuchen die Entwicklung der Verständlichkeit amtlicher Kommunikation. Dafür nutzen wir sämtliche online publizierten Pressemitteilungen, die direkt der Berliner **Exekutive** zuzuordnen sind. Der Beobachtungszeitraum reicht von **2011 bis 24. 06. 2025** (Datum der Datenerhebung).
 
 *Vorteile dieser Quelle*
 
@@ -85,7 +85,7 @@ Die Datei `data/metadata.csv` begleitet jede Pressemitteilung mit acht klaren Fe
 ## Korpusumfang (23. 06. 2025)
 
 * Pressemitteilungen: **≈ 51 800**
-* Zeitspanne: 2001 – 2025
+* Zeitspanne: 2011 – 2025
 * Ø Länge: 430 Tokens (Median 394)
 
 Dies ist unser Forschungskorpus ✅
