@@ -12,7 +12,7 @@ jupytext:
 ```{important}
 :title: Wichtig
 
-Dieses Kapitel erklärt **Schritt für Schritt**, wie das Korpus aus Pressemitteilungen des Landes Berlin erzeugt wurde. Die vollständige, ausführbare Pipeline findest du im Notebook [`corpus_building/corpus_building_mass_scraping_press-releases.ipynb`](../corpus_building/corpus_building_mass_scraping_press-releases.ipynb).
+Dieses Kapitel **beschreibt**, aus welchen Pressemitteilungen des Landes Berlin unser Forschungskorpus bestehen soll und wie es aufgebaut ist. **Gescrapt** wird das Korpus dann im Kapitel [Korpusaufbau](corpus-building_intro), sobald wir die dafür nötigen Tools, Formate und Techniken kennengelernt haben. Die vollständige, ausführbare Pipeline findest du im Notebook [`corpus_building/corpus_building_mass_scraping_press-releases.ipynb`](../corpus_building/corpus_building_mass_scraping_press-releases.ipynb).
 ```
 
 ## Ziel und Herangehensweise beim Aufbau des Forschungskorpus
@@ -82,13 +82,13 @@ Die Datei `data/metadata.csv` begleitet jede Pressemitteilung mit acht klaren Fe
 > * `source` dient zur Gruppierung (z. B. Bezirksamt vs. Senatsverwaltung);
 > * `n_tokens` hilft beim Aufspüren von Ausreißern (extrem kurze oder sehr lange Mitteilungen).
 
-## Korpusumfang (23. 06. 2025)
+## Vorschau: Umfang des fertigen Korpus (23. 06. 2025)
 
 * Pressemitteilungen: **≈ 51 800**
 * Zeitspanne: 2011 – 2025
 * Ø Länge: 430 Tokens (Median 394)
 
-Dies ist unser Forschungskorpus ✅
+So wird unser fertiges Forschungskorpus aussehen.
 
 ## Reproduzierbarkeit
 
