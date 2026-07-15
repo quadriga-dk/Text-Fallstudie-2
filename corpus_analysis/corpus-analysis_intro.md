@@ -30,8 +30,8 @@ Flussdiagramm der Fallstudie, das aktuelle Arbeitspaket ist hevorgehoben.
 ```
 
 Dafür wird:
-1. Konzeptionell in die Analyse der Textkomplexität und die verschiedenen Arten der Berechnung eingeführt
-2. Die Textkomplexität auf dem Korpus mit verschiedenen Algorithmen berechnet
-3. Die errechnete Textkomplexität über Zeit visuell durch ein Liniendiagramm dargestellt. Das Diagramm bietet die Möglichkeit, die Ergebnisse unterschiedlich granular (Woche, Monat, Jahr)
-4. Das Diagramm interpretiert
+1. Konzeptionell in die Analyse der Textkomplexität und die verschiedenen Arten der Berechnung eingeführt (Kapitel [Textkomplexität](corpus-analysis_text_complexity))
+2. Die Textkomplexität auf dem Korpus mit verschiedenen Algorithmen berechnet (Notebook [`corpus-analysis_analysis.ipynb`](corpus-analysis_analysis.ipynb))
+3. Die errechnete Textkomplexität über Zeit visuell durch ein Liniendiagramm dargestellt. Das Diagramm bietet die Möglichkeit, die Ergebnisse unterschiedlich granular (Woche, Monat, Jahr) darzustellen (Kapitel [Analyse und Visualisierung](corpus-analysis_visualisation))
+4. Das Diagramm interpretiert (Notebook [`corpus-analysis_visualization.ipynb`](corpus-analysis_visualization.ipynb))
 
