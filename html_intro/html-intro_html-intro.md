@@ -51,8 +51,10 @@ HTML besteht aus verschiedenen Elementen, die durch Tags (`<tag>` und `</tag>`) 
 
 ```html
 <a href="https://www.example.com">Besuche Example</a>
-<img src="bild.jpg" alt="Beispielbild">
+<img src="bild.jpg" alt="Katze, die überrascht in die Kamera schaut">
 ```
+
+**Hinweis:** Nicht alle Tags haben ein schließendes Tag. `<img>` ist ein sogenanntes *void element* – es besteht nur aus einem Start-Tag und wird nicht mit `</img>` geschlossen. Das gilt auch für einige andere Tags wie `<br>` (Zeilenumbruch) oder `<hr>` (horizontale Linie).
 
 ### HTML-Attribute
 
@@ -66,7 +68,7 @@ Beispiele:
 
 ```html
 <a href="https://www.example.com" target="_blank">Öffne Link in neuem Tab</a>
-<img src="bild.jpg" alt="Beispielbild" width="300">
+<img src="bild.jpg" alt="Katze, die überrascht in die Kamera schaut" width="300">
 ```
 
 Häufig verwendete Attribute sind:
@@ -78,9 +80,9 @@ Häufig verwendete Attribute sind:
 ## Listen und Tabellen
 
 ### a) Ungeordnete und geordnete Listen
-- `<ul>`: Eine Liste mit Punkten.
-- `<ol>`: Eine nummerierte Liste.
-- `<li>`: Ein Listenelement.
+- `<ul>`: **unordered list** – eine Liste mit Punkten.
+- `<ol>`: **ordered list** – eine nummerierte Liste.
+- `<li>`: **list item** – ein Listenelement.
 
 ```html
 <ul>
@@ -91,9 +93,9 @@ Häufig verwendete Attribute sind:
 
 ### b) Tabellen
 - `<table>`: Erstellt eine Tabelle.
-- `<tr>`: Erstellt eine Zeile.
-- `<td>`: Erstellt eine Zelle.
-- `<th>`: Erstellt eine Kopfzelle.
+- `<tr>`: **table row** – erstellt eine Zeile.
+- `<td>`: **table data** – erstellt eine Zelle.
+- `<th>`: **table header** – erstellt eine Kopfzelle.
 
 ```html
 <table>
@@ -122,6 +124,8 @@ Beispiel:
 ```
 
 Hier liegt das `<a>`-Element innerhalb des `<p>`-Elements, und beide liegen wiederum im `<div>`-Element. Solche Strukturen sind wichtig, um Webseiten korrekt zu gestalten und um beim Scraping gezielt Inhalte auszuwählen.
+
+`<div>` steht für *division* – es ist ein rein strukturelles Element ohne eigene Bedeutung, im Gegensatz zu semantischen Tags wie `<section>`, die zusätzlich ausdrücken, welche Art von Inhalt sie umschließen.
 
 ## HTML und CSS
 HTML strukturiert die Inhalte, für das Design (Farben, Schriften, Abstände, Layout) wird hingegen CSS (Cascading Style Sheets) verwendet. CSS kann auf drei Arten mit einem HTML-Dokument verbunden werden:
