@@ -5,11 +5,11 @@
 
 **Korpus als epistemische Objekt**
 
-In diesem Kapitel haben wir uns mit dem Korpus als epistemischem Objekt der Digital Humanities beschäftigt. Wir haben zunächst zentrale [Strategien der Korpusbildung und unterschiedliche Typen von Korpora](corpus-collection_corpora-as-research-objects) kennengelernt und reflektiert, wie diese Strategien die Möglichkeiten und Grenzen unserer Forschung bestimmen. 
+In diesem Kapitel haben wir uns mit dem Korpus als epistemischem Objekt der Digital Humanities beschäftigt. Wir haben zunächst zentrale [Strategien der Korpusbildung und unterschiedliche Typen von Korpora](corpus-collection_corpora-as-research-objects) kennengelernt und gesehen, wie die Wahl einer Strategie bestimmt, welche Forschungsfragen sich mit einem Korpus sinnvoll beantworten lassen. 
 
 **Metadaten**
 
-Ein besonderes Augenmerk lag auf der Rolle von Metadaten: Wir haben uns mit [grundlegenden Metadatenschemata](corpus-collection_metadata) vertraut gemacht und diese sowohl für das Gesamtkorpus als auch für einzelne Korpuselemente praktisch angewendet.
+Ein besonderes Augenmerk lag auf der Rolle von Metadaten: Wir haben einen Überblick über [grundlegende Metadatenschemata](corpus-collection_metadata) gewonnen und eines davon – Dublin Core – beispielhaft auf das Gesamtkorpus wie auf einzelne Korpuselemente angewendet.
 
 **Forschungskorpus**
 
