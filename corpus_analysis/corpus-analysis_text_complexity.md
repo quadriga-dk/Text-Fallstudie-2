@@ -163,7 +163,8 @@ Analog zum ARI, entspricht der Index dem US-amerikanischen Schuljahr, das zum Ve
 
 Der Satz wird als *sehr schwierig* eingestuft.
 
-### Komplexere Methoden zur Berechnung der Textkomplexität
+<!-- ### Komplexere Methoden zur Berechnung der Textkomplexität -->
+<!-- comment out for now since there's no content here -- >
 
 
 
