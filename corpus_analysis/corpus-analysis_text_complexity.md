@@ -98,7 +98,7 @@ Wiener Sachtextformel = (0,2007 × MS) + (0,1682 × ASL) + (0,1373 × IW) - 2,77
 
 Wobei:
 - MS = Prozentsatz der Wörter mit drei oder mehr Silben
-- SL = Durchschnittliche Satzlänge (Anzahl der Wörter geteilt durch Anzahl der Sätze)
+- ASL = Durchschnittliche Satzlänge (Anzahl der Wörter geteilt durch Anzahl der Sätze)
 - IW = Anzahl an langen Wörtern (länger als sechs Buchstaben) 
 
 **Interpretationsskala:**
