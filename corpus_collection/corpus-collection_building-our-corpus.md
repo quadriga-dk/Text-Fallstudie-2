@@ -92,12 +92,7 @@ So wird unser fertiges Forschungskorpus aussehen.
 
 ## Reproduzierbarkeit
 
-Der komplette Prozess läuft in Binder/Colab ohne Anpassungen. Zur Aktualisierung genügen zwei Zeilen:
-
-```
-from corpus_building.corpus_building_mass_scraping_press_releases import crawl_all_pages
-crawl_all_pages()
-```
+Der komplette Prozess läuft in Colab oder lokal ohne Anpassungen. Führen Sie dazu alle Zellen des Notebooks [`corpus_building/corpus_building_mass_scraping_press-releases.ipynb`](../corpus_building/corpus_building_mass_scraping_press-releases.ipynb) der Reihe nach aus – darin wird `crawl_all_pages()` definiert und kann anschließend direkt aufgerufen werden, um das Korpus zu aktualisieren.
 
 <!-- 
 
