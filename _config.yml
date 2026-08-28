@@ -57,4 +57,5 @@ sphinx:
     - sphinx_apa_references
   config:
     language: de
+    locale_dirs: ["_locale/"]
     html_show_copyright: false
