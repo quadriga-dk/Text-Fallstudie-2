@@ -1,9 +1,5 @@
 (corpus-collection_metadata)=
 # Metadaten
-```{admonition} Feinlernziel(e) dieses Kapitels
-:class: lernziele
-Sie sind mit der Idee von Metadaten vertraut und kennen basale Metadatenschemata für Korpora und Korpus-Elemente.
-```
 
 Metadaten sind Daten über Daten. Sie liefern kontextuelle Informationen, die helfen, die Bedeutung, Herkunft, Struktur und Nutzungsmöglichkeiten eines Datensatzes besser zu verstehen. In den Digital Humanities sind Metadaten unerlässlich, um die Volltextkorpora systematisch zu organisieren, auffindbar zu machen und deren inhaltliche und strukturelle Qualität zu sichern.
 

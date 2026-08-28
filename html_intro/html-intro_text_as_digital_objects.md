@@ -1,9 +1,5 @@
 (html-intro_text_as_digital_objects)=
 # Elemente von Korpora: Texte als digitale Objekte
-```{admonition} Feinlernziel(e) dieses Kapitels
-:class: lernziele
-Sie kennen unterschiedliche Realisierungsweisen und Formate von Text im Digitalen.
-```
 
 Texte können digital auf sehr unterschiedliche Weisen gespeichert, prozessiert und repräsentiert werden. Die vielfältige Formen von Text im Digitalen weisen dabei jeweils spezifische Eigenschaften und Einsatzmöglichkeiten auf. In diesem Abschnitt werden vier weit verbreitete Erscheinungsformen digitaler Texte vorgestellt: 
 

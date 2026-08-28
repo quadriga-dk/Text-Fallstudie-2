@@ -1,9 +1,5 @@
 (research-question_operationalization)= 
 # Operationalisierung und Methodik
-```{admonition} Feinlernziel(e) dieses Kapitels
-:class: lernziele
-Sie kennen Ansätze zur Operationalisierung von Forschungsfragen für quantitative Methoden-Settings.
-```
 Die im [vorhergehenden Abschnitt](research-question_research-question) entwickelte Forschungsfrage zielt darauf, eine Verminderung der sprachlichen Komplexität in der Kommunikation der Berliner Senatsverwaltung mit der Öffenlichkeit zu beobachten, mithin potenzielle Veränderungen der kommunikativen Barrierearmut in einem bestimmten Zeitraum zu messen. 
 
 Um eine solche Messung möglich zu machen, muss zunächst eine Operationalisierung der Forschungsfrage erfolgen. "Operationalisierung bezeichnet den Prozess, ein Erkennungs- oder Messverfahren für ein theoretisches Konzept zu entwickeln." {cite:p}`krautter_operationalisierung_2023`.
