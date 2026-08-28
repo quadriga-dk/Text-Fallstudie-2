@@ -56,4 +56,5 @@ sphinx:
   extra_extensions:
     - sphinx_apa_references
   config:
+    language: de
     html_show_copyright: false
