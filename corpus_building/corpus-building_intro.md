@@ -27,7 +27,7 @@ Nachdem wir uns mit HTTP-Anfragen, Web-Scraping und HTML beschäftigt haben, kom
 ---
 name: Flussdiagramm der Fallstudie – Korpusaufbau
 ---
-Flussdiagramm der Fallstudie, das aktuelle Arbeitspaket ist hevorgehoben.
+Flussdiagramm der Fallstudie, das aktuelle Arbeitspaket ist hervorgehoben.
 ```
 
 Im Kapitel ['Aufbau des Forschungskorpus'](corpus-collection_building-our-corpus) haben wir die Auswahl- und Filterprozesse für unser Korpus von Pressemitteilungen beschrieben. Nun geht es darum, das Korpus mithilfe von Scraping-Tools und HTML-Kenntnissen zu extrahieren. 

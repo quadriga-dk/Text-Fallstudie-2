@@ -47,7 +47,7 @@ question1 = [
                 "feedback": """✓ Korrekt! Wichtige Differenzierung: Es geht nicht nur um die absolute Wortlänge, der Text wird dabei in Abschnitte unterteilt, und es wird die Konsistenz der Schwierigkeit gemessen. Dies wird im Coleman-Liau-Index verwendet und unterscheidet sich von der einfachen durchschnittlichen Wortlänge."""
             },
             {
-                "answer": "Wörter mit mehr als drei Silben gelten in den meisten Indexe als schwer",
+                "answer": "Wörter mit mehr als drei Silben gelten in den meisten Indexen als schwer",
                 "correct": True,
                 "feedback": """✓ Korrekt! Standard-Schwellenwert: 1-2 Silben gelten als leicht, 3 und mehr Silben gelten als schwer. Dies wird in der Wiener Sachtextformel verwendet, ist sprachabhängig (Silbentrennung) und ein wichtiger Parameter für die Komplexität."""
             },
@@ -93,7 +93,7 @@ question2 = [
                 "feedback": """✓ Korrekt! Standardberechnung: Die Summe aller Satzlängen wird durch die Anzahl der Sätze geteilt, dies glättet Extremwerte und liefert einen repräsentativen Wert für den gesamten Text. Es wird in Flesch, Wiener und ARI verwendet und bildet die Basis für die meisten Berechnungen."""
             },
             {
-                "answer": "Kürzere Sätze führen immer zu einem niedrigeren Textkomplexitätsscore in allen Indexe",
+                "answer": "Kürzere Sätze führen immer zu einem niedrigeren Textkomplexitätsscore in allen Indexen",
                 "correct": False,
                 "feedback": """× Nicht präzise genug. Wichtige Nuance: Die Richtung hängt vom Index ab, bei Flesch bedeutet ein höherer Score einen leichteren Text (kürzere Sätze), bei Wiener/ARI bedeutet ein niedrigerer Score einen leichteren Text (kürzere Sätze). Dies ist nicht einheitlich über alle Indexe, die Beziehung ist konsistent, aber die Skalen unterscheiden sich."""
             },
@@ -364,7 +364,7 @@ Die Daten zeigen einen **klaren Abwärtstrend** der Flesch-Scores über 14 Jahre
 
 ---
 
-**4. Überprüfung mit anderen Indexe:**
+**4. Überprüfung mit anderen Indexen:**
 
 **JA, definitiv!** Und zwar aus folgenden Gründen:
 
@@ -408,5 +408,5 @@ for measure in ['flesch', 'wiener', 'ari', 'coleman_liau']:
 
 **Zusammenfassung:**
 
-Die Analyse zeigt eine problematische Entwicklung hinsichtlich Barrierefreiheit. Eine umfassende Validierung mit multiplen Indexe und tiefergehende Analysen der Ursachen sind empfehlenswert, um fundierte Empfehlungen für barriereärmere Kommunikation zu geben.
+Die Analyse zeigt eine problematische Entwicklung hinsichtlich Barrierefreiheit. Eine umfassende Validierung mit multiplen Indexen und tiefergehende Analysen der Ursachen sind empfehlenswert, um fundierte Empfehlungen für barriereärmere Kommunikation zu geben.
 ````

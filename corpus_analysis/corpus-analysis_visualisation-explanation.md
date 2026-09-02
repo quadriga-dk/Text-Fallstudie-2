@@ -8,4 +8,4 @@ Für jede Zeiteinheit wird der Durchschnitt der Textkomplexitätsmaße errechnet
 
 ## Visualisierung
 Eine visuelle Darstellung ermöglicht es, die Werte besser zu vergleichen. In einem Liniendiagramm, in dem die X-Achse in die Zeiteinheiten eingeteilt ist und die Y-Achse die Textkomplexität darstellt, werden zunächst alle Datenpunkte eingetragen und dann zu einer Linie verbunden. Da anhand der Linie lokale und globale Minima sowie Maxima gut erkennbar werden und sich leicht ein Trend ablesen lässt, eignet sich das Liniendiagramm gut zur Darstellung einer zeitlichen Entwicklung. 
-Die Häufigkeiten über Zeit ließen sich auch in einem Balkendiagramm darstellen. Diese sind nützlich, um Häufigkeiten in diskreten Zeitintervallen zu visualisieren, sie eignen sich aber weniger gut, um eine zeitliche Entwicklung zu zeigen. 
+Die Häufigkeiten über Zeit ließen sich auch in einem Balkendiagramm darstellen. Dieses ist nützlich, um Häufigkeiten in diskreten Zeitintervallen zu visualisieren, sie eignen sich aber weniger gut, um eine zeitliche Entwicklung zu zeigen. 
