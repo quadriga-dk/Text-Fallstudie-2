@@ -312,7 +312,7 @@ rows = soup.select("table tbody tr")
 
 **Erklärung:**
 - `table tbody tr`: Findet alle `<tr>`-Elemente innerhalb von `<tbody>` innerhalb von `<table>`
-- Spezifischer Selektor verhindert Fehlextr aktionen
+- Spezifischer Selektor verhindert Fehlextraktionen
 - `select()` gibt eine Liste aller passenden Elemente zurück
 
 ---
