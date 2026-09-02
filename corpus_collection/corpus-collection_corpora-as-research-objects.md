@@ -8,7 +8,7 @@ Für die Forschung in den textbasierten Digital Humanities hat sich das Korpus a
 
 Eine besondere Variante von Korpora sind Referenzkorpora, bei deren Zusammenstellung besondere Aufmerksamkeit darauf gelegt wurde, dass diese Korpora für eine bestimmte Domäne repräsentativ sein können. 
 
-In welchen Formaten die Texte in einem Korpus vorliegen, hängt davon ab, für welche Zwecke ein Korpus aufgebaut wird (siehe zu Formaten auch den nächsten Abschnitt ["Texte als digitales Objekte"](../html_intro/html-intro_intro)). 
+In welchen Formaten die Texte in einem Korpus vorliegen, hängt davon ab, für welche Zwecke ein Korpus aufgebaut wird (siehe zu Formaten auch den nächsten Abschnitt ["Texte als digitale Objekte"](../html_intro/html-intro_intro)). 
 
 Die Elemente eines Korpus können nach unterschiedlichen Strategien mit jeweils spezifischen Kriterien ausgewählt werden. Für Datensammlung insgesamt (und damit auch für Korpora als besonderer Typus der Datensammlung) hat {cite:p}`schoech2017` vier Strategien unterschieden: 
 
@@ -31,7 +31,7 @@ Eine gezielt nach bestimmten Kriterien zusammengestellte Auswahl, die alle wesen
 
 - **Voraussetzung:** Klar definierte Kriterien und gezielte Auswahl, um statistische Korrelationen zu vermeiden.
 - **Anwendung:** Ideal für Studien, die Unterschiede und Entwicklungen innerhalb einer Kategorie analysieren wollen, z.B. die Entwicklung einer bestimmten literarischen Form, Strömung oder Gattung.
-- **Beispiel:** Eine Sammlung von Romanen aus verschiedenen Jahrzehnten und Untergattungen, mit breiter Variation in Autoren, Erzählperspektiven und Handlungsorten, Untergattungen.
+- **Beispiel:** Eine Sammlung von Romanen aus verschiedenen Jahrzehnten und Untergattungen, mit breiter Variation in Autoren, Erzählperspektiven und Handlungsorten.
 	
 ## Opportunistisches Korpus
 Eine Sammlung, deren Auswahl nur durch die Verfügbarkeit von Daten geleitet wird.
@@ -46,7 +46,7 @@ Mit welcher Strategie und nach welchen Kriterien ein Korpus aufgebaut wird, ents
 
 `````{admonition} Weiterführende Links
 :class: seealso
-- <a href="https://fortext.net/routinen/methoden/korpusbildung" class="external-link" target="_blank">forTextArtikel "Korpusbildung"</a>, mit Fokus auf literaturwissenschafliche Korpora. {cite:p}`fortext-2020-id-203`
+- <a href="https://fortext.net/routinen/methoden/korpusbildung" class="external-link" target="_blank">forTextArtikel "Korpusbildung"</a>, mit Fokus auf literaturwissenschaftliche Korpora. {cite:p}`fortext-2020-id-203`
 `````
 
 __Bibliographie__
