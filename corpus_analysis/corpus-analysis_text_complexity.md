@@ -10,10 +10,10 @@ Wie entwickelt sich die kommunikative Barrierearmut des Berliner Senats im Zeitr
 `````
 Um diese mit quantitativen Methoden zu bearbeiten, wurde die Forschungsfrage zunächst wie folgt **operationalisiert**:
 1. die **Kommunikation des Berliner Senats** wird durch das Korpus, bestehend aus Pressemitteilungen, erfasst
-2. die **Barrierearmut** wird über Lesarbeitsindizes errechnet
+2. die **Barrierearmut** wird über Lesbarkeitsindizes errechnet
 
 ## Lesbarkeitsindizes
-Wie im Kapitel ["Operationalisierung"](research-question_operationalization) beschrieben, kann Leichte Sprache in drei Dimension unterschieden werden. Im folgenden gehen wir genauer darauf ein, welche Indikatoren auf Wort- und Satzebene eine Rolle bei der Berechnung der Lesbarkeitsindizes spielen. 
+Wie im Kapitel ["Operationalisierung"](research-question_operationalization) beschrieben, kann Leichte Sprache in drei Dimensionen unterschieden werden. Im folgenden gehen wir genauer darauf ein, welche Indikatoren auf Wort- und Satzebene eine Rolle bei der Berechnung der Lesbarkeitsindizes spielen. 
 
 ### Wortebene
 * **Länge** der Wörter:
@@ -42,11 +42,11 @@ Zur Berechnung der Komplexität wird die **Satzlänge** auf unterschiedliche Wei
 Es wird meistens mit dem Durchschnitt der Wort- oder Satzlänge gerechnet. Der Durchschnitt wird berechnet indem zuerst die Längen aller Wörter/Sätze berechnet wird. Die Längen werden summiert und durch die Anzahl der Sätze/Wörter im Text geteilt.
 
 ### Algorithmen zur Errechnung
-Seit den 1940er Jahren wurden verschiedene Lesbarkeitsindizes entwickelt, die teils sprachunabhängig sind, teils sprachabhängig (wenn die Anzahl der Silben in einem Wort oder ein vordefiniertes Wörterbuch einbezogen wird). Die meisten Indexe wurden für die englische Sprache entwickelt. Die Berechnung kann zwar für die deutsche Sprache adaptiert werden (z.B. indem die Silbentrennung auf Deutsch angepasst wird), allerdings nehmen viele der Indexe eine Gewichtung in ihrer Berechnung vor, die auch auf die englische Sprache angepasst ist. 
+Seit den 1940er Jahren wurden verschiedene Lesbarkeitsindizes entwickelt, die teils sprachunabhängig sind, teils sprachabhängig (wenn die Anzahl der Silben in einem Wort oder ein vordefiniertes Wörterbuch einbezogen wird). Die meisten Indizes wurden für die englische Sprache entwickelt. Die Berechnung kann zwar für die deutsche Sprache adaptiert werden (z.B. indem die Silbentrennung auf Deutsch angepasst wird), allerdings nehmen viele der Indizes eine Gewichtung in ihrer Berechnung vor, die auch auf die englische Sprache angepasst ist. 
 
 Für die deutsche Sprache wurde die Wiener Sachtextformel entwickelt. Außerdem wurde der Flesch-Lesbarkeitsindex, einer der bekanntesten Lesbarkeitsindizes, für das Deutsche angepasst.
 
-Wir verwenden deshalb diese zwei Indexe sowie den Automated Readability Index (ARI) und den Coleman-Liau-Score, da diese noch andere Parameter einbeziehen als Flesch und die Wiener Sachtextformel. 
+Wir verwenden deshalb diese zwei Indizes sowie den Automated Readability Index (ARI) und den Coleman-Liau-Score, da diese noch andere Parameter einbeziehen als Flesch und die Wiener Sachtextformel. 
 Im Folgenden werden die vier Maße kurz vorgestellt und an folgendem Beispielsatz berechnet:
 `
 Mein Nachbar, den ich letztes Jahr kennengelernt habe, hat gestern ein Glitzereinhorn gekauft.
@@ -105,7 +105,7 @@ Wobei:
 **Beispiel:**
 * Prozentsatz von Wörtern mit drei oder mehr Silben: 2 von 13 = 0.1538 * 100 = 15.38 
 * Durchschnittliche Satzlänge (ASL) = 13 (da Kommata und Punkte nicht als Worte gezählt werden)
-* Anzahl an langen Wörten: 6 
+* Anzahl an langen Wörtern: 6 
 * Wiener Sachtextformel = (0,2007 * 15,38) + (0.1682 * 13) + (0.1373 * 6) - 2,779 = 3.32
 
 Der Satz wird als *sehr einfach* eingestuft.
@@ -158,7 +158,7 @@ Analog zum ARI, entspricht der Index dem US-amerikanischen Schuljahr, das zum Ve
 Der Satz wird als *sehr schwierig* eingestuft.
 
 <!-- ### Komplexere Methoden zur Berechnung der Textkomplexität -->
-<!-- comment out for now since there's no content here -- >
+<!-- comment out for now since there's no content here -->
 
 
 

@@ -1,7 +1,7 @@
 (html-intro_text_as_digital_objects)=
 # Elemente von Korpora: Texte als digitale Objekte
 
-Texte können digital auf sehr unterschiedliche Weisen gespeichert, prozessiert und repräsentiert werden. Die vielfältige Formen von Text im Digitalen weisen dabei jeweils spezifische Eigenschaften und Einsatzmöglichkeiten auf. In diesem Abschnitt werden vier weit verbreitete Erscheinungsformen digitaler Texte vorgestellt: 
+Texte können digital auf sehr unterschiedliche Weisen gespeichert, prozessiert und repräsentiert werden. Die vielfältigen Formen von Text im Digitalen weisen dabei jeweils spezifische Eigenschaften und Einsatzmöglichkeiten auf. In diesem Abschnitt werden vier weit verbreitete Erscheinungsformen digitaler Texte vorgestellt: 
 
 - Bilddigitalisate von Text (z.B. PDF, PNG, JPG, TIFF)
 - Reiner Text, auch "Plain Text" (TXT)
@@ -40,10 +40,10 @@ name: Snippet eines Bilddigitalisats
 
 **Beispiel:**
 
-`
+```
 Europäischer Aktionstag zur Gleichstellung von Menschen mit Behinderungen
 Wir laden Sie herzlich ein, den „Aktionstag BUNT VERBINDET“ am Freitag den 3. Mai 2024 von 12:00 bis 17:00 Uhr, auf dem Hermann-Ehlers-Platz, auf unserem Straßenfest zu feiern. Der Aktionstag findet anlässlich des Europäischen Protesttages zur Gleichstellung von Menschen mit Behinderungen statt. Ein ganz besonderes Highlight ist unser LeseZelt, in dem Geschichten durch Gebärdensprache, Tastbücher und Leichte Sprache erzählt werden. Hören, sehen, fühlen und verstehen sind für alle gleichermaßen erlebbar.
-`
+```
 
 *Beispiel für Reinen Text ohne jede Formatierung, üblicherweise als TXT-Datei gespeichert*
 
@@ -75,7 +75,7 @@ Wir laden Sie herzlich ein, den „Aktionstag BUNT VERBINDET“ am Freitag den 3
 </div>
 ```
 
-*Beispiel für ein Ausschnitt aus einem HTML-Dokument, hier ein Ausschnitt einer Pressemitteilung des Bezirkamts Steglitz-Zehlendorf*
+*Beispiel für einen Ausschnitt aus einem HTML-Dokument, hier ein Ausschnitt einer Pressemitteilung des Bezirksamts Steglitz-Zehlendorf*
 
 
 
@@ -102,7 +102,7 @@ ID,TOKEN,LEMMA,POS
 7,Behinderungen,Behinderung,NOUN
 ```
 
-*CSV-Datei, bei der in der ersten Zeile ein Tabellenkopf steht, in den dann folgenden Zeilen jeweils zunächst eine durchzählende ID, dann ein Wort, gefolgt von  weiteren linguistischen Informationen: der Grundform ("Lemma") und der Wortart ("POS", "Part of Speech")*
+*CSV-Datei, bei der in der ersten Zeile ein Tabellenkopf steht, in den dann folgenden Zeilen jeweils zunächst eine durchzählende ID, dann ein Wort, gefolgt von weiteren linguistischen Informationen: der Grundform ("Lemma") und der Wortart ("POS", "Part of Speech")*
 
 
 | ID  | TOKEN          | LEMMA           | POS   |
@@ -117,7 +117,7 @@ ID,TOKEN,LEMMA,POS
 | 7   | Behinderungen  | Behinderung     | NOUN  |
 
 
-*CSV-Datei lassen sich, wie hier zu sehen, mit üblichen Programmen wie Open Office oder MS Office auch als Tabellen darstellen*
+*CSV-Dateien lassen sich, wie hier zu sehen, mit üblichen Programmen wie Open Office oder MS Office auch als Tabellen darstellen*
 
 
 ## Zusammenfassung

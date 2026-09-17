@@ -195,7 +195,7 @@ question5 = [
                 "feedback": """✓ Korrekt! Das sind wichtige Beispiele: href für die URL bei Links, src für die Quelle bei Bildern, alt für den Alternativtext bei Bildern sowie id und class für Styling und Identifikation."""
             },
             {
-                "answer": "Das 'id' und 'class' Attribut dienen zur Identifizierung und Gestaltung per CSS",
+                "answer": "Die 'id'- und 'class'-Attribute dienen zur Identifizierung und Gestaltung per CSS",
                 "correct": True,
                 "feedback": """✓ Korrekt! Wichtig für Styling: id dient der eindeutigen Identifikation, class der Gruppierung mehrerer Elemente, beide ermöglichen die CSS-Anwendung und sind auch für JavaScript wichtig."""
             }

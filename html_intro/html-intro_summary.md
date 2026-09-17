@@ -11,7 +11,7 @@ Es gibt unterschiedliche Dateiformate, in denen Text gespeichert sein kann. Wäh
 **HTML-Dokumente**
 
 Die Grundlage von Websites sind HTML-Dokumente, die die Website-Inhalte (Text, Bilder, Links etc.) strukturieren und speichern. HTML besteht aus sogenannten Tags und deren Inhalt. Die Tags geben Metainformationen dazu, um welche Form von Inhalt es sich handelt, z.B. `<h1>` für Titel, `<ol>`, `<ul>` und `<li>` für Listen oder `<table>` für Tabellen. 
-Zusätzliche Informationen können in sogenannten Attributes der HTML-Tags gespeichert werden. Das Design von Websites wird über CSS festgelegt. 
+Zusätzliche Informationen können in sogenannten Attributen der HTML-Tags gespeichert werden. Das Design von Websites wird über CSS festgelegt. 
 
 **Parsen von HTML-Dokumenten**
 

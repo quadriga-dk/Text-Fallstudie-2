@@ -41,12 +41,12 @@ Bei der Beschreibung eines gesamten Korpus sind die Metadaten entscheidend, um d
 - **Sprache**: Die im Korpus vertretenen Sprachen.
 - **Thematik und Schlagworte**: Stichworte, die die inhaltlichen Schwerpunkte des Korpus beschreiben.
 
-**Beispiel unter Verwendung Dublin Core**
+**Beispiel unter Verwendung von Dublin Core**
 
 Ein beispielhaftes Metadaten-Set für ein Korpus könnte unter Verwendung von Dublin Core so aussehen:
 
 - **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/title/" class="external-link" target="_blank">DC.title</a>**: "Korpus der Pressemitteilungen des Lands Berlin von 2011-2024"
-- **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/description/" class="external-link" target="_blank">DC.description</a>**: "Eine Sammlung der digital veröffentlichen Pressemitteilungen publiziert über die Website berlin.de aus den Jahren 2011 bis 2024"
+- **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/description/" class="external-link" target="_blank">DC.description</a>**: "Eine Sammlung der digital veröffentlichten Pressemitteilungen publiziert über die Website berlin.de aus den Jahren 2011 bis 2024"
 - **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/creator/" class="external-link" target="_blank">DC.creator</a>**: "Henny Sluyter-Gäthje, Daniil Skorinkin, Peer Trilcke für QUADRIGA. Berlin-Brandenburgische Datenkompetenzzentrum für Digital Humanities und Verwaltungswissenschaft"
 - **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/publisher/" class="external-link" target="_blank">DC.publisher</a>**: "<a href="https://www.berlin.de" class="external-link" target="_blank">www.berlin.de</a>" 
 - **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/date/" class="external-link" target="_blank">DC.date</a>**: "2025-04-04"
@@ -77,6 +77,6 @@ Für eine einzelne Pressemitteilung könnten die Metadaten so aussehen:
 - **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/coverage/" class="external-link" target="_blank">DC.coverage</a>**: "2024, Berlin"
 - **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/language/" class="external-link" target="_blank">DC.language</a>**: "Deutsch"
 - **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/terms/source/" class="external-link" target="_blank">DC.source</a>**: "https://www.berlin.de/ba-steglitz-zehlendorf/aktuelles/pressemitteilungen/2024/pressemitteilung.1438914.php"
-- **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/identifier/" class="external-link" target="_blank">DC.identifier</a>**: "30281"
+- **<a href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/identifier/" class="external-link" target="_blank">DC.identifier</a>**: "1438914"
 
 Durch die sorgfältige Erfassung und Verwaltung von Metadaten auf beiden Ebenen – sowohl für das gesamte Korpus als auch für einzelne Elemente – wird die Nutzbarkeit und Nachnutzbarkeit von Forschungsdaten in den Digital Humanities erheblich verbessert. Dies trägt zur besseren Auffindbarkeit, Nachvollziehbarkeit und langfristigen Erhaltung der Daten bei.
