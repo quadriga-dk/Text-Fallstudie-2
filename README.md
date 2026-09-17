@@ -6,7 +6,7 @@ Dieses interaktive Lehrbuch ist im Rahmen des Projekts <a href="https://www.quad
 
 ## Datenkompetenzzentrum QUADRIGA
 
-QUADRIGA ist das Berlin-Brandenburgische Datenkompetenzzentrum für Digital Humanities, Verwaltungswissenschaften, Informatik und Informationswissenschaft. 
+QUADRIGA ist das Berlin-Brandenburgische Datenkompetenzzentrum für Digital Humanities, Verwaltungswissenschaft, Informatik und Informationswissenschaft. 
 Es wird gefördert im Rahmen der <a href="https://www.bildung-forschung.digital/digitalezukunft/de/wissen/Datenkompetenzen/datenkompetenzzentren_fuer_die_wissenschaft_ordner/datenkompetenzzentren_fuer_die_wissenschaft.html" class="external-link" target="_blank">Richtlinie</a> zur Förderung von Projekten zum Aufbau von Datenkompetenzzentren in der Wissenschaft des Bundesministeriums für Bildung und Forschung.
 Anhand modellhafter Forschungsfragen werden für die drei Datentypen Bewegtes Bild, Tabelle und Text Fallstudien entworfen, die Forschenden der angesprochenen Fachrichtungen Kompetenzen im Bereich der Datenanwendung disziplinspezifisch näherbringen.
 
