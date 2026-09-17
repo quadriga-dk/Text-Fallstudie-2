@@ -146,7 +146,7 @@ question3 = [
             {
                 "answer": "Steigende Werte in Lesbarkeitsindizes bedeuten immer höhere Verständlichkeit",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Die Interpretation hängt vom Index ab: Manche Indexe messen Komplexität (höher bedeutet schwieriger), andere messen Lesbarkeit (höher bedeutet leichter), die Interpretation muss jeweils definiert werden, und in unserer Fallstudie bedeutet höhere Komplexität weniger Barrierefreiheit."""
+                "feedback": """× Nicht korrekt. Die Interpretation hängt vom Index ab: Manche Indizes messen Komplexität (höher bedeutet schwieriger), andere messen Lesbarkeit (höher bedeutet leichter), die Interpretation muss jeweils definiert werden, und in unserer Fallstudie bedeutet höhere Komplexität weniger Barrierefreiheit."""
             },
             {
                 "answer": "Lesbarkeitsindizes ermöglichen die Messung zeitlicher Entwicklungen in Textkomplexität",
@@ -406,7 +406,7 @@ create_answer_box('research-question-2')
 
 **3. "Einzelner Lesbarkeitsindex" - zu eng:**
 - Problem: Ein Index erfasst nur ausgewählte Aspekte der Komplexität
-- Verbesserung: Verwendung mehrerer Indexe zur Triangulation
+- Verbesserung: Verwendung mehrerer Indizes zur Triangulation
 - Begründung: Robustere Ergebnisse, umfassendere Erfassung
 
 **4. "Niedriger = barriereärmer" - zu simpel:**
