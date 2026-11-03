@@ -20,13 +20,13 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 Sie können die auf einem Korpus ausgeführte Berechnung der Textkomplexität erklären und die Ergebnisse interpretieren.
 ```
 
-Nachdem wir im vorherigem Kapitel ein Korpus gescraped und aus den HTML-Dokumenten den Text extrahiert haben, analysieren wir das Textkorpus in diesem Kapitel in Hinblick auf die Textkomplexität.
+Nachdem wir im vorherigen Kapitel ein Korpus gescraped und aus den HTML-Dokumenten den Text extrahiert haben, analysieren wir das Textkorpus in diesem Kapitel in Hinblick auf die Textkomplexität.
 
 ```{figure} ../assets/images/flow-chart_corpus-analysis.png
 ---
 name: Flussdiagramm der Fallstudie – Korpusanalyse
 ---
-Flussdiagramm der Fallstudie, das aktuelle Arbeitspaket ist hevorgehoben.
+Flussdiagramm der Fallstudie, das aktuelle Arbeitspaket ist hervorgehoben.
 ```
 
 Dafür wird:

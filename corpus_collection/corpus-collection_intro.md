@@ -20,7 +20,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 Sie kennen unterschiedliche Ansätze des Korpusaufbaus und sind mit der Erstellung basaler Metadaten vertraut.
 ```
 
-Nachdem im [vorherigen Kapitel](../research_question/research-question_intro) die **Fragestellung** dieser Fallstudie und deren **Operationalisierung** erläutert wurde, muss nun der Forschungsgegenstand im Sinne der Operationalisierung vorbereitet werden. In unserem Fall bedeutet dies, dass wir ein **Korpus zusammenstellen** müssen, anhand dessen sich (wie es in unserer Operationalisierung heißt) sich die "vom Senat veröffentlichten Pressemitteilungen" untersuchen lassen. 
+Nachdem im [vorherigen Kapitel](../research_question/research-question_intro) die **Fragestellung** dieser Fallstudie und deren **Operationalisierung** erläutert wurde, muss nun der Forschungsgegenstand im Sinne der Operationalisierung vorbereitet werden. In unserem Fall bedeutet dies, dass wir ein **Korpus zusammenstellen** müssen, anhand dessen sich (wie es in unserer Operationalisierung heißt) die "vom Senat veröffentlichten Pressemitteilungen" untersuchen lassen. 
 
 ```{figure} ../assets/images/flow-chart_corpus-collection.png
 ---
@@ -31,6 +31,6 @@ Flussdiagramm der Fallstudie. Wir befinden uns nun im zweiten Arbeitspaket.
 
 In diesem Kapitel nehmen wir zunächst eine [Sicherung des Begriffsverständnisses](corpus-collection_corpora-as-research-objects) vor und klären entsprechend, was wir mit dem Begriff "Korpus" meinen und welche unterschiedlichen Typen des Korpusaufbaus es gibt. 
 
-Um ein Korpus und seine Elememte zu beschreiben, bedarf es [Metadaten](corpus-collection_metadata). Wir werden uns entsprechend in einem folgenden Schritt rudimentär mit dem Konzept von Metadaten befassen und ein basales Metadaten-Schema für unser Korpus und für die Elemete in unserem Korpus entwickeln.
+Um ein Korpus und seine Elemente zu beschreiben, bedarf es [Metadaten](corpus-collection_metadata). Wir werden uns entsprechend in einem folgenden Schritt rudimentär mit dem Konzept von Metadaten befassen und ein basales Metadaten-Schema für unser Korpus und für die Elemente in unserem Korpus entwickeln.
 
 In einem abschließenden Schritt geht es dann um den [Aufbau des Forschungskorpus](corpus-collection_building-our-corpus) für die folgenden Untersuchungen: Wir definieren zunächst, welche Objekte ins Korpus aufgenommen werden sollen, erarbeiten dann die Metadaten für die Korpusobjekte und beschreiben dann den ungefähren Umfang des Korpus. 

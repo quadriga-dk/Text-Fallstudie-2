@@ -47,7 +47,7 @@ question1 = [
                 "feedback": """✓ Korrekt! Wichtige Differenzierung: Es geht nicht nur um die absolute Wortlänge, der Text wird dabei in Abschnitte unterteilt, und es wird die Konsistenz der Schwierigkeit gemessen. Dies wird im Coleman-Liau-Index verwendet und unterscheidet sich von der einfachen durchschnittlichen Wortlänge."""
             },
             {
-                "answer": "Wörter mit mehr als drei Silben gelten in den meisten Indexe als schwer",
+                "answer": "Wörter mit mehr als drei Silben gelten in den meisten Indizes als schwer",
                 "correct": True,
                 "feedback": """✓ Korrekt! Standard-Schwellenwert: 1-2 Silben gelten als leicht, 3 und mehr Silben gelten als schwer. Dies wird in der Wiener Sachtextformel verwendet, ist sprachabhängig (Silbentrennung) und ein wichtiger Parameter für die Komplexität."""
             },
@@ -59,7 +59,7 @@ question1 = [
             {
                 "answer": "Schwierige Wörter werden immer über ein vordefiniertes Wörterbuch ermittelt, nie über Wortlänge oder Silbenzahl",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Verschiedene Ansätze: Die Wiener Sachtextformel ist wörterbuch-basiert, andere Indexe arbeiten über Länge beziehungsweise Silben. Beide Methoden existieren parallel, das Wörterbuch ist EIN Ansatz, nicht der einzige."""
+                "feedback": """× Nicht korrekt. Verschiedene Ansätze: Die Wiener Sachtextformel ist wörterbuch-basiert, andere Indizes arbeiten über Länge beziehungsweise Silben. Beide Methoden existieren parallel, das Wörterbuch ist EIN Ansatz, nicht der einzige."""
             }
         ]
     }
@@ -93,14 +93,14 @@ question2 = [
                 "feedback": """✓ Korrekt! Standardberechnung: Die Summe aller Satzlängen wird durch die Anzahl der Sätze geteilt, dies glättet Extremwerte und liefert einen repräsentativen Wert für den gesamten Text. Es wird in Flesch, Wiener und ARI verwendet und bildet die Basis für die meisten Berechnungen."""
             },
             {
-                "answer": "Kürzere Sätze führen immer zu einem niedrigeren Textkomplexitätsscore in allen Indexe",
+                "answer": "Kürzere Sätze führen immer zu einem niedrigeren Textkomplexitätsscore in allen Indizes",
                 "correct": False,
-                "feedback": """× Nicht präzise genug. Wichtige Nuance: Die Richtung hängt vom Index ab, bei Flesch bedeutet ein höherer Score einen leichteren Text (kürzere Sätze), bei Wiener/ARI bedeutet ein niedrigerer Score einen leichteren Text (kürzere Sätze). Dies ist nicht einheitlich über alle Indexe, die Beziehung ist konsistent, aber die Skalen unterscheiden sich."""
+                "feedback": """× Nicht präzise genug. Wichtige Nuance: Die Richtung hängt vom Index ab, bei Flesch bedeutet ein höherer Score einen leichteren Text (kürzere Sätze), bei Wiener/ARI bedeutet ein niedrigerer Score einen leichteren Text (kürzere Sätze). Dies ist nicht einheitlich über alle Indizes, die Beziehung ist konsistent, aber die Skalen unterscheiden sich."""
             },
             {
                 "answer": "Die maximale Satzlänge im Text ist wichtiger als die durchschnittliche Satzlänge",
                 "correct": False,
-                "feedback": """× Nicht korrekt. Standard-Praxis: Der Durchschnitt ist der Standard-Parameter, das Maximum würde eine Verzerrung erzeugen, da ein einzelner langer Satz nicht repräsentativ ist. Indexe verwenden durchschnittliche Werte, weil diese robuster gegenüber Ausreißern sind."""
+                "feedback": """× Nicht korrekt. Standard-Praxis: Der Durchschnitt ist der Standard-Parameter, das Maximum würde eine Verzerrung erzeugen, da ein einzelner langer Satz nicht repräsentativ ist. Indizes verwenden durchschnittliche Werte, weil diese robuster gegenüber Ausreißern sind."""
             }
         ]
     }
@@ -154,12 +154,12 @@ question4 = [
             {
                 "answer": "Die meisten Scores lassen sich in eine Klassenstufe oder Bildungsniveau übersetzen, wobei ein niedriger Score meist einen schweren Text und ein hoher Score einen leichten Text bedeutet",
                 "correct": False,
-                "feedback": """× Teilweise korrekt, aber umgekehrt! Wichtige Korrektur: Ein niedriger Score bedeutet bei den meisten Indexen einen leichteren Text, ein hoher Score bedeutet einen schwereren Text. Flesch kann je nach Version variieren, die Richtung ist entscheidend!"""
+                "feedback": """× Teilweise korrekt, aber umgekehrt! Wichtige Korrektur: Ein niedriger Score bedeutet bei den meisten Indizes einen leichteren Text, ein hoher Score bedeutet einen schwereren Text. Flesch kann je nach Version variieren, die Richtung ist entscheidend!"""
             },
             {
                 "answer": "Die meisten Scores lassen sich in eine Klassenstufe übersetzen, und ein niedriger Score bedeutet meist einen leichten Text",
                 "correct": True,
-                "feedback": """✓ Korrekt! Das ist die Standardinterpretation: Ein niedriger Score bedeutet einen leichteren Text, ein hoher Score einen schwereren Text. Dies ermöglicht eine Klassenstufen-Zuordnung (z.B. 5. Klasse bis Uni) und ist praktisch für die Zielgruppenbestimmung; wichtig ist dabei, dass sich die Skalen zwischen den Indexen unterscheiden!"""
+                "feedback": """✓ Korrekt! Das ist die Standardinterpretation: Ein niedriger Score bedeutet einen leichteren Text, ein hoher Score einen schwereren Text. Dies ermöglicht eine Klassenstufen-Zuordnung (z.B. 5. Klasse bis Uni) und ist praktisch für die Zielgruppenbestimmung; wichtig ist dabei, dass sich die Skalen zwischen den Indizes unterscheiden!"""
             },
             {
                 "answer": "Alle Lesbarkeitsindizes verwenden dieselbe Skala von 0-100, was den Vergleich erleichtert",
@@ -364,15 +364,15 @@ Die Daten zeigen einen **klaren Abwärtstrend** der Flesch-Scores über 14 Jahre
 
 ---
 
-**4. Überprüfung mit anderen Indexe:**
+**4. Überprüfung mit anderen Indizes:**
 
 **JA, definitiv!** Und zwar aus folgenden Gründen:
 
 **Validierung der Ergebnisse:**
 - **Flesch-Index allein** könnte Artefakt sein
-- **Mehrere Indexe** erhöhen Vertrauenswürdigkeit
-- Wenn alle Indexe denselben Trend zeigen → starke Evidenz
-- Wenn Indexe divergieren → weitere Untersuchung nötig
+- **Mehrere Indizes** erhöhen Vertrauenswürdigkeit
+- Wenn alle Indizes denselben Trend zeigen → starke Evidenz
+- Wenn Indizes divergieren → weitere Untersuchung nötig
 
 **Unterschiedliche Perspektiven:**
 - **Flesch:** Silben + Satzlänge
@@ -382,13 +382,13 @@ Die Daten zeigen einen **klaren Abwärtstrend** der Flesch-Scores über 14 Jahre
 - Jeder Index betont andere Aspekte
 
 **Robustheit:**
-- Nicht alle Indexe messen exakt dasselbe
-- Konvergenz mehrerer Indexe = robuster Befund
+- Nicht alle Indizes messen exakt dasselbe
+- Konvergenz mehrerer Indizes = robuster Befund
 - Divergenz = differenzierteres Bild
 
 **Praktische Durchführung:**
 ```python
-# Alle vier Indexe berechnen
+# Alle vier Indizes berechnen
 df['flesch'] = df['text'].apply(calculate_flesch)
 df['wiener'] = df['text'].apply(calculate_wiener)
 df['ari'] = df['text'].apply(calculate_ari)
@@ -400,7 +400,7 @@ for measure in ['flesch', 'wiener', 'ari', 'coleman_liau']:
 ```
 
 **Erwartung:**
-- **Alle Indexe sollten** sinkende Lesbarkeit zeigen (steigenden Score bei den meisten)
+- **Alle Indizes sollten** sinkende Lesbarkeit zeigen (steigenden Score bei den meisten)
 - **Stärke des Trends** könnte variieren
 - **Interpretation** wird durch Konvergenz gestützt
 
@@ -408,5 +408,5 @@ for measure in ['flesch', 'wiener', 'ari', 'coleman_liau']:
 
 **Zusammenfassung:**
 
-Die Analyse zeigt eine problematische Entwicklung hinsichtlich Barrierefreiheit. Eine umfassende Validierung mit multiplen Indexe und tiefergehende Analysen der Ursachen sind empfehlenswert, um fundierte Empfehlungen für barriereärmere Kommunikation zu geben.
+Die Analyse zeigt eine problematische Entwicklung hinsichtlich Barrierefreiheit. Eine umfassende Validierung mit multiplen Indizes und tiefergehende Analysen der Ursachen sind empfehlenswert, um fundierte Empfehlungen für barriereärmere Kommunikation zu geben.
 ````
