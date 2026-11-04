@@ -1,8 +1,8 @@
 (research-question_intro)=
 # Fragestellung und Operationalisierung. Einführung in die Fallstudie
-```{admonition} Groblernziel dieses Kapitels
-:class: lernziele
-Sie kennen Grundfragen der geisteswissenschaftlichen Forschung mit Korpora nach dem qualitativen Methodenparadigma und wissen um das Konzept der "Operationalisierung"
+```{include} ../introduction/introduction_learning-outcomes.md
+:start-after: "<!-- START: Fragestellung und Operationalisierung. Einführung in die Fallstudie -->"
+:end-before: "<!-- END: Fragestellung und Operationalisierung. Einführung in die Fallstudie -->"
 ```
 
 Dieses Kapitel bildet den Auftakt der Fallstudie und dient der Klärung des Erkenntnisinteresses, das die dann folgende Vorbereitung und Aufbereitung des Forschungsgegenstands (Korpus) und schließlich die Analyse leitet. 

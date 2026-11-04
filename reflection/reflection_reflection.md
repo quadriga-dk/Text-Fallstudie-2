@@ -15,6 +15,10 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 
 ```
 ````
+```{include} ../introduction/introduction_learning-outcomes.md
+:start-after: "<!-- START: Reflexion -->"
+:end-before: "<!-- END: Reflexion -->"
+```
 
 Mit der Analyse der Textkomplexität haben wir den in dieser Fallstudie entwickelten Meßvorgang abgeschlossen. Ausgehend von der Forschungsfrage, *wie sich die kommunikative Barrierearmut des Berliner Senats im Zeitraum von 2011 bis 2024 entwickelt*, haben wir das Konzept der Barrierearmut über die Leichte Sprache an Lesbarkeitsindizes gekoppelt, ein Korpus der Pressemitteilungen der Berliner Exekutive aufgebaut und die Textkomplexität über die Zeit ausgewertet. Die vier verwendeten Maße deuten dabei übereinstimmend auf eine zunehmende Textkomplexität hin. Zu beachten ist, dass ein hoher Flesch-Wert für eine leichtere Lesbarkeit steht (er sinkt über die Zeit), ein hoher Wert der drei übrigen Maße dagegen für eine schwerere (sie steigen). Gemessen an unserer Operationalisierung ist die Kommunikation des Senats also nicht barriereärmer, sondern eher barrierereicher geworden.
 

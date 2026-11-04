@@ -15,9 +15,9 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 
 ```
 ````
-```{admonition} Groblernziel dieses Kapitels
-:class: lernziele
-Sie können die auf einem Korpus ausgeführte Berechnung der Textkomplexität erklären und die Ergebnisse interpretieren.
+```{include} ../introduction/introduction_learning-outcomes.md
+:start-after: "<!-- START: Korpusanalyse. Textkomplexität -->"
+:end-before: "<!-- END: Korpusanalyse. Textkomplexität -->"
 ```
 
 Nachdem wir im vorherigem Kapitel ein Korpus gescraped und aus den HTML-Dokumenten den Text extrahiert haben, analysieren wir das Textkorpus in diesem Kapitel in Hinblick auf die Textkomplexität.
