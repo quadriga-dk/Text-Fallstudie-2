@@ -214,7 +214,7 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
     </schema:hasPart>
     <schema:hasPart>
       <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_1">
-        <schema:description>TODO</schema:description>
+        <schema:description>Dieses Kapitel bildet den Auftakt der Fallstudie und dient der Klärung des Erkenntnisinteresses, das die dann folgende Vorbereitung und Aufbereitung des Forschungsgegenstands (Korpus) und schließlich die Analyse leitet.</schema:description>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_1_objective_0" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_1_objective_1" />
         <schema:name>Fragestellung und Operationalisierung. Einführung in die Fallstudie</schema:name>
@@ -225,7 +225,7 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
     </schema:hasPart>
     <schema:hasPart>
       <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_2">
-        <schema:description>TODO</schema:description>
+        <schema:description>In diesem Kapitel nehmen wir zunächst eine Sicherung des Begriffsverständnisses vor und klären entsprechend, was wir mit dem Begriff „Korpus“ meinen und welche unterschiedlichen Typen des Korpusaufbaus es gibt.</schema:description>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_2_objective_0" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_2_objective_1" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_2_objective_2" />
@@ -237,7 +237,7 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
     </schema:hasPart>
     <schema:hasPart>
       <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_3">
-        <schema:description>TODO</schema:description>
+        <schema:description>Da der Senat die Pressemitteilungen in Form von Websites veröffentlicht, diese aber meist noch weitere Informationen enthalten, geht es in diesem Kapitel darum, wie der Text einer Website strukturiert extrahiert werden kann.</schema:description>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_3_objective_0" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_3_objective_1" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_3_objective_2" />
@@ -249,7 +249,7 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
     </schema:hasPart>
     <schema:hasPart>
       <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_4">
-        <schema:description>TODO</schema:description>
+        <schema:description>In diesem Kapitel geht es um die automatisierten Extraktion, dem sogenannten Scraping, von Webinhalten zur Erstellung des Forschungskorpus.</schema:description>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_4_objective_0" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_4_objective_1" />
         <schema:name>Scraping als Methode zum Korpusaufbau</schema:name>
@@ -260,7 +260,7 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
     </schema:hasPart>
     <schema:hasPart>
       <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_5">
-        <schema:description>TODO</schema:description>
+        <schema:description>Nachdem wir uns mit HTTP-Anfragen, Web-Scraping und HTML beschäftigt haben, kombinieren wir in diesem Kapitel dieses Wissen, um den Korpus von mehr als 50.000 Pressemitteilungen von berlin.de zusammenzustellen.</schema:description>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_5_objective_0" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_5_objective_1" />
         <schema:name>Korpusaufbau</schema:name>
@@ -271,7 +271,7 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
     </schema:hasPart>
     <schema:hasPart>
       <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_6">
-        <schema:description>TODO</schema:description>
+        <schema:description>Nachdem wir im vorherigem Kapitel ein Korpus gescraped und aus den HTML-Dokumenten den Text extrahiert haben, analysieren wir das Textkorpus in diesem Kapitel in Hinblick auf die Textkomplexität.</schema:description>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_6_objective_0" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_6_objective_1" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_6_objective_2" />
@@ -284,7 +284,7 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
     </schema:hasPart>
     <schema:hasPart>
       <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_7">
-        <schema:description>TODO</schema:description>
+        <schema:description>Mit der Analyse der Textkomplexität haben wir den in dieser Fallstudie entwickelten Meßvorgang abgeschlossen. Dieser Befund bedarf allerdings der Einordnung. Ein Ergebnis ist nur so tragfähig wie die Operationalisierung, die ihm zugrunde liegt, und jede Operationalisierung in den Digital Humanities ist, wie wir bereits im Kapitel Operationalisierung angemerkt haben, diskutabel. Wir treten daher zum Abschluss einen Schritt zurück und reflektieren Reichweite und Grenzen unseres Vorgehens.</schema:description>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_7_objective_0" />
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_7_objective_1" />
         <schema:name>Reflexion</schema:name>
