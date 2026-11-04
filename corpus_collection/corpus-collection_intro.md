@@ -15,9 +15,9 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 
 ```
 ````
-```{admonition} Groblernziel dieses Kapitels
-:class: lernziele
-Sie kennen unterschiedliche Ansätze des Korpusaufbaus und sind mit der Erstellung basaler Metadaten vertraut.
+```{include} ../introduction/introduction_learning-outcomes.md
+:start-after: "<!-- START: Korpora als epistemische Objekte -->"
+:end-before: "<!-- END: Korpora als epistemische Objekte -->"
 ```
 
 Nachdem im [vorherigen Kapitel](../research_question/research-question_intro) die **Fragestellung** dieser Fallstudie und deren **Operationalisierung** erläutert wurde, muss nun der Forschungsgegenstand im Sinne der Operationalisierung vorbereitet werden. In unserem Fall bedeutet dies, dass wir ein **Korpus zusammenstellen** müssen, anhand dessen sich (wie es in unserer Operationalisierung heißt) sich die "vom Senat veröffentlichten Pressemitteilungen" untersuchen lassen. 
