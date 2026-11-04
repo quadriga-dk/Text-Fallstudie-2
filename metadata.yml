@@ -89,7 +89,7 @@ chapters:
       Kopplung von Barrierearmut an Leichte Sprache und Lesbarkeitsindizes
       nachvollzogen und auf andere Forschungsfragen übertragen werden.
     competency: 1.1 Identifikation
-    data-flow: nicht anwendbar
+    data-flow: 1 Planung
     blooms-category: 3 Anwenden
 - title: Korpora als epistemische Objekte
   url: https://quadriga-dk.github.io/Text-Fallstudie-2/corpus_collection/corpus-collection_intro.html
@@ -101,19 +101,19 @@ chapters:
       Forschungsobjekte definiert und deren wesentliche Merkmale beschrieben
       werden.
     competency: 3.2 Erschließung
-    data-flow: nicht anwendbar
+    data-flow: 3 Management
     blooms-category: 2 Verstehen
   - learning-objective: Die grundlegenden Metadatenschemata (Dublin Core, TEI,
       MODS, METS) und deren charakteristische Elemente für Korpora und
       Einzeldokumente können beschrieben werden.
     competency: 3.2 Erschließung
-    data-flow: nicht anwendbar
+    data-flow: 3 Management
     blooms-category: 2 Verstehen
   - learning-objective: Der schrittweise Prozess des praktischen Korpusaufbaus
       (Konzeptentwicklung, Metadatenerstellung und Datensammlung) kann am
       Beispiel eines Korpus von Pressemitteilungen beschrieben werden.
     competency: 3.2 Erschließung
-    data-flow: nicht anwendbar
+    data-flow: 3 Management
     blooms-category: 2 Verstehen
 - title: Texte als digitale Objekte. Einführung in HTML
   url: https://quadriga-dk.github.io/Text-Fallstudie-2/html_intro/html-intro_intro.html
@@ -126,18 +126,18 @@ chapters:
       unterschieden und deren Vor- und Nachteile für spezifische Anwendungsfälle
       analysiert werden.
     competency: 2.3 Aufbereitung
-    data-flow: nicht anwendbar
+    data-flow: 2 Erhebung und Aufbereitung
     blooms-category: 4 Analysieren
   - learning-objective: Die Struktur von HTML-Websites kann erklärt und die
       Funktion ausgewählter HTML-Tags benannt werden.
     competency: 2.3 Aufbereitung
-    data-flow: nicht anwendbar
+    data-flow: 2 Erhebung und Aufbereitung
     blooms-category: 2 Verstehen
   - learning-objective: Die Extraktion von Plain Text aus HTML kann
       nachvollzogen und die wichtigsten HTML-Tags zur Extraktion aufgezählt
       werden.
     competency: 2.1 Erhebung
-    data-flow: nicht anwendbar
+    data-flow: 2 Erhebung und Aufbereitung
     blooms-category: 2 Verstehen
 - title: Scraping als Methode zum Korpusaufbau
   url: https://quadriga-dk.github.io/Text-Fallstudie-2/scraping_intro/scraping_intro.html
@@ -149,13 +149,13 @@ chapters:
       beteiligten Komponenten aufgezählt und die Response-Codes 200, 404, 403
       und 500 erläutert werden.
     competency: 2.1 Erhebung
-    data-flow: nicht anwendbar
+    data-flow: 2 Erhebung und Aufbereitung
     blooms-category: 2 Verstehen
   - learning-objective: Verschiedene Methoden zur automatisierten Abfrage von
       Websites können unterschieden sowie deren Vor- und Nachteile benannt
       werden.
     competency: 2.1 Erhebung
-    data-flow: nicht anwendbar
+    data-flow: 2 Erhebung und Aufbereitung
     blooms-category: 2 Verstehen
 - title: Korpusaufbau
   url: https://quadriga-dk.github.io/Text-Fallstudie-2/corpus_building/corpus-building_intro.html
@@ -168,13 +168,13 @@ chapters:
       Unterschiede zwischen Ursprungs- und Zielformat (HTML und Plain Text)
       erklärt werden.
     competency: 2.1 Erhebung
-    data-flow: nicht anwendbar
+    data-flow: 2 Erhebung und Aufbereitung
     blooms-category: 2 Verstehen
   - learning-objective: Die Vollständigkeit und Qualität des gescrapten Korpus
       können anhand der erhobenen Metadaten (etwa Dokumentzahl, Zeitabdeckung,
       Tokenanzahl) geprüft und Auffälligkeiten analysiert werden.
     competency: 2.2 Validierung
-    data-flow: nicht anwendbar
+    data-flow: 2 Erhebung und Aufbereitung
     blooms-category: 4 Analysieren
 - title: Korpusanalyse. Textkomplexität
   url: https://quadriga-dk.github.io/Text-Fallstudie-2/corpus_analysis/corpus-analysis_intro.html
@@ -185,26 +185,26 @@ chapters:
   - learning-objective: Komponenten zur Berechnung von Textkomplexität können
       aufgezählt und gängige Lesbarkeitsindizes benannt werden.
     competency: 4.1 Datenanalyse
-    data-flow: nicht anwendbar
+    data-flow: 4 Analyse
     blooms-category: 2 Verstehen
   - learning-objective: Die notwendigen Schritte zur Berechnung der
       Textkomplexität auf einem Korpus können aufgezählt, die Konzeption der
       diachronen Analyse beschrieben und alternative Möglichkeiten der
       Korpusaufteilung entworfen werden.
     competency: 4.1 Datenanalyse
-    data-flow: nicht anwendbar
+    data-flow: 4 Analyse
     blooms-category: 2 Verstehen
   - learning-objective: Das Konzept des Liniendiagramms kann erklärt, gegen das
       Balkendiagramm abgegrenzt und die Eignung beider Darstellungsformen für
       zeitliche Entwicklungen begründet werden.
     competency: 4.2 Visualisierung
-    data-flow: nicht anwendbar
+    data-flow: 4 Analyse
     blooms-category: 4 Analysieren
   - learning-objective: Die Entwicklung der Textkomplexität kann in
       unterschiedlicher zeitlicher Granularität (Woche, Monat, Jahr)
       interpretiert werden.
     competency: 4.3 Interpretation
-    data-flow: nicht anwendbar
+    data-flow: 4 Analyse
     blooms-category: 5 Bewerten
 - title: Reflexion
   url: https://quadriga-dk.github.io/Text-Fallstudie-2/reflection/reflection_reflection.html
@@ -215,13 +215,13 @@ chapters:
   - learning-objective: Die methodischen Limitationen einer Digital
       Humanities-Fallstudie können benannt werden.
     competency: 4.3 Interpretation
-    data-flow: nicht anwendbar
+    data-flow: 4 Analyse
     blooms-category: 5 Bewerten
   - learning-objective: Die Reichweite des Befunds kann im Rahmen der gewählten
       Operationalisierung eingeordnet und ein beobachteter Trend von einer
       Ursachenaussage unterschieden werden.
     competency: 4.3 Interpretation
-    data-flow: nicht anwendbar
+    data-flow: 4 Analyse
     blooms-category: 5 Bewerten
 date-issued: '2024-06-17'
 date-modified: '2026-02-19'
