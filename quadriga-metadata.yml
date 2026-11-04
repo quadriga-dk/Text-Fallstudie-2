@@ -77,129 +77,144 @@ chapterLIST:
   description: TODO
   url: https://quadriga-dk.github.io/Text-Fallstudie-2/research_question/research-question_intro.html
   timeRequired: TODO
-  learningGoal: Sie kennen Grundfragen der geisteswissenschaftlichen Forschung mit
-    Korpora nach dem qualitativen Methodenparadigma und wissen um das Konzept der
-    “Operationalisierung”.
+  learningGoal: Grundlagen korpusbasierter geisteswissenschaftlicher Forschung
   learningObjectiveLIST:
-  - description: Sie kennen Ansätze zur Operationalisierung von Forschungsfragen für
-      quantitaive Methoden-Settings.
+  - description: Die Entwicklung einer Digital Humanities-Fragestellung kann am Beispiel
+      der kommunikativen Barrierearmut des Berliner Senats nachvollzogen und erläutert
+      werden.
     competency: nicht anwendbar
     dataFlow: nicht anwendbar
-    bloomsCategory: nicht anwendbar
+    bloomsCategory: 2 Verstehen
+  - description: Der Operationalisierungsprozess kann am Beispiel der Kopplung von
+      Barrierearmut an Leichte Sprache und Lesbarkeitsindizes nachvollzogen und auf
+      andere Forschungsfragen übertragen werden.
+    competency: 1.1 Identifikation
+    dataFlow: 1 Planung
+    bloomsCategory: 3 Anwenden
 - title: Korpora als epistemische Objekte
   description: TODO
   url: https://quadriga-dk.github.io/Text-Fallstudie-2/corpus_collection/corpus-collection_intro.html
   timeRequired: TODO
-  learningGoal: Sie kennen unterschiedliche Ansätze des Korpusaufbaus und sind mit
-    der Erstellung basaler Metadaten vertraut.
+  learningGoal: Ansätze des Korpusaufbaus und Erstellung basaler Metadaten
   learningObjectiveLIST:
-  - description: Sie verfügen über Basiswissen über Korpora als geisteswissenschaftliche
-      Forschungsobjekte und kennen Typen von Korpora.
-    competency: nicht anwendbar
-    dataFlow: nicht anwendbar
-    bloomsCategory: nicht anwendbar
-  - description: Sie sind mit der Idee von Metadaten vertraut und kennen basale Metadatenschemata
-      für Korpora und Korpus-Elemente.
-    competency: nicht anwendbar
-    dataFlow: nicht anwendbar
-    bloomsCategory: nicht anwendbar
+  - description: Korpora können als geisteswissenschaftliche Forschungsobjekte definiert
+      und deren wesentliche Merkmale beschrieben werden.
+    competency: 3.2 Erschließung
+    dataFlow: 3 Management
+    bloomsCategory: 2 Verstehen
+  - description: Die grundlegenden Metadatenschemata (Dublin Core, TEI, MODS, METS)
+      und deren charakteristische Elemente für Korpora und Einzeldokumente können
+      beschrieben werden.
+    competency: 3.2 Erschließung
+    dataFlow: 3 Management
+    bloomsCategory: 2 Verstehen
+  - description: Der schrittweise Prozess des praktischen Korpusaufbaus (Konzeptentwicklung,
+      Metadatenerstellung und Datensammlung) kann am Beispiel eines Korpus von Pressemitteilungen
+      beschrieben werden.
+    competency: 3.2 Erschließung
+    dataFlow: 3 Management
+    bloomsCategory: 2 Verstehen
 - title: Texte als digitale Objekte. Einführung in HTML
   description: TODO
   url: https://quadriga-dk.github.io/Text-Fallstudie-2/html_intro/html-intro_intro.html
   timeRequired: TODO
-  learningGoal: Abgrenzung von unterschiedlichen Formate zur Textspeicherung und benennen
-    der Vor- und Nachteile. Struktur von HTML erklären und die Funktion von ausgewählte
-    HTML-Tags benennen. HTML-Tags zur Extraktion von Plain Text aus HTML aufzählen.
+  learningGoal: Textformate und Textextraktion aus HTML
   learningObjectiveLIST:
-  - description: Sie kennen unterschiedliche Realisierungsweisen und Formate von Text
-      im Digitalen.
-    competency: nicht anwendbar
-    dataFlow: nicht anwendbar
-    bloomsCategory: nicht anwendbar
-  - description: Sie können die Semantik der textangebenden html-Tags beschreiben
-      und Tags zur Textextraktion auswählen.
-    competency: nicht anwendbar
-    dataFlow: nicht anwendbar
-    bloomsCategory: nicht anwendbar
+  - description: Vier Formate digitaler Texte (Bilddigitalisate, Plain Text, HTML,
+      CSV) können anhand ihrer charakteristischen Eigenschaften unterschieden und
+      deren Vor- und Nachteile für spezifische Anwendungsfälle analysiert werden.
+    competency: 2.3 Aufbereitung
+    dataFlow: 2 Erhebung und Aufbereitung
+    bloomsCategory: 4 Analysieren
+  - description: Die Struktur von HTML-Websites kann erklärt und die Funktion ausgewählter
+      HTML-Tags benannt werden.
+    competency: 2.3 Aufbereitung
+    dataFlow: 2 Erhebung und Aufbereitung
+    bloomsCategory: 2 Verstehen
+  - description: Die Extraktion von Plain Text aus HTML kann nachvollzogen und die
+      wichtigsten HTML-Tags zur Extraktion aufgezählt werden.
+    competency: 2.1 Erhebung
+    dataFlow: 2 Erhebung und Aufbereitung
+    bloomsCategory: 2 Verstehen
 - title: Scraping als Methode zum Korpusaufbau
   description: TODO
   url: https://quadriga-dk.github.io/Text-Fallstudie-2/scraping_intro/scraping_intro.html
   timeRequired: TODO
-  learningGoal: Sie können HTTP-Abfragen konzeptionell erklären und unterschiedliche
-    Methoden zur automatisierten Abfrage von Websites unterscheiden sowie Vor- und
-    Nachteile benennen.
+  learningGoal: Scraping als Methode zur Korpuserstellung
   learningObjectiveLIST:
-  - description: Sie können die Komponenten aufzählen, die an einem HTTP-Request beteiligt
-      sind, den Unterschied zwischen dem Aufbau eines HTTP-Requests und einer HTTP-Response
-      erläutern sowie die Response codes 200, 404, 403 und 500 interpretieren.
-    competency: nicht anwendbar
-    dataFlow: nicht anwendbar
-    bloomsCategory: nicht anwendbar
-  - description: Sie können verschiedene Methoden der Website-Abfrage aufzählen und
-      Unterschiede identifizieren.
-    competency: nicht anwendbar
-    dataFlow: nicht anwendbar
-    bloomsCategory: nicht anwendbar
-  - description: Sie können Vor- und Nachteile der Methoden erklären und ermitteln,
-      in welchen Szenarien welche Methode geeignet ist.
-    competency: nicht anwendbar
-    dataFlow: nicht anwendbar
-    bloomsCategory: nicht anwendbar
+  - description: HTTP-Abfragen können konzeptionell erklärt, die beteiligten Komponenten
+      aufgezählt und die Response-Codes 200, 404, 403 und 500 erläutert werden.
+    competency: 2.1 Erhebung
+    dataFlow: 2 Erhebung und Aufbereitung
+    bloomsCategory: 2 Verstehen
+  - description: Verschiedene Methoden zur automatisierten Abfrage von Websites können
+      unterschieden sowie deren Vor- und Nachteile benannt werden.
+    competency: 2.1 Erhebung
+    dataFlow: 2 Erhebung und Aufbereitung
+    bloomsCategory: 2 Verstehen
 - title: Korpusaufbau
   description: TODO
   url: https://quadriga-dk.github.io/Text-Fallstudie-2/corpus_building/corpus-building_intro.html
   timeRequired: TODO
-  learningGoal: Die Lernenden können den Quellcode einer Website untersuchen, geeignete
-    HTML-Tags zur Textextraktion ermitteln und entscheiden, welche Scraping-Methode
-    für die Extraktion verwendet werden muss.
+  learningGoal: Scraping-basierte Korpuserstellung
   learningObjectiveLIST:
-  - description: Die Lernenden können mit Hilfe eines Jupyter Notebooks Python-Code
-      zur Extraktion des Website-Texts ausführen.
-    competency: nicht anwendbar
-    dataFlow: nicht anwendbar
-    bloomsCategory: nicht anwendbar
+  - description: Die Schritte zur automatisierten Korpuserstellung mittels HTML-Analyse
+      und Scraping können nachvollzogen und die Unterschiede zwischen Ursprungs- und
+      Zielformat (HTML und Plain Text) erklärt werden.
+    competency: 2.1 Erhebung
+    dataFlow: 2 Erhebung und Aufbereitung
+    bloomsCategory: 2 Verstehen
+  - description: Die Vollständigkeit und Qualität des gescrapten Korpus können anhand
+      der erhobenen Metadaten (etwa Dokumentzahl, Zeitabdeckung, Tokenanzahl) geprüft
+      und Auffälligkeiten analysiert werden.
+    competency: 2.2 Validierung
+    dataFlow: 2 Erhebung und Aufbereitung
+    bloomsCategory: 4 Analysieren
 - title: Korpusanalyse. Textkomplexität
   description: TODO
   url: https://quadriga-dk.github.io/Text-Fallstudie-2/corpus_analysis/corpus-analysis_intro.html
   timeRequired: TODO
-  learningGoal: Sie können die auf einem Korpus ausgeführte Berechnung der Textkomplexität
-    erklären und die Ergebnisse interpretieren.
+  learningGoal: Berechnung und Visualisierung der Textkomplexität
   learningObjectiveLIST:
-  - description: Sie können die Textmaße (Wortlänge, Satzlänge etc.), die zur Berechnung
-      der Textkomplexität dienen, aufzählen.
-    competency: nicht anwendbar
-    dataFlow: nicht anwendbar
-    bloomsCategory: nicht anwendbar
-  - description: Sie kennen verschiedene Methoden zur Berechnung der Textkomplexität
-      und können die Vor- und Nachteile der Methoden aufzeigen.
-    competency: nicht anwendbar
-    dataFlow: nicht anwendbar
-    bloomsCategory: nicht anwendbar
-  - description: Sie können das Konzept eines Liniendiagramms erklären.
-    competency: nicht anwendbar
-    dataFlow: nicht anwendbar
-    bloomsCategory: nicht anwendbar
-  - description: Sie können die Konzeption der Analyse beschreiben und andere Möglichkeiten
-      des Korpus-Splitting entwerfen.
-    competency: nicht anwendbar
-    dataFlow: nicht anwendbar
-    bloomsCategory: nicht anwendbar
-  - description: Sie können das Konzept eines Balkendiagramms erklären und das erstellte
-      Diagramm interpretieren sowie die Gründe für Ihre Interpretation nennen.
-    competency: nicht anwendbar
-    dataFlow: nicht anwendbar
-    bloomsCategory: nicht anwendbar
+  - description: Komponenten zur Berechnung von Textkomplexität können aufgezählt
+      und gängige Lesbarkeitsindizes benannt werden.
+    competency: 4.1 Datenanalyse
+    dataFlow: 4 Analyse
+    bloomsCategory: 2 Verstehen
+  - description: Die notwendigen Schritte zur Berechnung der Textkomplexität auf einem
+      Korpus können aufgezählt, die Konzeption der diachronen Analyse beschrieben
+      und alternative Möglichkeiten der Korpusaufteilung entworfen werden.
+    competency: 4.1 Datenanalyse
+    dataFlow: 4 Analyse
+    bloomsCategory: 2 Verstehen
+  - description: Das Konzept des Liniendiagramms kann erklärt, gegen das Balkendiagramm
+      abgegrenzt und die Eignung beider Darstellungsformen für zeitliche Entwicklungen
+      begründet werden.
+    competency: 4.2 Visualisierung
+    dataFlow: 4 Analyse
+    bloomsCategory: 4 Analysieren
+  - description: Die Entwicklung der Textkomplexität kann in unterschiedlicher zeitlicher
+      Granularität (Woche, Monat, Jahr) interpretiert werden.
+    competency: 4.3 Interpretation
+    dataFlow: 4 Analyse
+    bloomsCategory: 5 Bewerten
 - title: Reflexion
   description: TODO
   url: https://quadriga-dk.github.io/Text-Fallstudie-2/reflection/reflection_reflection.html
   timeRequired: TODO
-  learningGoal: TODO
+  learningGoal: Kritische Bewertung der Reichweite und Limitationen
   learningObjectiveLIST:
   - description: Die methodischen Limitationen einer Digital Humanities-Fallstudie
       können benannt werden.
-    competency: nicht anwendbar
-    dataFlow: nicht anwendbar
-    bloomsCategory: nicht anwendbar
+    competency: 4.3 Interpretation
+    dataFlow: 4 Analyse
+    bloomsCategory: 5 Bewerten
+  - description: Die Reichweite des Befunds kann im Rahmen der gewählten Operationalisierung
+      eingeordnet und ein beobachteter Trend von einer Ursachenaussage unterschieden
+      werden.
+    competency: 4.3 Interpretation
+    dataFlow: 4 Analyse
+    bloomsCategory: 5 Bewerten
 dateIssued: '2024-06-17'
 dateModified: '2026-11-04'
 version: 1.0.0-beta.1
