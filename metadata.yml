@@ -63,7 +63,7 @@ identifier: https://doi.org/10.5281/zenodo.TODOTODO
 git: https://github.com/quadriga-dk/Text-Fallstudie-2
 url: https://quadriga-dk.github.io/Text-Fallstudie-2/
 chapters:
-- title: Präambel
+- title: Einstieg
   url: https://quadriga-dk.github.io/Text-Fallstudie-2/präambel/einführung.html
   description: TODO
   learning-goal: TODO
