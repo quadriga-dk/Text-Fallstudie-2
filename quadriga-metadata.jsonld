@@ -19,7 +19,7 @@
     "value": "10.5281/zenodo.23940298",
     "url": "https://doi.org/10.5281/zenodo.23940298"
   },
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-beta.2",
   "schemaVersion": "2.0.0",
   "url": "https://quadriga-dk.github.io/Text-Fallstudie-2/",
   "workExample": {
@@ -28,7 +28,7 @@
     "codeRepository": "https://github.com/quadriga-dk/Text-Fallstudie-2"
   },
   "datePublished": "2024-06-17",
-  "dateModified": "2026-11-04",
+  "dateModified": "2026-11-10",
   "author": [
     {
       "@type": "Person",
@@ -368,7 +368,7 @@
       ]
     }
   ],
-  "dcterms:tableOfContents": "- Einstieg\n- Fragestellung und Operationalisierung. Einführung in die Fallstudie\n- Korpora als epistemische Objekte\n- Texte als digitale Objekte. Einführung in HTML\n- Scraping als Methode zum Korpusaufbau\n- Korpusaufbau\n- Korpusanalyse\n- Reflexion\n- Epilog",
+  "dcterms:tableOfContents": "- Einstieg\n- Fragestellung und Operationalisierung. Einführung in die Fallstudie\n- Korpora als epistemische Objekte\n- Texte als digitale Objekte. Einführung in HTML\n- Scraping als Methode zum Korpusaufbau\n- Korpusaufbau\n- Korpusanalyse\n- Reflexion\n- Abschluss",
   "funding": "Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.\n\nFörderkennzeichen: 16DKZ2034",
   "learningResourceType": "Jupyter Book",
   "lrmi:learningResourceType": "Jupyter Book",
