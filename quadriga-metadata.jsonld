@@ -368,7 +368,7 @@
       ]
     }
   ],
-  "dcterms:tableOfContents": "- Präambel\n- Fragestellung und Operationalisierung. Einführung in die Fallstudie\n- Korpora als epistemische Objekte\n- Texte als digitale Objekte. Einführung in HTML\n- Scraping als Methode zum Korpusaufbau\n- Korpusaufbau\n- Korpusanalyse\n- Reflexion\n- Epilog",
+  "dcterms:tableOfContents": "- Einstieg\n- Fragestellung und Operationalisierung. Einführung in die Fallstudie\n- Korpora als epistemische Objekte\n- Texte als digitale Objekte. Einführung in HTML\n- Scraping als Methode zum Korpusaufbau\n- Korpusaufbau\n- Korpusanalyse\n- Reflexion\n- Epilog",
   "funding": "Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum QUADRIGA erstellt.\n\nFörderkennzeichen: 16DKZ2034",
   "learningResourceType": "Jupyter Book",
   "lrmi:learningResourceType": "Jupyter Book",

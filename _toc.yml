@@ -3,7 +3,7 @@ root: front_page/intro
 options:
   numbered: 3
 chapters:
-  - file: präambel/einführung
+  - file: einstieg/einführung
     sections:
     - file: introduction/introduction_learning-outcomes
     - file: introduction/introduction_requirements
@@ -14,7 +14,7 @@ chapters:
     - file: research_question/research-question_summary
     - file: research_question/research-question_assessment
   - file: corpus_collection/corpus-collection_intro
-    sections: 
+    sections:
     - file: corpus_collection/corpus-collection_corpora-as-research-objects
     - file: corpus_collection/corpus-collection_metadata
     - file: corpus_collection/corpus-collection_building-our-corpus
@@ -29,17 +29,17 @@ chapters:
     - file: html_intro/html-intro_summary
     - file: html_intro/html-intro_assessment
   - file: scraping_intro/scraping_intro
-    sections: 
+    sections:
     - file: scraping_intro/scraping_http-intro
     - file: scraping_intro/scraping_method-overview
     - file: scraping_intro/scraping_summary
     - file: scraping_intro/scraping_assessment
-  - file: corpus_building/corpus-building_intro 
+  - file: corpus_building/corpus-building_intro
     sections:
     - file: corpus_building/corpus_building_mass_scraping_press-releases
     #- file corpus_building/corpus_building_building
     - file: corpus_building/corpus-building_summary
-    - file: corpus_building/corpus-building_assessment 
+    - file: corpus_building/corpus-building_assessment
   - file: corpus_analysis/corpus-analysis_intro
     sections:
     - file: corpus_analysis/corpus-analysis_text_complexity
@@ -51,11 +51,11 @@ chapters:
   - file: reflection/reflection_reflection
     sections:
     - file: reflection/reflection_outlook
-  - file: epilog/toc
+  - file: abschluss/toc
     sections:
-    - file: epilog/fragen_feedback
-    - file: epilog/bibliography
-    - file: epilog/authors
-    - file: epilog/QUADRIGA
-    - file: epilog/impressum
+    - file: abschluss/fragen_feedback
+    - file: abschluss/bibliography
+    - file: abschluss/authors
+    - file: abschluss/QUADRIGA
+    - file: abschluss/impressum
 
