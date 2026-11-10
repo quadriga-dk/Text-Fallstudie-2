@@ -230,7 +230,7 @@ from assessment import DragDropQuiz
 quiz = DragDropQuiz()
 
 quiz.create_matching_quiz(
-    title="Ordnen Sie die Python-Bibliotheken für Web Scraping den passenden Beschreibungen zu:",
+    title="Ordnen Sie die Python-Bibliotheken für Web-Scraping den passenden Beschreibungen zu:",
     descriptions=[
         "Einfache HTTP-Anfragen für einzelne statische Webseiten",
         "Effizientes Crawlen und Folgen von Links über mehrere Seiten",
@@ -339,7 +339,7 @@ from quadriga import colors
 
 question10 = [
     {
-        "question": "Welche ethischen und rechtlichen Aspekte müssen beim Web Scraping beachtet werden? Wählen Sie alle zutreffenden Aussagen.",
+        "question": "Welche ethischen und rechtlichen Aspekte müssen beim Web-Scraping beachtet werden? Wählen Sie alle zutreffenden Aussagen.",
         "type": "multiple_choice",
         "answers": [
             {

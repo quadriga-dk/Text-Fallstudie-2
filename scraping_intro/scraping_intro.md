@@ -20,7 +20,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 :end-before: "<!-- END: Scraping als Methode zum Korpusaufbau -->"
 ```
 
-Nachdem das [vorherige Kapitel in HTML eingeführt](html-intro_html-intro) hat, geht es in diesem Kapitel um die automatisierten Extraktion, dem sogenannten **Scraping**, von Webinhalten zur Erstellung des Forschungskorpus. 
+Nachdem das [vorherige Kapitel in HTML eingeführt](html-intro_html-intro) hat, geht es in diesem Kapitel um die automatisierte Extraktion, dem sogenannten **Scraping**, von Webinhalten zur Erstellung des Forschungskorpus. 
 
 ```{figure} ../assets/images/flow-chart_scraping.png
 ---
