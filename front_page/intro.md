@@ -1,7 +1,7 @@
 (intro)=
 # Quantitative Analyse der kommunikativen Barrierearmut des Berliner Senats (2011-2024). Eine Fallstudie
 ````{margin}
-```{admonition} Fragen oder Feedback 
+```{admonition} Fragen oder Feedback
 :class: frage-feedback
 
 <a href="https://github.com/quadriga-dk/Text-Fallstudie-2/issues/new?assignees=&labels=question&projects=&template=frage.yml" class="external-link" target="_blank">
@@ -16,10 +16,20 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```
 ````
 
+`````{margin}
+````{admonition} Zitierhinweis
+:class: citation-information
+```{literalinclude} /CITATION.bib
+:language: bibtex
+```
+Skorinkin, D., Sluyter-Gäthje, H., Trilcke, P. (2026). _Quantitative Analyse der kommunikativen Barrierearmut des Berliner Senats (2011-2024). Eine Fallstudie. QUADRIGA Open Educational Resources: Text 1._ https://doi.org/10.5281/zenodo.23940298
 
-Die vorliegende Fallstudie bereitet – in Form eines ["Jupyter Books"](introduction_requirements) – den Prozess und die Ergebnisse eines Forschungsprojekts aus den Digital Humanities didaktisch auf. Schritt für Schritt wird nachvollziehbar, 
+````
+`````
 
-- wie eine **Forschungsfrage** entwickelt und operationalisiert wird, 
+Die vorliegende Fallstudie bereitet – in Form eines ["Jupyter Books"](introduction_requirements) – den Prozess und die Ergebnisse eines Forschungsprojekts aus den Digital Humanities didaktisch auf. Schritt für Schritt wird nachvollziehbar,
+
+- wie eine **Forschungsfrage** entwickelt und operationalisiert wird,
 - ein entsprechendes **Korpus** aufgebaut, bereinigt und angereichert wird,
 - um schließlich quantitative **Analysen** auf diesem Korpus durchzuführen.
 
@@ -27,11 +37,11 @@ Anhand von Pressemitteilungen des Berliner Senats wird dabei eine Frage aus dem 
 
 
 ### Zielgruppe
-Die Fallstudie richtet sich an Geisteswissenschaftler:innen auf fortgeschrittener Qualifikationsstufe. Kenntnisse der Digital Humanities sind nicht erforderlich, wohl aber eine prinzipielle Neugier und Offenheit gegenüber digitalen Arbeitsweisen und quantifizierten Forschungsansätzen. 
+Die Fallstudie richtet sich an Geisteswissenschaftler:innen auf fortgeschrittener Qualifikationsstufe. Kenntnisse der Digital Humanities sind nicht erforderlich, wohl aber eine prinzipielle Neugier und Offenheit gegenüber digitalen Arbeitsweisen und quantifizierten Forschungsansätzen.
 
- 
+
 ### Struktur der Fallstudie
-Die Gliederung der Fallstudie lässt sich jederzeit durch die Menüleiste links im Browser nachvollziehen. Insgesamt vollzieht die Fallstudie 6 Schritte: 
+Die Gliederung der Fallstudie lässt sich jederzeit durch die Menüleiste links im Browser nachvollziehen. Insgesamt vollzieht die Fallstudie 6 Schritte:
 
 ```{figure} ../assets/images/flow-chart.gif
 ---
