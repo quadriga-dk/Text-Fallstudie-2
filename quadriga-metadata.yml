@@ -68,7 +68,7 @@ chapterLIST:
     des Erkenntnisinteresses, das die dann folgende Vorbereitung und Aufbereitung
     des Forschungsgegenstands (Korpus) und schließlich die Analyse leitet.
   url: https://quadriga-dk.github.io/Text-Fallstudie-2/research_question/research-question_intro.html
-  timeRequired: TODO
+  timeRequired: PT45M
   learningGoal: Grundlagen korpusbasierter geisteswissenschaftlicher Forschung
   learningObjectiveLIST:
   - description: Die Entwicklung einer Digital Humanities-Fragestellung kann am Beispiel
@@ -88,7 +88,7 @@ chapterLIST:
     vor und klären entsprechend, was wir mit dem Begriff „Korpus“ meinen und welche
     unterschiedlichen Typen des Korpusaufbaus es gibt.
   url: https://quadriga-dk.github.io/Text-Fallstudie-2/corpus_collection/corpus-collection_intro.html
-  timeRequired: TODO
+  timeRequired: PT1H
   learningGoal: Ansätze des Korpusaufbaus und Erstellung basaler Metadaten
   learningObjectiveLIST:
   - description: Korpora können als geisteswissenschaftliche Forschungsobjekte definiert
@@ -113,7 +113,7 @@ chapterLIST:
     diese aber meist noch weitere Informationen enthalten, geht es in diesem Kapitel
     darum, wie der Text einer Website strukturiert extrahiert werden kann.
   url: https://quadriga-dk.github.io/Text-Fallstudie-2/html_intro/html-intro_intro.html
-  timeRequired: TODO
+  timeRequired: PT1H30M
   learningGoal: Textformate und Textextraktion aus HTML
   learningObjectiveLIST:
   - description: Vier Formate digitaler Texte (Bilddigitalisate, Plain Text, HTML,
@@ -136,7 +136,7 @@ chapterLIST:
   description: In diesem Kapitel geht es um die automatisierten Extraktion, dem sogenannten
     Scraping, von Webinhalten zur Erstellung des Forschungskorpus.
   url: https://quadriga-dk.github.io/Text-Fallstudie-2/scraping_intro/scraping_intro.html
-  timeRequired: TODO
+  timeRequired: PT45M
   learningGoal: Scraping als Methode zur Korpuserstellung
   learningObjectiveLIST:
   - description: HTTP-Abfragen können konzeptionell erklärt, die beteiligten Komponenten
@@ -154,7 +154,7 @@ chapterLIST:
     haben, kombinieren wir in diesem Kapitel dieses Wissen, um den Korpus von mehr
     als 50.000 Pressemitteilungen von berlin.de zusammenzustellen.
   url: https://quadriga-dk.github.io/Text-Fallstudie-2/corpus_building/corpus-building_intro.html
-  timeRequired: TODO
+  timeRequired: PT2H
   learningGoal: Scraping-basierte Korpuserstellung
   learningObjectiveLIST:
   - description: Die Schritte zur automatisierten Korpuserstellung mittels HTML-Analyse
@@ -174,7 +174,7 @@ chapterLIST:
     HTML-Dokumenten den Text extrahiert haben, analysieren wir das Textkorpus in diesem
     Kapitel in Hinblick auf die Textkomplexität.
   url: https://quadriga-dk.github.io/Text-Fallstudie-2/corpus_analysis/corpus-analysis_intro.html
-  timeRequired: TODO
+  timeRequired: PT2H30M
   learningGoal: Berechnung und Visualisierung der Textkomplexität
   learningObjectiveLIST:
   - description: Komponenten zur Berechnung von Textkomplexität können aufgezählt
@@ -208,7 +208,7 @@ chapterLIST:
     Abschluss einen Schritt zurück und reflektieren Reichweite und Grenzen unseres
     Vorgehens.
   url: https://quadriga-dk.github.io/Text-Fallstudie-2/reflection/reflection_reflection.html
-  timeRequired: TODO
+  timeRequired: PT30M
   learningGoal: Kritische Bewertung der Reichweite und Limitationen
   learningObjectiveLIST:
   - description: Die methodischen Limitationen einer Digital Humanities-Fallstudie

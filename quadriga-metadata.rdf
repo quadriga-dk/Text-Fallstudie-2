@@ -204,7 +204,7 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_0_objective_1" />
         <schema:name>Fragestellung und Operationalisierung. Einführung in die Fallstudie</schema:name>
         <schema:teaches>Grundlagen korpusbasierter geisteswissenschaftlicher Forschung</schema:teaches>
-        <schema:timeRequired>TODO</schema:timeRequired>
+        <schema:timeRequired>PT45M</schema:timeRequired>
         <schema:url rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/research_question/research-question_intro.html" />
       </schema:LearningResource>
     </schema:hasPart>
@@ -216,7 +216,7 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_1_objective_2" />
         <schema:name>Korpora als epistemische Objekte</schema:name>
         <schema:teaches>Ansätze des Korpusaufbaus und Erstellung basaler Metadaten</schema:teaches>
-        <schema:timeRequired>TODO</schema:timeRequired>
+        <schema:timeRequired>PT1H</schema:timeRequired>
         <schema:url rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/corpus_collection/corpus-collection_intro.html" />
       </schema:LearningResource>
     </schema:hasPart>
@@ -228,7 +228,7 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_2_objective_2" />
         <schema:name>Texte als digitale Objekte. Einführung in HTML</schema:name>
         <schema:teaches>Textformate und Textextraktion aus HTML</schema:teaches>
-        <schema:timeRequired>TODO</schema:timeRequired>
+        <schema:timeRequired>PT1H30M</schema:timeRequired>
         <schema:url rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/html_intro/html-intro_intro.html" />
       </schema:LearningResource>
     </schema:hasPart>
@@ -239,7 +239,7 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_3_objective_1" />
         <schema:name>Scraping als Methode zum Korpusaufbau</schema:name>
         <schema:teaches>Scraping als Methode zur Korpuserstellung</schema:teaches>
-        <schema:timeRequired>TODO</schema:timeRequired>
+        <schema:timeRequired>PT45M</schema:timeRequired>
         <schema:url rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/scraping_intro/scraping_intro.html" />
       </schema:LearningResource>
     </schema:hasPart>
@@ -250,7 +250,7 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_4_objective_1" />
         <schema:name>Korpusaufbau</schema:name>
         <schema:teaches>Scraping-basierte Korpuserstellung</schema:teaches>
-        <schema:timeRequired>TODO</schema:timeRequired>
+        <schema:timeRequired>PT2H</schema:timeRequired>
         <schema:url rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/corpus_building/corpus-building_intro.html" />
       </schema:LearningResource>
     </schema:hasPart>
@@ -263,7 +263,7 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_5_objective_3" />
         <schema:name>Korpusanalyse. Textkomplexität</schema:name>
         <schema:teaches>Berechnung und Visualisierung der Textkomplexität</schema:teaches>
-        <schema:timeRequired>TODO</schema:timeRequired>
+        <schema:timeRequired>PT2H30M</schema:timeRequired>
         <schema:url rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/corpus_analysis/corpus-analysis_intro.html" />
       </schema:LearningResource>
     </schema:hasPart>
@@ -274,7 +274,7 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
         <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_6_objective_1" />
         <schema:name>Reflexion</schema:name>
         <schema:teaches>Kritische Bewertung der Reichweite und Limitationen</schema:teaches>
-        <schema:timeRequired>TODO</schema:timeRequired>
+        <schema:timeRequired>PT30M</schema:timeRequired>
         <schema:url rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/reflection/reflection_reflection.html" />
       </schema:LearningResource>
     </schema:hasPart>
