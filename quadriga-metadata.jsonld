@@ -178,7 +178,7 @@
       "name": "Fragestellung und Operationalisierung. Einführung in die Fallstudie",
       "description": "Dieses Kapitel bildet den Auftakt der Fallstudie und dient der Klärung des Erkenntnisinteresses, das die dann folgende Vorbereitung und Aufbereitung des Forschungsgegenstands (Korpus) und schließlich die Analyse leitet.",
       "url": "https://quadriga-dk.github.io/Text-Fallstudie-2/research_question/research-question_intro.html",
-      "timeRequired": "TODO",
+      "timeRequired": "PT45M",
       "teaches": "Grundlagen korpusbasierter geisteswissenschaftlicher Forschung",
       "educationalAlignment": [
         {
@@ -200,7 +200,7 @@
       "name": "Korpora als epistemische Objekte",
       "description": "In diesem Kapitel nehmen wir zunächst eine Sicherung des Begriffsverständnisses vor und klären entsprechend, was wir mit dem Begriff „Korpus“ meinen und welche unterschiedlichen Typen des Korpusaufbaus es gibt.",
       "url": "https://quadriga-dk.github.io/Text-Fallstudie-2/corpus_collection/corpus-collection_intro.html",
-      "timeRequired": "TODO",
+      "timeRequired": "PT1H",
       "teaches": "Ansätze des Korpusaufbaus und Erstellung basaler Metadaten",
       "educationalAlignment": [
         {
@@ -228,7 +228,7 @@
       "name": "Texte als digitale Objekte. Einführung in HTML",
       "description": "Da der Senat die Pressemitteilungen in Form von Websites veröffentlicht, diese aber meist noch weitere Informationen enthalten, geht es in diesem Kapitel darum, wie der Text einer Website strukturiert extrahiert werden kann.",
       "url": "https://quadriga-dk.github.io/Text-Fallstudie-2/html_intro/html-intro_intro.html",
-      "timeRequired": "TODO",
+      "timeRequired": "PT1H30M",
       "teaches": "Textformate und Textextraktion aus HTML",
       "educationalAlignment": [
         {
@@ -256,7 +256,7 @@
       "name": "Scraping als Methode zum Korpusaufbau",
       "description": "In diesem Kapitel geht es um die automatisierten Extraktion, dem sogenannten Scraping, von Webinhalten zur Erstellung des Forschungskorpus.",
       "url": "https://quadriga-dk.github.io/Text-Fallstudie-2/scraping_intro/scraping_intro.html",
-      "timeRequired": "TODO",
+      "timeRequired": "PT45M",
       "teaches": "Scraping als Methode zur Korpuserstellung",
       "educationalAlignment": [
         {
@@ -278,7 +278,7 @@
       "name": "Korpusaufbau",
       "description": "Nachdem wir uns mit HTTP-Anfragen, Web-Scraping und HTML beschäftigt haben, kombinieren wir in diesem Kapitel dieses Wissen, um den Korpus von mehr als 50.000 Pressemitteilungen von berlin.de zusammenzustellen.",
       "url": "https://quadriga-dk.github.io/Text-Fallstudie-2/corpus_building/corpus-building_intro.html",
-      "timeRequired": "TODO",
+      "timeRequired": "PT2H",
       "teaches": "Scraping-basierte Korpuserstellung",
       "educationalAlignment": [
         {
@@ -300,7 +300,7 @@
       "name": "Korpusanalyse. Textkomplexität",
       "description": "Nachdem wir im vorherigem Kapitel ein Korpus gescraped und aus den HTML-Dokumenten den Text extrahiert haben, analysieren wir das Textkorpus in diesem Kapitel in Hinblick auf die Textkomplexität.",
       "url": "https://quadriga-dk.github.io/Text-Fallstudie-2/corpus_analysis/corpus-analysis_intro.html",
-      "timeRequired": "TODO",
+      "timeRequired": "PT2H30M",
       "teaches": "Berechnung und Visualisierung der Textkomplexität",
       "educationalAlignment": [
         {
@@ -334,7 +334,7 @@
       "name": "Reflexion",
       "description": "Mit der Analyse der Textkomplexität haben wir den in dieser Fallstudie entwickelten Meßvorgang abgeschlossen. Dieser Befund bedarf allerdings der Einordnung. Ein Ergebnis ist nur so tragfähig wie die Operationalisierung, die ihm zugrunde liegt, und jede Operationalisierung in den Digital Humanities ist, wie wir bereits im Kapitel Operationalisierung angemerkt haben, diskutabel. Wir treten daher zum Abschluss einen Schritt zurück und reflektieren Reichweite und Grenzen unseres Vorgehens.",
       "url": "https://quadriga-dk.github.io/Text-Fallstudie-2/reflection/reflection_reflection.html",
-      "timeRequired": "TODO",
+      "timeRequired": "PT30M",
       "teaches": "Kritische Bewertung der Reichweite und Limitationen",
       "educationalAlignment": [
         {
