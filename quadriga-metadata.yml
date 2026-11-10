@@ -63,16 +63,6 @@ identifier: https://doi.org/10.5281/zenodo.23940298
 identifierGit: https://github.com/quadriga-dk/Text-Fallstudie-2
 identifierOER: https://quadriga-dk.github.io/Text-Fallstudie-2/
 chapterLIST:
-- title: Präambel
-  description: TODO
-  url: https://quadriga-dk.github.io/Text-Fallstudie-2/präambel/einführung.html
-  timeRequired: TODO
-  learningGoal: TODO
-  learningObjectiveLIST:
-  - description: TODO
-    competency: nicht anwendbar
-    dataFlow: nicht anwendbar
-    bloomsCategory: nicht anwendbar
 - title: Fragestellung und Operationalisierung. Einführung in die Fallstudie
   description: Dieses Kapitel bildet den Auftakt der Fallstudie und dient der Klärung
     des Erkenntnisinteresses, das die dann folgende Vorbereitung und Aufbereitung
