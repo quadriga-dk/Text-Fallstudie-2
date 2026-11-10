@@ -175,22 +175,6 @@
   "hasPart": [
     {
       "@type": "LearningResource",
-      "name": "Präambel",
-      "description": "TODO",
-      "url": "https://quadriga-dk.github.io/Text-Fallstudie-2/präambel/einführung.html",
-      "timeRequired": "TODO",
-      "teaches": "TODO",
-      "educationalAlignment": [
-        {
-          "@type": "AlignmentObject",
-          "targetName": "TODO",
-          "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar"
-        }
-      ]
-    },
-    {
-      "@type": "LearningResource",
       "name": "Fragestellung und Operationalisierung. Einführung in die Fallstudie",
       "description": "Dieses Kapitel bildet den Auftakt der Fallstudie und dient der Klärung des Erkenntnisinteresses, das die dann folgende Vorbereitung und Aufbereitung des Forschungsgegenstands (Korpus) und schließlich die Analyse leitet.",
       "url": "https://quadriga-dk.github.io/Text-Fallstudie-2/research_question/research-question_intro.html",

@@ -2,95 +2,90 @@
 <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:lrmi="http://purl.org/dcx/lrmi-terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/">
   <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_0_objective_0">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
-    <schema:targetDescription>Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar</schema:targetDescription>
-    <schema:targetName>TODO</schema:targetName>
-  </schema:AlignmentObject>
-  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_1_objective_0">
-    <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
     <schema:targetDescription>Competency: nicht anwendbar | Bloom's: 2 Verstehen | Data Flow: nicht anwendbar</schema:targetDescription>
     <schema:targetName>Die Entwicklung einer Digital Humanities-Fragestellung kann am Beispiel der kommunikativen Barrierearmut des Berliner Senats nachvollzogen und erläutert werden.</schema:targetName>
   </schema:AlignmentObject>
-  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_1_objective_1">
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_0_objective_1">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
     <schema:targetDescription>Competency: 1.1 Identifikation | Bloom's: 3 Anwenden | Data Flow: 1 Planung</schema:targetDescription>
     <schema:targetName>Der Operationalisierungsprozess kann am Beispiel der Kopplung von Barrierearmut an Leichte Sprache und Lesbarkeitsindizes nachvollzogen und auf andere Forschungsfragen übertragen werden.</schema:targetName>
   </schema:AlignmentObject>
-  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_2_objective_0">
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_1_objective_0">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
     <schema:targetDescription>Competency: 3.2 Erschließung | Bloom's: 2 Verstehen | Data Flow: 3 Management</schema:targetDescription>
     <schema:targetName>Korpora können als geisteswissenschaftliche Forschungsobjekte definiert und deren wesentliche Merkmale beschrieben werden.</schema:targetName>
   </schema:AlignmentObject>
-  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_2_objective_1">
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_1_objective_1">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
     <schema:targetDescription>Competency: 3.2 Erschließung | Bloom's: 2 Verstehen | Data Flow: 3 Management</schema:targetDescription>
     <schema:targetName>Die grundlegenden Metadatenschemata (Dublin Core, TEI, MODS, METS) und deren charakteristische Elemente für Korpora und Einzeldokumente können beschrieben werden.</schema:targetName>
   </schema:AlignmentObject>
-  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_2_objective_2">
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_1_objective_2">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
     <schema:targetDescription>Competency: 3.2 Erschließung | Bloom's: 2 Verstehen | Data Flow: 3 Management</schema:targetDescription>
     <schema:targetName>Der schrittweise Prozess des praktischen Korpusaufbaus (Konzeptentwicklung, Metadatenerstellung und Datensammlung) kann am Beispiel eines Korpus von Pressemitteilungen beschrieben werden.</schema:targetName>
   </schema:AlignmentObject>
-  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_3_objective_0">
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_2_objective_0">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
     <schema:targetDescription>Competency: 2.3 Aufbereitung | Bloom's: 4 Analysieren | Data Flow: 2 Erhebung und Aufbereitung</schema:targetDescription>
     <schema:targetName>Vier Formate digitaler Texte (Bilddigitalisate, Plain Text, HTML, CSV) können anhand ihrer charakteristischen Eigenschaften unterschieden und deren Vor- und Nachteile für spezifische Anwendungsfälle analysiert werden.</schema:targetName>
   </schema:AlignmentObject>
-  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_3_objective_1">
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_2_objective_1">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
     <schema:targetDescription>Competency: 2.3 Aufbereitung | Bloom's: 2 Verstehen | Data Flow: 2 Erhebung und Aufbereitung</schema:targetDescription>
     <schema:targetName>Die Struktur von HTML-Websites kann erklärt und die Funktion ausgewählter HTML-Tags benannt werden.</schema:targetName>
   </schema:AlignmentObject>
-  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_3_objective_2">
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_2_objective_2">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
     <schema:targetDescription>Competency: 2.1 Erhebung | Bloom's: 2 Verstehen | Data Flow: 2 Erhebung und Aufbereitung</schema:targetDescription>
     <schema:targetName>Die Extraktion von Plain Text aus HTML kann nachvollzogen und die wichtigsten HTML-Tags zur Extraktion aufgezählt werden.</schema:targetName>
   </schema:AlignmentObject>
-  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_4_objective_0">
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_3_objective_0">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
     <schema:targetDescription>Competency: 2.1 Erhebung | Bloom's: 2 Verstehen | Data Flow: 2 Erhebung und Aufbereitung</schema:targetDescription>
     <schema:targetName>HTTP-Abfragen können konzeptionell erklärt, die beteiligten Komponenten aufgezählt und die Response-Codes 200, 404, 403 und 500 erläutert werden.</schema:targetName>
   </schema:AlignmentObject>
-  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_4_objective_1">
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_3_objective_1">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
     <schema:targetDescription>Competency: 2.1 Erhebung | Bloom's: 2 Verstehen | Data Flow: 2 Erhebung und Aufbereitung</schema:targetDescription>
     <schema:targetName>Verschiedene Methoden zur automatisierten Abfrage von Websites können unterschieden sowie deren Vor- und Nachteile benannt werden.</schema:targetName>
   </schema:AlignmentObject>
-  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_5_objective_0">
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_4_objective_0">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
     <schema:targetDescription>Competency: 2.1 Erhebung | Bloom's: 2 Verstehen | Data Flow: 2 Erhebung und Aufbereitung</schema:targetDescription>
     <schema:targetName>Die Schritte zur automatisierten Korpuserstellung mittels HTML-Analyse und Scraping können nachvollzogen und die Unterschiede zwischen Ursprungs- und Zielformat (HTML und Plain Text) erklärt werden.</schema:targetName>
   </schema:AlignmentObject>
-  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_5_objective_1">
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_4_objective_1">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
     <schema:targetDescription>Competency: 2.2 Validierung | Bloom's: 4 Analysieren | Data Flow: 2 Erhebung und Aufbereitung</schema:targetDescription>
     <schema:targetName>Die Vollständigkeit und Qualität des gescrapten Korpus können anhand der erhobenen Metadaten (etwa Dokumentzahl, Zeitabdeckung, Tokenanzahl) geprüft und Auffälligkeiten analysiert werden.</schema:targetName>
   </schema:AlignmentObject>
-  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_6_objective_0">
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_5_objective_0">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
     <schema:targetDescription>Competency: 4.1 Datenanalyse | Bloom's: 2 Verstehen | Data Flow: 4 Analyse</schema:targetDescription>
     <schema:targetName>Komponenten zur Berechnung von Textkomplexität können aufgezählt und gängige Lesbarkeitsindizes benannt werden.</schema:targetName>
   </schema:AlignmentObject>
-  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_6_objective_1">
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_5_objective_1">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
     <schema:targetDescription>Competency: 4.1 Datenanalyse | Bloom's: 2 Verstehen | Data Flow: 4 Analyse</schema:targetDescription>
     <schema:targetName>Die notwendigen Schritte zur Berechnung der Textkomplexität auf einem Korpus können aufgezählt, die Konzeption der diachronen Analyse beschrieben und alternative Möglichkeiten der Korpusaufteilung entworfen werden.</schema:targetName>
   </schema:AlignmentObject>
-  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_6_objective_2">
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_5_objective_2">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
     <schema:targetDescription>Competency: 4.2 Visualisierung | Bloom's: 4 Analysieren | Data Flow: 4 Analyse</schema:targetDescription>
     <schema:targetName>Das Konzept des Liniendiagramms kann erklärt, gegen das Balkendiagramm abgegrenzt und die Eignung beider Darstellungsformen für zeitliche Entwicklungen begründet werden.</schema:targetName>
   </schema:AlignmentObject>
-  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_6_objective_3">
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_5_objective_3">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
     <schema:targetDescription>Competency: 4.3 Interpretation | Bloom's: 5 Bewerten | Data Flow: 4 Analyse</schema:targetDescription>
     <schema:targetName>Die Entwicklung der Textkomplexität kann in unterschiedlicher zeitlicher Granularität (Woche, Monat, Jahr) interpretiert werden.</schema:targetName>
   </schema:AlignmentObject>
-  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_7_objective_0">
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_6_objective_0">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
     <schema:targetDescription>Competency: 4.3 Interpretation | Bloom's: 5 Bewerten | Data Flow: 4 Analyse</schema:targetDescription>
     <schema:targetName>Die methodischen Limitationen einer Digital Humanities-Fallstudie können benannt werden.</schema:targetName>
   </schema:AlignmentObject>
-  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_7_objective_1">
+  <schema:AlignmentObject rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_6_objective_1">
     <schema:educationalFramework>QUADRIGA Competency Framework</schema:educationalFramework>
     <schema:targetDescription>Competency: 4.3 Interpretation | Bloom's: 5 Bewerten | Data Flow: 4 Analyse</schema:targetDescription>
     <schema:targetName>Die Reichweite des Befunds kann im Rahmen der gewählten Operationalisierung eingeordnet und ein beobachteter Trend von einer Ursachenaussage unterschieden werden.</schema:targetName>
@@ -204,19 +199,9 @@
 Förderkennzeichen: 16DKZ2034</schema:funding>
     <schema:hasPart>
       <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_0">
-        <schema:description>TODO</schema:description>
-        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_0_objective_0" />
-        <schema:name>Präambel</schema:name>
-        <schema:teaches>TODO</schema:teaches>
-        <schema:timeRequired>TODO</schema:timeRequired>
-        <schema:url rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/präambel/einführung.html" />
-      </schema:LearningResource>
-    </schema:hasPart>
-    <schema:hasPart>
-      <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_1">
         <schema:description>Dieses Kapitel bildet den Auftakt der Fallstudie und dient der Klärung des Erkenntnisinteresses, das die dann folgende Vorbereitung und Aufbereitung des Forschungsgegenstands (Korpus) und schließlich die Analyse leitet.</schema:description>
-        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_1_objective_0" />
-        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_1_objective_1" />
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_0_objective_0" />
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_0_objective_1" />
         <schema:name>Fragestellung und Operationalisierung. Einführung in die Fallstudie</schema:name>
         <schema:teaches>Grundlagen korpusbasierter geisteswissenschaftlicher Forschung</schema:teaches>
         <schema:timeRequired>TODO</schema:timeRequired>
@@ -224,11 +209,11 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
       </schema:LearningResource>
     </schema:hasPart>
     <schema:hasPart>
-      <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_2">
+      <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_1">
         <schema:description>In diesem Kapitel nehmen wir zunächst eine Sicherung des Begriffsverständnisses vor und klären entsprechend, was wir mit dem Begriff „Korpus“ meinen und welche unterschiedlichen Typen des Korpusaufbaus es gibt.</schema:description>
-        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_2_objective_0" />
-        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_2_objective_1" />
-        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_2_objective_2" />
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_1_objective_0" />
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_1_objective_1" />
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_1_objective_2" />
         <schema:name>Korpora als epistemische Objekte</schema:name>
         <schema:teaches>Ansätze des Korpusaufbaus und Erstellung basaler Metadaten</schema:teaches>
         <schema:timeRequired>TODO</schema:timeRequired>
@@ -236,11 +221,11 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
       </schema:LearningResource>
     </schema:hasPart>
     <schema:hasPart>
-      <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_3">
+      <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_2">
         <schema:description>Da der Senat die Pressemitteilungen in Form von Websites veröffentlicht, diese aber meist noch weitere Informationen enthalten, geht es in diesem Kapitel darum, wie der Text einer Website strukturiert extrahiert werden kann.</schema:description>
-        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_3_objective_0" />
-        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_3_objective_1" />
-        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_3_objective_2" />
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_2_objective_0" />
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_2_objective_1" />
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_2_objective_2" />
         <schema:name>Texte als digitale Objekte. Einführung in HTML</schema:name>
         <schema:teaches>Textformate und Textextraktion aus HTML</schema:teaches>
         <schema:timeRequired>TODO</schema:timeRequired>
@@ -248,10 +233,10 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
       </schema:LearningResource>
     </schema:hasPart>
     <schema:hasPart>
-      <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_4">
+      <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_3">
         <schema:description>In diesem Kapitel geht es um die automatisierten Extraktion, dem sogenannten Scraping, von Webinhalten zur Erstellung des Forschungskorpus.</schema:description>
-        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_4_objective_0" />
-        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_4_objective_1" />
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_3_objective_0" />
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_3_objective_1" />
         <schema:name>Scraping als Methode zum Korpusaufbau</schema:name>
         <schema:teaches>Scraping als Methode zur Korpuserstellung</schema:teaches>
         <schema:timeRequired>TODO</schema:timeRequired>
@@ -259,10 +244,10 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
       </schema:LearningResource>
     </schema:hasPart>
     <schema:hasPart>
-      <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_5">
+      <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_4">
         <schema:description>Nachdem wir uns mit HTTP-Anfragen, Web-Scraping und HTML beschäftigt haben, kombinieren wir in diesem Kapitel dieses Wissen, um den Korpus von mehr als 50.000 Pressemitteilungen von berlin.de zusammenzustellen.</schema:description>
-        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_5_objective_0" />
-        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_5_objective_1" />
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_4_objective_0" />
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_4_objective_1" />
         <schema:name>Korpusaufbau</schema:name>
         <schema:teaches>Scraping-basierte Korpuserstellung</schema:teaches>
         <schema:timeRequired>TODO</schema:timeRequired>
@@ -270,12 +255,12 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
       </schema:LearningResource>
     </schema:hasPart>
     <schema:hasPart>
-      <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_6">
+      <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_5">
         <schema:description>Nachdem wir im vorherigem Kapitel ein Korpus gescraped und aus den HTML-Dokumenten den Text extrahiert haben, analysieren wir das Textkorpus in diesem Kapitel in Hinblick auf die Textkomplexität.</schema:description>
-        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_6_objective_0" />
-        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_6_objective_1" />
-        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_6_objective_2" />
-        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_6_objective_3" />
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_5_objective_0" />
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_5_objective_1" />
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_5_objective_2" />
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_5_objective_3" />
         <schema:name>Korpusanalyse. Textkomplexität</schema:name>
         <schema:teaches>Berechnung und Visualisierung der Textkomplexität</schema:teaches>
         <schema:timeRequired>TODO</schema:timeRequired>
@@ -283,10 +268,10 @@ Förderkennzeichen: 16DKZ2034</schema:funding>
       </schema:LearningResource>
     </schema:hasPart>
     <schema:hasPart>
-      <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_7">
+      <schema:LearningResource rdf:about="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_6">
         <schema:description>Mit der Analyse der Textkomplexität haben wir den in dieser Fallstudie entwickelten Meßvorgang abgeschlossen. Dieser Befund bedarf allerdings der Einordnung. Ein Ergebnis ist nur so tragfähig wie die Operationalisierung, die ihm zugrunde liegt, und jede Operationalisierung in den Digital Humanities ist, wie wir bereits im Kapitel Operationalisierung angemerkt haben, diskutabel. Wir treten daher zum Abschluss einen Schritt zurück und reflektieren Reichweite und Grenzen unseres Vorgehens.</schema:description>
-        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_7_objective_0" />
-        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_7_objective_1" />
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_6_objective_0" />
+        <schema:educationalAlignment rdf:resource="https://quadriga-dk.github.io/Text-Fallstudie-2/#chapter_6_objective_1" />
         <schema:name>Reflexion</schema:name>
         <schema:teaches>Kritische Bewertung der Reichweite und Limitationen</schema:teaches>
         <schema:timeRequired>TODO</schema:timeRequired>
