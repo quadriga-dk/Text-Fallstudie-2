@@ -15,9 +15,9 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 
 ```
 ````
-```{admonition} Groblernziel dieses Kapitels
-:class: lernziele
-Sie können HTTP-Abfragen konzeptionell erklären und unterschiedliche Methoden zur automatisierten Abfrage von Websites unterscheiden sowie Vor- und Nachteile benennen.
+```{include} ../introduction/introduction_learning-outcomes.md
+:start-after: "<!-- START: Scraping als Methode zum Korpusaufbau -->"
+:end-before: "<!-- END: Scraping als Methode zum Korpusaufbau -->"
 ```
 
 Nachdem das [vorherige Kapitel in HTML eingeführt](html-intro_html-intro) hat, geht es in diesem Kapitel um die automatisierte Extraktion, dem sogenannten **Scraping**, von Webinhalten zur Erstellung des Forschungskorpus. 

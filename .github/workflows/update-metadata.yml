@@ -17,7 +17,7 @@ jobs:
       contents: write
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           ref: ${{ github.ref }}
           fetch-depth: 0
@@ -39,7 +39,7 @@ jobs:
           fi
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version-file: '.python-version'
           cache: pip
@@ -64,7 +64,7 @@ jobs:
       - name: Stage metadata files
         run: |
           # Add all metadata files that exist (handles both new and modified files)
-          for file in metadata.yml CITATION.bib CITATION.cff .zenodo.json metadata.jsonld metadata.rdf; do
+          for file in quadriga-metadata.yml CITATION.bib CITATION.cff .zenodo.json quadriga-metadata.jsonld quadriga-metadata.rdf; do
             [ -f "$file" ] && git add "$file"
           done
 

@@ -1,5 +1,7 @@
 # Quantitative Analyse der kommunikativen Barrierearmut des Berliner Senats (2011-2024). Eine Fallstudie
 
+[![DOI](https://zenodo.org/badge/893885425.svg)](https://doi.org/10.5281/zenodo.23940298)
+
 ## QUADRIGA OER
 
 Dieses interaktive Lehrbuch ist im Rahmen des Projekts <a href="https://www.quadriga-dk.de" class="external-link" target="_blank">QUADRIGA</a> als 2. Fallstudie des Datentyps Text entstanden.
@@ -20,6 +22,6 @@ Diese OER vermittelt Methoden zur automatischen Erstellung, Aufbereitung und Ana
 
 ## Ansprechpartner:innen
 
-QUADRIGA ist ein Verbundprojekt mehrerer Institutionen, das von der Universität Potsdam koordiniert wird. Partner sind die Fachhochschule Potsdam, die Filmuniversität Babelsberg, das Fraunhofer FOKUS, die Freie Universität Berlin, die Humboldt-Universität zu Berlin, die Technische Universität Berlin und die Gesellschaft für Informatik.  
+QUADRIGA ist ein Verbundprojekt mehrerer Institutionen, das von der Universität Potsdam koordiniert wird. Partner sind die Fachhochschule Potsdam, die Filmuniversität Babelsberg, das Fraunhofer FOKUS, die Freie Universität Berlin, die Humboldt-Universität zu Berlin, die Technische Universität Berlin und die Gesellschaft für Informatik.
 
 Fragen und Feedback zu dieser OER können Sie uns sowohl über GitHub Issues als auch über E-Mail zukommen lassen.  

@@ -13,8 +13,14 @@
   ],
   "name": "Quantitative Analyse der kommunikativen Barrierearmut des Berliner Senats (2011-2024). Eine Fallstudie",
   "description": "Die vorliegende Fallstudie bereitet – in Form eines “Jupyter Books” – den Prozess und die Ergebnisse eines Forschungsprojekts aus den Digital Humanities didaktisch auf.",
-  "version": "1.0.0-beta",
-  "schemaVersion": "1.0.0",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.23940298",
+    "url": "https://doi.org/10.5281/zenodo.23940298"
+  },
+  "version": "1.0.0-beta.1",
+  "schemaVersion": "2.0.0",
   "url": "https://quadriga-dk.github.io/Text-Fallstudie-2/",
   "workExample": {
     "@type": "SoftwareSourceCode",
@@ -22,7 +28,7 @@
     "codeRepository": "https://github.com/quadriga-dk/Text-Fallstudie-2"
   },
   "datePublished": "2024-06-17",
-  "dateModified": "2026-02-19",
+  "dateModified": "2026-11-04",
   "author": [
     {
       "@type": "Person",
@@ -157,13 +163,13 @@
   "license": [
     {
       "@type": "CreativeWork",
-      "name": "Source Code",
-      "license": "https://opensource.org/licenses/AGPL-3.0"
+      "name": "Content",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0/"
     },
     {
       "@type": "CreativeWork",
-      "name": "Content",
-      "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+      "name": "Source Code",
+      "license": "https://opensource.org/licenses/AGPL-3.0"
     }
   ],
   "hasPart": [
@@ -189,13 +195,19 @@
       "description": "TODO",
       "url": "https://quadriga-dk.github.io/Text-Fallstudie-2/research_question/research-question_intro.html",
       "timeRequired": "TODO",
-      "teaches": "Sie kennen Grundfragen der geisteswissenschaftlichen Forschung mit Korpora nach dem qualitativen Methodenparadigma und wissen um das Konzept der “Operationalisierung”.",
+      "teaches": "Grundlagen korpusbasierter geisteswissenschaftlicher Forschung",
       "educationalAlignment": [
         {
           "@type": "AlignmentObject",
-          "targetName": "Sie kennen Ansätze zur Operationalisierung von Forschungsfragen für quantitaive Methoden-Settings.",
+          "targetName": "Die Entwicklung einer Digital Humanities-Fragestellung kann am Beispiel der kommunikativen Barrierearmut des Berliner Senats nachvollzogen und erläutert werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar"
+          "targetDescription": "Competency: nicht anwendbar | Bloom's: 2 Verstehen | Data Flow: nicht anwendbar"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Der Operationalisierungsprozess kann am Beispiel der Kopplung von Barrierearmut an Leichte Sprache und Lesbarkeitsindizes nachvollzogen und auf andere Forschungsfragen übertragen werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 1.1 Identifikation | Bloom's: 3 Anwenden | Data Flow: 1 Planung"
         }
       ]
     },
@@ -205,19 +217,25 @@
       "description": "TODO",
       "url": "https://quadriga-dk.github.io/Text-Fallstudie-2/corpus_collection/corpus-collection_intro.html",
       "timeRequired": "TODO",
-      "teaches": "Sie kennen unterschiedliche Ansätze des Korpusaufbaus und sind mit der Erstellung basaler Metadaten vertraut.",
+      "teaches": "Ansätze des Korpusaufbaus und Erstellung basaler Metadaten",
       "educationalAlignment": [
         {
           "@type": "AlignmentObject",
-          "targetName": "Sie verfügen über Basiswissen über Korpora als geisteswissenschaftliche Forschungsobjekte und kennen Typen von Korpora.",
+          "targetName": "Korpora können als geisteswissenschaftliche Forschungsobjekte definiert und deren wesentliche Merkmale beschrieben werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar"
+          "targetDescription": "Competency: 3.2 Erschließung | Bloom's: 2 Verstehen | Data Flow: 3 Management"
         },
         {
           "@type": "AlignmentObject",
-          "targetName": "Sie sind mit der Idee von Metadaten vertraut und kennen basale Metadatenschemata für Korpora und Korpus-Elemente.",
+          "targetName": "Die grundlegenden Metadatenschemata (Dublin Core, TEI, MODS, METS) und deren charakteristische Elemente für Korpora und Einzeldokumente können beschrieben werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar"
+          "targetDescription": "Competency: 3.2 Erschließung | Bloom's: 2 Verstehen | Data Flow: 3 Management"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Der schrittweise Prozess des praktischen Korpusaufbaus (Konzeptentwicklung, Metadatenerstellung und Datensammlung) kann am Beispiel eines Korpus von Pressemitteilungen beschrieben werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 3.2 Erschließung | Bloom's: 2 Verstehen | Data Flow: 3 Management"
         }
       ]
     },
@@ -227,19 +245,25 @@
       "description": "TODO",
       "url": "https://quadriga-dk.github.io/Text-Fallstudie-2/html_intro/html-intro_intro.html",
       "timeRequired": "TODO",
-      "teaches": "Abgrenzung von unterschiedlichen Formate zur Textspeicherung und benennen der Vor- und Nachteile. Struktur von HTML erklären und die Funktion von ausgewählte HTML-Tags benennen. HTML-Tags zur Extraktion von Plain Text aus HTML aufzählen.",
+      "teaches": "Textformate und Textextraktion aus HTML",
       "educationalAlignment": [
         {
           "@type": "AlignmentObject",
-          "targetName": "Sie kennen unterschiedliche Realisierungsweisen und Formate von Text im Digitalen.",
+          "targetName": "Vier Formate digitaler Texte (Bilddigitalisate, Plain Text, HTML, CSV) können anhand ihrer charakteristischen Eigenschaften unterschieden und deren Vor- und Nachteile für spezifische Anwendungsfälle analysiert werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar"
+          "targetDescription": "Competency: 2.3 Aufbereitung | Bloom's: 4 Analysieren | Data Flow: 2 Erhebung und Aufbereitung"
         },
         {
           "@type": "AlignmentObject",
-          "targetName": "Sie können die Semantik der textangebenden html-Tags beschreiben und Tags zur Textextraktion auswählen.",
+          "targetName": "Die Struktur von HTML-Websites kann erklärt und die Funktion ausgewählter HTML-Tags benannt werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar"
+          "targetDescription": "Competency: 2.3 Aufbereitung | Bloom's: 2 Verstehen | Data Flow: 2 Erhebung und Aufbereitung"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Die Extraktion von Plain Text aus HTML kann nachvollzogen und die wichtigsten HTML-Tags zur Extraktion aufgezählt werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 2.1 Erhebung | Bloom's: 2 Verstehen | Data Flow: 2 Erhebung und Aufbereitung"
         }
       ]
     },
@@ -249,25 +273,19 @@
       "description": "TODO",
       "url": "https://quadriga-dk.github.io/Text-Fallstudie-2/scraping_intro/scraping_intro.html",
       "timeRequired": "TODO",
-      "teaches": "Sie können HTTP-Abfragen konzeptionell erklären und unterschiedliche Methoden zur automatisierten Abfrage von Websites unterscheiden sowie Vor- und Nachteile benennen.",
+      "teaches": "Scraping als Methode zur Korpuserstellung",
       "educationalAlignment": [
         {
           "@type": "AlignmentObject",
-          "targetName": "Sie können die Komponenten aufzählen, die an einem HTTP-Request beteiligt sind, den Unterschied zwischen dem Aufbau eines HTTP-Requests und einer HTTP-Response erläutern sowie die Response codes 200, 404, 403 und 500 interpretieren.",
+          "targetName": "HTTP-Abfragen können konzeptionell erklärt, die beteiligten Komponenten aufgezählt und die Response-Codes 200, 404, 403 und 500 erläutert werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar"
+          "targetDescription": "Competency: 2.1 Erhebung | Bloom's: 2 Verstehen | Data Flow: 2 Erhebung und Aufbereitung"
         },
         {
           "@type": "AlignmentObject",
-          "targetName": "Sie können verschiedene Methoden der Website-Abfrage aufzählen und Unterschiede identifizieren.",
+          "targetName": "Verschiedene Methoden zur automatisierten Abfrage von Websites können unterschieden sowie deren Vor- und Nachteile benannt werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar"
-        },
-        {
-          "@type": "AlignmentObject",
-          "targetName": "Sie können Vor- und Nachteile der Methoden erklären und ermitteln, in welchen Szenarien welche Methode geeignet ist.",
-          "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar"
+          "targetDescription": "Competency: 2.1 Erhebung | Bloom's: 2 Verstehen | Data Flow: 2 Erhebung und Aufbereitung"
         }
       ]
     },
@@ -277,13 +295,19 @@
       "description": "TODO",
       "url": "https://quadriga-dk.github.io/Text-Fallstudie-2/corpus_building/corpus-building_intro.html",
       "timeRequired": "TODO",
-      "teaches": "Die Lernenden können den Quellcode einer Website untersuchen, geeignete HTML-Tags zur Textextraktion ermitteln und entscheiden, welche Scraping-Methode für die Extraktion verwendet werden muss.",
+      "teaches": "Scraping-basierte Korpuserstellung",
       "educationalAlignment": [
         {
           "@type": "AlignmentObject",
-          "targetName": "Die Lernenden können mit Hilfe eines Jupyter Notebooks Python-Code zur Extraktion des Website-Texts ausführen.",
+          "targetName": "Die Schritte zur automatisierten Korpuserstellung mittels HTML-Analyse und Scraping können nachvollzogen und die Unterschiede zwischen Ursprungs- und Zielformat (HTML und Plain Text) erklärt werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar"
+          "targetDescription": "Competency: 2.1 Erhebung | Bloom's: 2 Verstehen | Data Flow: 2 Erhebung und Aufbereitung"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Die Vollständigkeit und Qualität des gescrapten Korpus können anhand der erhobenen Metadaten (etwa Dokumentzahl, Zeitabdeckung, Tokenanzahl) geprüft und Auffälligkeiten analysiert werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 2.2 Validierung | Bloom's: 4 Analysieren | Data Flow: 2 Erhebung und Aufbereitung"
         }
       ]
     },
@@ -293,37 +317,31 @@
       "description": "TODO",
       "url": "https://quadriga-dk.github.io/Text-Fallstudie-2/corpus_analysis/corpus-analysis_intro.html",
       "timeRequired": "TODO",
-      "teaches": "Sie können die auf einem Korpus ausgeführte Berechnung der Textkomplexität erklären und die Ergebnisse interpretieren.",
+      "teaches": "Berechnung und Visualisierung der Textkomplexität",
       "educationalAlignment": [
         {
           "@type": "AlignmentObject",
-          "targetName": "Sie können die Textmaße (Wortlänge, Satzlänge etc.), die zur Berechnung der Textkomplexität dienen, aufzählen.",
+          "targetName": "Komponenten zur Berechnung von Textkomplexität können aufgezählt und gängige Lesbarkeitsindizes benannt werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar"
+          "targetDescription": "Competency: 4.1 Datenanalyse | Bloom's: 2 Verstehen | Data Flow: 4 Analyse"
         },
         {
           "@type": "AlignmentObject",
-          "targetName": "Sie kennen verschiedene Methoden zur Berechnung der Textkomplexität und können die Vor- und Nachteile der Methoden aufzeigen.",
+          "targetName": "Die notwendigen Schritte zur Berechnung der Textkomplexität auf einem Korpus können aufgezählt, die Konzeption der diachronen Analyse beschrieben und alternative Möglichkeiten der Korpusaufteilung entworfen werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar"
+          "targetDescription": "Competency: 4.1 Datenanalyse | Bloom's: 2 Verstehen | Data Flow: 4 Analyse"
         },
         {
           "@type": "AlignmentObject",
-          "targetName": "Sie können das Konzept eines Liniendiagramms erklären.",
+          "targetName": "Das Konzept des Liniendiagramms kann erklärt, gegen das Balkendiagramm abgegrenzt und die Eignung beider Darstellungsformen für zeitliche Entwicklungen begründet werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar"
+          "targetDescription": "Competency: 4.2 Visualisierung | Bloom's: 4 Analysieren | Data Flow: 4 Analyse"
         },
         {
           "@type": "AlignmentObject",
-          "targetName": "Sie können die Konzeption der Analyse beschreiben und andere Möglichkeiten des Korpus-Splitting entwerfen.",
+          "targetName": "Die Entwicklung der Textkomplexität kann in unterschiedlicher zeitlicher Granularität (Woche, Monat, Jahr) interpretiert werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar"
-        },
-        {
-          "@type": "AlignmentObject",
-          "targetName": "Sie können das Konzept eines Balkendiagramms erklären und das erstellte Diagramm interpretieren sowie die Gründe für Ihre Interpretation nennen.",
-          "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar"
+          "targetDescription": "Competency: 4.3 Interpretation | Bloom's: 5 Bewerten | Data Flow: 4 Analyse"
         }
       ]
     },
@@ -333,13 +351,19 @@
       "description": "TODO",
       "url": "https://quadriga-dk.github.io/Text-Fallstudie-2/reflection/reflection_reflection.html",
       "timeRequired": "TODO",
-      "teaches": "TODO",
+      "teaches": "Kritische Bewertung der Reichweite und Limitationen",
       "educationalAlignment": [
         {
           "@type": "AlignmentObject",
           "targetName": "Die methodischen Limitationen einer Digital Humanities-Fallstudie können benannt werden.",
           "educationalFramework": "QUADRIGA Competency Framework",
-          "targetDescription": "Competency: nicht anwendbar | Bloom's: nicht anwendbar | Data Flow: nicht anwendbar"
+          "targetDescription": "Competency: 4.3 Interpretation | Bloom's: 5 Bewerten | Data Flow: 4 Analyse"
+        },
+        {
+          "@type": "AlignmentObject",
+          "targetName": "Die Reichweite des Befunds kann im Rahmen der gewählten Operationalisierung eingeordnet und ein beobachteter Trend von einer Ursachenaussage unterschieden werden.",
+          "educationalFramework": "QUADRIGA Competency Framework",
+          "targetDescription": "Competency: 4.3 Interpretation | Bloom's: 5 Bewerten | Data Flow: 4 Analyse"
         }
       ]
     }

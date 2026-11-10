@@ -15,11 +15,9 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 
 ```
 ````
-```{admonition} Groblernziel dieses Kapitels
-:class: lernziele
-Abgrenzung von unterschiedlichen Formaten zur Textspeicherung und Benennen der Vor- und Nachteile.
-Struktur von HTML erklären und die Funktion von ausgewählten HTML-Tags benennen.
-HTML-Tags zur Extraktion von Plain Text aus HTML aufzählen.
+```{include} ../introduction/introduction_learning-outcomes.md
+:start-after: "<!-- START: Texte als digitale Objekte. Einführung in HTML -->"
+:end-before: "<!-- END: Texte als digitale Objekte. Einführung in HTML -->"
 ```
 
 In den vorherigen Kapiteln wurde zum einen die [Operationalisierung](research-question_operationalization) der Fragestellung erläutert und zum anderen in das [Korpuskonzept](corpus-collection_building-our-corpus) eingeführt. Da der Senat die Pressemitteilungen in Form von Websites veröffentlicht, diese aber meist noch weitere Informationen enthalten, geht es in diesem Kapitel darum, wie der Text einer Website strukturiert extrahiert werden kann.

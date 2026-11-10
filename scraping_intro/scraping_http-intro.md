@@ -8,10 +8,6 @@ jupytext:
 
 (scraping-intro_http-intro)=
 # Webkommunikation mittels HTTP
-```{admonition} Groblernziel dieses Kapitels
-:class: lernziele
-Sie können die Komponenten aufzählen, die an einem HTTP-Request beteiligt sind, den Unterschied zwischen dem Aufbau eines HTTP-Requests und einer HTTP-Response erläutern sowie die Response codes 200, 404, 403 und 500 interpretieren.
-```
 
 Zur Erstellung eines Korpus bestehend aus großen Mengen von Website-Inhalten, ist es ratsam, eine automatisierte Methode zum Herunterladen der Website-Inhalte zu verwenden. Um zu verstehen, wie das Herunterladen bzw. das Abfragen von Websites automatisiert werden kann, verschaffen wir uns zuerst einen Überblick darüber, was (auf Netzwerkeebene) passiert, wenn wir eine Website anwählen.  
 
