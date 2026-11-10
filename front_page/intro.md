@@ -22,7 +22,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 ```{literalinclude} /CITATION.bib
 :language: bibtex
 ```
-Skorinkin, D., Sluyter-Gäthje, H., Trilcke, P. (2026). _Quantitative Analyse der kommunikativen Barrierearmut des Berliner Senats (2011-2024). Eine Fallstudie. QUADRIGA Open Educational Resources: Text 1._ https://doi.org/10.5281/zenodo.23940298
+Skorinkin, D., Sluyter-Gäthje, H., Trilcke, P. (2026). _Quantitative Analyse der kommunikativen Barrierearmut des Berliner Senats (2011-2024). Eine Fallstudie. QUADRIGA Open Educational Resources: Text 2._ https://doi.org/10.5281/zenodo.23940298
 
 ````
 `````
