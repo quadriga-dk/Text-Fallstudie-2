@@ -9,7 +9,7 @@ Die Metropolregion ist ein Hotspot für Openness in den Anwendungsdomänen Digit
 Die Basiswissenschaften Informatik und Informationswissenschaft mit umfangreicher Expertise für Data Science und Data Stewardship unterstützen die beiden Anwendungsdomänen hinsichtlich Forschung zum Datenfluss, (inter)nationalen Standards und Prinzipien (z.B. FAIR, CARE). 
 QUADRIGA führt Forschungs- und Lernorte durch vielfältige Vernetzungsorte zusammen. Zur Entwicklung digitaler Methoden werden mittels Fallstudien in den Forschungsorten spezifische Fragestellungen und Datentypen behandelt. 
 Die Datensätze, Standards und Methoden werden in den Lernorten mit didaktischen Mitteln in fallstudienbasierte, zielgruppenspezifische und kompetenzorientierte QUADRIGA Educational Resources transformiert. 
-Assessment-Werkzeuge verbinden Forschungs- mit Lernorten auf Basis eines optimierten QUADRIGA Datenkompetenzframeworks und ermöglichen Forschenden, ihre Datenkompetenzen entlang des Datenfluss zuzuordnen. 
+Assessment-Werkzeuge verbinden Forschungs- mit Lernorten auf Basis eines optimierten QUADRIGA Datenkompetenzframeworks und ermöglichen Forschenden, ihre Datenkompetenzen entlang des Datenflusses zuzuordnen. 
 Mit dem Suchwerkzeug QUADRIGA Navigator werden basierend auf dem Datenkompetenzframework alle QUADRIGA Bildungsangebote zielgruppengerecht und interessengeleitet auf der Datenkompetenzplattform QUADRIGA Space angeboten.
 
 Weitere Informationen sowie Publikationen finden Sie auf der <a href="https://www.quadriga-dk.de/de/" class="external-link" target="_blank">Webseite</a> und der <a href="https://zenodo.org/communities/quadriga/records?q=&l=list&p=1&s=10&sort=newest" class="external-link" target="_blank">Zenodo-Community-Seite</a> des Projekts.
