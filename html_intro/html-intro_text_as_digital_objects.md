@@ -117,7 +117,7 @@ ID,TOKEN,LEMMA,POS
 | 7   | Behinderungen  | Behinderung     | NOUN  |
 
 
-*CSV-Dateien lassen sich, wie hier zu sehen, mit üblichen Programmen wie Open Office oder MS Office auch als Tabellen darstellen*
+*CSV-Dateien lassen sich, wie hier zu sehen, mit üblichen Programmen wie OpenOffice oder MS Office auch als Tabellen darstellen*
 
 
 ## Zusammenfassung
