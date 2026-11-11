@@ -20,7 +20,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 :end-before: "<!-- END: Korpusanalyse. Textkomplexität -->"
 ```
 
-Nachdem wir im vorherigen Kapitel ein Korpus gescraped und aus den HTML-Dokumenten den Text extrahiert haben, analysieren wir das Textkorpus in diesem Kapitel in Hinblick auf die Textkomplexität.
+Nachdem wir im vorherigen Kapitel ein Korpus gescraped und aus den HTML-Dokumenten den Text extrahiert haben, analysieren wir das Textkorpus in diesem Kapitel im Hinblick auf die Textkomplexität.
 
 ```{figure} ../assets/images/flow-chart_corpus-analysis.png
 ---
