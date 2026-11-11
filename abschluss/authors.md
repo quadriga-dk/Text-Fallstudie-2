@@ -88,7 +88,7 @@ lang: de-DE
 </tr>
 <tr>
 <td><b>Website:</b></td>
-<td><a href="https://www.uni-potsdam.de/de/multimedia/team/wissenschaftliches-personal/evgenia-samoilova-phd" class="external-link" target="_blank">https://www.uni-potsdam.de/de/multimedia/team/wissenschaftliches-personal/evgenia-samoilova-phd</td>
+<td><a href="https://www.uni-potsdam.de/de/multimedia/team/wissenschaftliches-personal/evgenia-samoilova-phd" class="external-link" target="_blank">https://www.uni-potsdam.de/de/multimedia/team/wissenschaftliches-personal/evgenia-samoilova-phd</a></td>
 </tr>
 <tr>
 <td><b>GitHub:</b></td>
