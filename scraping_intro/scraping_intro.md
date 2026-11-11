@@ -20,13 +20,13 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 :end-before: "<!-- END: Scraping als Methode zum Korpusaufbau -->"
 ```
 
-Nachdem das [vorherige Kapitel in HTML eingeführt](html-intro_html-intro) hat, geht es in diesem Kapitel um die automatisierte Extraktion, dem sogenannten **Scraping**, von Webinhalten zur Erstellung des Forschungskorpus. 
+Nachdem das [vorherige Kapitel in HTML eingeführt](html-intro_html-intro) hat, geht es in diesem Kapitel um die automatisierte Extraktion, das sogenannte **Scraping**, von Webinhalten zur Erstellung des Forschungskorpus. 
 
 ```{figure} ../assets/images/flow-chart_scraping.png
 ---
 name: Flussdiagramm der Fallstudie – Scraping
 ---
-Flussdiagramm der Fallstudie. Wir befinden uns nun im dritten Arbeitspaket.
+Flussdiagramm der Fallstudie. Wir befinden uns nun im vierten Arbeitspaket.
 ```
 
 Dafür führen wir zuerst [die Webkommunikation](scraping-intro_http-intro) ein, das heißt, wie mittels HTTP-Abfragen Website-Inhalte auf den eigenen PC gelangen und beschäftigen uns dann mit unterschiedlichen [Arten und Weisen, diese Abfragen automatisiert auszuführen](scraping-intro_method).
