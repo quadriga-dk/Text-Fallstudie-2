@@ -13,7 +13,7 @@ Um diese mit quantitativen Methoden zu bearbeiten, wurde die Forschungsfrage zun
 2. die **Barrierearmut** wird über Lesbarkeitsindizes errechnet
 
 ## Lesbarkeitsindizes
-Wie im Kapitel ["Operationalisierung"](research-question_operationalization) beschrieben, kann Leichte Sprache in drei Dimensionen unterschieden werden. Im folgenden gehen wir genauer darauf ein, welche Indikatoren auf Wort- und Satzebene eine Rolle bei der Berechnung der Lesbarkeitsindizes spielen. 
+Wie im Kapitel ["Operationalisierung"](research-question_operationalization) beschrieben, kann Leichte Sprache in drei Dimensionen unterschieden werden. Im Folgenden gehen wir genauer darauf ein, welche Indikatoren auf Wort- und Satzebene eine Rolle bei der Berechnung der Lesbarkeitsindizes spielen. 
 
 ### Wortebene
 * **Länge** der Wörter:
