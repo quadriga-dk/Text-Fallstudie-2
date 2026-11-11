@@ -9,7 +9,7 @@ jupytext:
 (scraping-intro_http-intro)=
 # Webkommunikation mittels HTTP
 
-Zur Erstellung eines Korpus bestehend aus großen Mengen von Website-Inhalten, ist es ratsam, eine automatisierte Methode zum Herunterladen der Website-Inhalte zu verwenden. Um zu verstehen, wie das Herunterladen bzw. das Abfragen von Websites automatisiert werden kann, verschaffen wir uns zuerst einen Überblick darüber, was (auf Netzwerkeebene) passiert, wenn wir eine Website anwählen.  
+Zur Erstellung eines Korpus bestehend aus großen Mengen von Website-Inhalten, ist es ratsam, eine automatisierte Methode zum Herunterladen der Website-Inhalte zu verwenden. Um zu verstehen, wie das Herunterladen bzw. das Abfragen von Websites automatisiert werden kann, verschaffen wir uns zuerst einen Überblick darüber, was (auf Netzwerkebene) passiert, wenn wir eine Website anwählen.  
 
 ## Aufbau der Webkommunikation mittels HTTP
 Wenn Sie eine Website besuchen, passiert im Hintergrund Folgendes:
@@ -29,14 +29,14 @@ Server-Client-Kommunikation
 
 ### HTTP Request
 Ein HTTP-Request besteht vor allem aus zwei wichtigen Elementen:
-1. Der **URL (Uniform Resource Locator)**: Dies ist die Webadresse, die Sie aufrufen möchten. Sie besteht typischerweise aus mehreren Teilen:
+1. Die **URL (Uniform Resource Locator)**: Dies ist die Webadresse, die Sie aufrufen möchten. Sie besteht typischerweise aus mehreren Teilen:
 - `https://` - Das Protokoll (verschlüsselte Verbindung)
 - `www.berlin.de/` - Der Domainname (Server-Adresse)
 - `rbmskzl/` - Der Pfad zur spezifischen Ressource
 - `?suche=Begriff&seite=2` - Optionale Parameter (nach dem Fragezeichen)
 Die vollständige URL hier als Beispiel der Berliner Senatskanzlei lautet zusammengesetzt: <a href="https://www.berlin.de/rbmskzl/" target="_blank" class="external-link">https://www.berlin.de/rbmskzl/</a>
 
-2. Einer **Request-Methode**, mit der spezifiziert wird, welche Aktion vom Server erwartet wird. Die gängigsten Request-Methoden sind:
+2. Die **Request-Methode**, mit der spezifiziert wird, welche Aktion vom Server erwartet wird. Die gängigsten Request-Methoden sind:
 - **GET**-Request: Fragt Daten an, ohne sie zu verändern (wie wenn Sie einen Katalog bestellen würden). GET-Requests sind in der URL sichtbar (z.B. in der Adressleiste Ihres Browsers).
 - **POST**-Request: Sendet Daten an den Server, z.B. bei Formularen oder Login-Daten (wie wenn Sie ein ausgefülltes Formular zurücksenden würden). POST-Daten sind nicht in der URL sichtbar.
 
