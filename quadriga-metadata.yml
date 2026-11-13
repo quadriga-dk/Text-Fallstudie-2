@@ -151,7 +151,7 @@ chapterLIST:
     bloomsCategory: 2 Verstehen
 - title: Korpusaufbau
   description: Nachdem wir uns mit HTTP-Anfragen, Web-Scraping und HTML beschäftigt
-    haben, kombinieren wir in diesem Kapitel dieses Wissen, um den Korpus von mehr
+    haben, kombinieren wir in diesem Kapitel dieses Wissen, um das Korpus von mehr
     als 50.000 Pressemitteilungen von berlin.de zusammenzustellen.
   url: https://quadriga-dk.github.io/Text-Fallstudie-2/corpus_building/corpus-building_intro.html
   timeRequired: PT2H
@@ -223,8 +223,8 @@ chapterLIST:
     dataFlow: 4 Analyse
     bloomsCategory: 5 Bewerten
 dateIssued: '2024-06-17'
-dateModified: '2026-11-10'
-version: 1.0.0
+dateModified: '2026-11-13'
+version: 1.0.1
 contextOfCreation: 'Die vorliegenden Open Educational Resources wurden durch das Datenkompetenzzentrum
   QUADRIGA erstellt.
 
