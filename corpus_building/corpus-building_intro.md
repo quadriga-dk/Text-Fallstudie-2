@@ -21,7 +21,7 @@ Mit Ihren Rückmeldungen können wir unser interaktives Lehrbuch gezielt an Ihre
 :end-before: "<!-- END: Korpusaufbau -->"
 ```
 
-Nachdem wir uns mit HTTP-Anfragen, Web-Scraping und HTML beschäftigt haben, kombinieren wir in diesem Kapitel dieses Wissen, um den Korpus von mehr als 50.000 Pressemitteilungen von berlin.de zusammenzustellen.
+Nachdem wir uns mit HTTP-Anfragen, Web-Scraping und HTML beschäftigt haben, kombinieren wir in diesem Kapitel dieses Wissen, um das Korpus von mehr als 50.000 Pressemitteilungen von berlin.de zusammenzustellen.
 
 ```{figure} ../assets/images/flow-chart_corpus-building.png
 ---
